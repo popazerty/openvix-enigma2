@@ -9180,7 +9180,7 @@ msgstr "Seuraavat lisäosat eivät ole saatavilla:\n"
 
 msgid ""
 "Sorry feeds are down for maintenance, please try again later. If this issue "
-"persists please check vuplus-community.net."
+"persists please check vuplus-community.net"
 msgstr ""
 "Ohjelmasyötteet eivät ole käytössä huollon takia, yritä myöhemmin uudelleen."
 
