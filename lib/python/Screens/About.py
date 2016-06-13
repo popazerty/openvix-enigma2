@@ -39,7 +39,7 @@ class About(Screen):
 									})
 
 	def populate(self):
-		self["lab1"] = StaticText(_("Virtuosso Image Xtreme"))
+		self["lab1"] = StaticText(_("Open Black Hole Image"))
 		self["lab2"] = StaticText(_("By Bh Team"))
 		model = None
 		AboutText = ""

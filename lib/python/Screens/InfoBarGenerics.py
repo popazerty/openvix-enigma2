@@ -2512,8 +2512,11 @@ class InfoBarExtensions:
 			answer[1][1]()
 
 	def showPluginBrowser(self):
-		from Screens.PluginBrowser import PluginBrowser
-		self.session.open(PluginBrowser)
+# In Bh image blue press = blue panel
+#		from Screens.PluginBrowser import PluginBrowser
+#		self.session.open(PluginBrowser)
+		from Screens.BpBlue import DeliteBluePanel
+		self.session.open(DeliteBluePanel)
 
 	def openCCcamInfo(self):
 		from Screens.CCcamInfo import CCcamInfoMain
