@@ -36,8 +36,9 @@ class FeedsStatusCheck:
 		trafficLight = 'unknown'
 		if about.getIfConfig('eth0').has_key('addr') or about.getIfConfig('eth1').has_key('addr') or about.getIfConfig('wlan0').has_key('addr') or about.getIfConfig('ra0').has_key('addr'):
 			try:
+# TODO: fix Obh url
 				print '[OnlineVersionCheck] Checking feeds state'
-				req = urllib2.Request('http://openvix.co.uk/TrafficLightState.php')
+				req = urllib2.Request('http://www.vuplus-community.net/TrafficLightState.php')
 				d = urllib2.urlopen(req)
 				trafficLight = d.read()
 			except urllib2.HTTPError, err:
@@ -87,9 +88,9 @@ class FeedsStatusCheck:
 		elif feedstatus == 404:
 			return _("Your %s %s is not connected to the internet, please check your network settings and try again.") % (getMachineBrand(), getMachineName())
 		elif feedstatus in ('updating', 403):
-			return _("Sorry feeds are down for maintenance, please try again later. If this issue persists please check openvix.co.uk or world-of-satellite.com.")
+			return _("Sorry feeds are down for maintenance, please try again later. If this issue persists please check vuplus-community.net.")
 		elif error:
-			return _("There has been an error, please try again later. If this issue persists, please check openvix.co.uk or world-of-satellite.com")
+			return _("There has been an error, please try again later. If this issue persists, please check vuplus-community.net")
 
 	def startCheck(self):
 		global error

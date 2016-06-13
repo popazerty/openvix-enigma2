@@ -1585,7 +1585,7 @@ class InfoBarEPG:
 					self.runPlugin(plugin)
 					break
 		else:
-			self.session.open(MessageBox, _("The Cool TV Guide plugin is not installed!\nDont bother with it and use the default ViX EPG guide instead."), type = MessageBox.TYPE_INFO,timeout = 10 )
+			self.session.open(MessageBox, _("The Cool TV Guide plugin is not installed!\nDont bother with it and use the default Obh EPG guide instead."), type = MessageBox.TYPE_INFO,timeout = 10 )
 
 	def SingleServiceEPG(self):
 		self.StartBouquet = self.servicelist.getRoot()

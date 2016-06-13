@@ -394,7 +394,7 @@ class LogManager(Screen):
 		msg = MIMEMultipart()
 		if config.logmanager.user.value != '' and config.logmanager.useremail.value != '':
 			fromlogman = config.logmanager.user.value + '  <' + config.logmanager.useremail.value + '>'
-			tovixlogs = 'vixlogs@oe-alliance.com'
+			tovixlogs = 'nobody@nobody.com'
 			msg['From'] = fromlogman
 			msg['To'] = tovixlogs
 			msg['Cc'] = fromlogman
@@ -432,7 +432,7 @@ class LogManager(Screen):
 				self.saveSelection()
 
 			# Send the email via our own SMTP server.
-			wos_user = 'vixlogs@oe-alliance.com'
+			wos_user = 'nobody@nobody.com'
 			wos_pwd = base64.b64decode('elZMRFMwaFprNUdp')
 
 			try:
@@ -443,11 +443,11 @@ class LogManager(Screen):
 				if config.logmanager.usersendcopy.value:
 					s.sendmail(fromlogman, [tovixlogs, fromlogman], msg.as_string())
 					s.quit()
-					self.session.open(MessageBox, sentfiles + ' ' + _('has been sent to the ViX team.\nplease quote') + ' ' + str(ref) + ' ' + _('when asking questions about this log\n\nA copy has been sent to yourself.'), MessageBox.TYPE_INFO)
+					self.session.open(MessageBox, sentfiles + ' ' + _('has been sent to the Obh team.\nplease quote') + ' ' + str(ref) + ' ' + _('when asking questions about this log\n\nA copy has been sent to yourself.'), MessageBox.TYPE_INFO)
 				else:
 					s.sendmail(fromlogman, tovixlogs, msg.as_string())
 					s.quit()
-					self.session.open(MessageBox, sentfiles + ' ' + _('has been sent to the ViX team.\nplease quote') + ' ' + str(ref) + ' ' + _('when asking questions about this log'), MessageBox.TYPE_INFO)
+					self.session.open(MessageBox, sentfiles + ' ' + _('has been sent to the Obh team.\nplease quote') + ' ' + str(ref) + ' ' + _('when asking questions about this log'), MessageBox.TYPE_INFO)
 			except Exception, e:
 				self.session.open(MessageBox, _("Error:\n%s" % e), MessageBox.TYPE_INFO, timeout = 10)
 		else:

@@ -40,10 +40,10 @@ class About(Screen):
 
 	def populate(self):
 		self["lab1"] = StaticText(_("Virtuosso Image Xtreme"))
-		self["lab2"] = StaticText(_("By Team ViX"))
+		self["lab2"] = StaticText(_("By Bh Team"))
 		model = None
 		AboutText = ""
-		self["lab3"] = StaticText(_("Support at") + " www.world-of-satellite.com")
+		self["lab3"] = StaticText(_("Support at") + " www.vuplus-community.net")
 
 		AboutText += _("Model:\t%s %s\n") % (getMachineBrand(), getMachineName())
 
@@ -227,7 +227,7 @@ class SystemMemoryInfo(Screen):
 		Screen.setTitle(self, _("Memory Information"))
 		self.skinName = ["SystemMemoryInfo", "About"]
 		self["lab1"] = StaticText(_("Virtuosso Image Xtreme"))
-		self["lab2"] = StaticText(_("By Team ViX"))
+		self["lab2"] = StaticText(_("By Bh Team"))
 		self["AboutScrollLabel"] = ScrollLabel()
 
 		self["actions"] = ActionMap(["SetupActions", "ColorActions"],
@@ -497,7 +497,7 @@ class SystemNetworkInfo(Screen):
 class AboutSummary(Screen):
 	def __init__(self, session, parent):
 		Screen.__init__(self, session, parent=parent)
-		self["selected"] = StaticText("ViX:" + getImageVersion())
+		self["selected"] = StaticText("OpenBh:" + getImageVersion())
 
 		AboutText = _("Model: %s %s\n") % (getMachineBrand(), getMachineName())
 

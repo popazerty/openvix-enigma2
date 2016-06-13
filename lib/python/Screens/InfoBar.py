@@ -102,7 +102,7 @@ class InfoBar(InfoBarBase, InfoBarShowHide,
 			if config.usage.defaultEPGType.value == "Graphical EPG..." or config.usage.defaultEPGType.value == "None":
 				self["key_red"].setText(_("Single EPG"))
 			else:
-				self["key_red"].setText(_("ViX EPG"))
+				self["key_red"].setText(_("OBH EPG"))
 
 			if not config.vixsettings.Subservice.value:
 				self["key_green"].setText(_("Timers"))
