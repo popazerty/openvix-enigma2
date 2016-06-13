@@ -1328,7 +1328,7 @@ msgstr ""
 msgid "Button setup"
 msgstr "Definições do posicionador"
 
-msgid "By Team Obh"
+msgid "By Team BH"
 msgstr ""
 
 msgid "Bypass HDMI EDID Check"

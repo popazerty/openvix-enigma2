@@ -1538,7 +1538,7 @@ msgid "Button setup"
 msgstr ""
 
 #
-msgid "By Team Obh"
+msgid "By Team BH"
 msgstr "Od Obh teamu"
 
 msgid "Bypass HDMI EDID Check"

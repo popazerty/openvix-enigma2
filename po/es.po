@@ -1436,7 +1436,7 @@ msgstr "Tecla"
 msgid "Button setup"
 msgstr "Configuración de teclas"
 
-msgid "By Team Obh"
+msgid "By Team BH"
 msgstr "Por el equipo de Obh"
 
 msgid "Bypass HDMI EDID Check"

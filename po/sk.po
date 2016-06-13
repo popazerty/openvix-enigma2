@@ -1145,7 +1145,7 @@ msgstr "Zbernica:"
 msgid "Button"
 msgstr "Tlačidlo"
 
-msgid "By Team Obh"
+msgid "By Team BH"
 msgstr "Od teamu Obh"
 
 msgid "Auto Volume Level"

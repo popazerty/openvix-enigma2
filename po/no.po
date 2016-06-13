@@ -1459,7 +1459,7 @@ msgstr "Knapp"
 msgid "Button setup"
 msgstr "Knapp oppsett"
 
-msgid "By Team Obh"
+msgid "By Team BH"
 msgstr "Av Team Obh"
 
 msgid "Bypass HDMI EDID Check"

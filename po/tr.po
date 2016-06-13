@@ -1417,7 +1417,7 @@ msgstr "Tuş"
 msgid "Button setup"
 msgstr "Tuş kurulumu"
 
-msgid "By Team Obh"
+msgid "By Team BH"
 msgstr "Obh Ekibi tarafından"
 
 msgid "Bypass HDMI EDID Check"

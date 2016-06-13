@@ -1280,7 +1280,7 @@ msgstr "Кнопка"
 msgid "Button setup"
 msgstr "Настройка кнопок пульта"
 
-msgid "By Team Obh"
+msgid "By Team BH"
 msgstr "Команда Obh"
 
 msgid "Bypass HDMI EDID Check"

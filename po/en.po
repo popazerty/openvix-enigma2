@@ -1258,8 +1258,8 @@ msgstr "Button"
 msgid "Button setup"
 msgstr "Button setup"
 
-msgid "By Team Obh"
-msgstr "By Team Obh"
+msgid "By Team BH"
+msgstr "By Team BH"
 
 msgid "Bypass HDMI EDID Check"
 msgstr "Bypass HDMI EDID Check"

@@ -1487,8 +1487,8 @@ msgstr "Configurazione pulsante"
 msgid "Button setup for"
 msgstr ""
 
-msgid "By Team Obh"
-msgstr "By Team Obh"
+msgid "By Team BH"
+msgstr "By Team BH"
 
 msgid "Bypass HDMI EDID Check"
 msgstr ""
@@ -8420,7 +8420,7 @@ msgstr ""
 msgid "Sorry feeds are down for maintenance, please try again later."
 msgstr ""
 
-msgid "Sorry feeds are down for maintenance, please try again later. If this issue persists please check openObh.co.uk or world-of-satellite.com."
+msgid "Sorry feeds are down for maintenance, please try again later. If this issue persists please check vuplus-community.net."
 msgstr ""
 
 msgid "Sorry feeds seem be in an unstable state, if you wish to use them please enable 'Allow unstable (experimental) updates' in \"Software update settings\"."

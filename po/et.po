@@ -1471,7 +1471,7 @@ msgstr "Nuppude seadistus:"
 msgid "ButtonSetup"
 msgstr "Nuppude seadistus"
 
-msgid "By Team Obh"
+msgid "By Team BH"
 msgstr "Obh tiimilt"
 
 msgid "Bypass HDMI EDID Check"
@@ -7820,8 +7820,8 @@ msgstr "Solo4K lisaseaded"
 msgid "Some plugins are not available:\n"
 msgstr "Mõned pluginad pole saadaval:\n"
 
-msgid "Sorry feeds are down for maintenance, please try again later. If this issue persists please check openObh.co.uk or world-of-satellite.com."
-msgstr "Toimuvad serverite hooldetööd. Proovi hiljem uuesti. Kui probleem on kestev, vaata lehele openObh.co.uk or world-of-satellite.com."
+msgid "Sorry feeds are down for maintenance, please try again later. If this issue persists please check vuplus-community.net"
+msgstr "Toimuvad serverite hooldetööd. Proovi hiljem uuesti. Kui probleem on kestev, vaata lehele vuplus-community.net"
 
 msgid "Sorry feeds seem be in an unstable state, if you wish to use them please enable 'Allow unstable (experimental) updates' in \"Software update settings\"."
 msgstr "Uuendused serverites on testimata. Kui soovid neid kasutada luba 'Testimata uuendused' tarkvara uuendamise seadistustes."
@@ -8541,7 +8541,7 @@ msgstr "Täitmata tegevusi ei ole."
 msgid "There are no updates available."
 msgstr "Uuendusi ei ole saadaval."
 
-msgid "There has been an error, please try again later. If this issue persists, please check openObh.co.uk or world-of-satellite.com"
+msgid "There has been an error, please try again later. If this issue persists, please check vuplus-community.net"
 msgstr "Toimus viga, proovi hiljem uuesti. Probleemi jätkudes vaata lehele openObh.co.uk või world-of-satellite.com"
 
 msgid "There is no [webif] section in oscam.conf"

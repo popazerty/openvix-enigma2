@@ -1457,7 +1457,7 @@ msgstr "Tasten-Einstellungen für"
 msgid "ButtonSetup"
 msgstr "Tasten-Einstellungen"
 
-msgid "By Team Obh"
+msgid "By Team BH"
 msgstr "Vom Team Obh"
 
 msgid "Bypass HDMI EDID Check"
@@ -7806,7 +7806,7 @@ msgstr "Information Softwareverwaltung"
 msgid "Some plugins are not available:\n"
 msgstr "Einige Plugins sind nicht verfügbar:\n"
 
-msgid "Sorry feeds are down for maintenance, please try again later. If this issue persists please check openObh.co.uk or world-of-satellite.com."
+msgid "Sorry feeds are down for maintenance, please try again later. If this issue persists please check vuplus-community.net."
 msgstr "Entschuldigung zur Zeit finden Wartungsarbeiten statt. Bitte später erneut versuchen. Wenn das Problem bestehen bleibt bitte auf openObh.co.uk oder world-of-satellite.com nachsehen."
 
 msgid "Sorry feeds seem be in an unstable state, if you wish to use them please enable 'Allow unstable (experimental) updates' in \"Software update settings\"."
@@ -8527,7 +8527,7 @@ msgstr "Es sind keine Aktivitäten geplant."
 msgid "There are no updates available."
 msgstr "Es sind keine Updates verfügbar."
 
-msgid "There has been an error, please try again later. If this issue persists, please check openObh.co.uk or world-of-satellite.com"
+msgid "There has been an error, please try again later. If this issue persists, please check vuplus-community.net"
 msgstr "Entschuldigung zur Zeit finden Wartungsarbeiten statt. Bitte später erneut versuchen. Wenn das Problem bestehen bleibt bitte auf openObh.co.uk oder world-of-satellite.com nachsehen."
 
 msgid "There is no [webif] section in oscam.conf"
