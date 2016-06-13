@@ -1362,7 +1362,7 @@ msgstr ""
 msgid "Button setup"
 msgstr ""
 
-msgid "By Team ViX"
+msgid "By Team Obh"
 msgstr ""
 
 msgid "Bypass HDMI EDID Check"
@@ -6514,7 +6514,7 @@ msgstr ""
 msgid "Select if you want the Subservice mode to be activated."
 msgstr ""
 
-msgid "Select if you want to use the ViX colored buttons (set to 'no' if you want to use (Multi Quick Button)."
+msgid "Select if you want to use the Obh colored buttons (set to 'no' if you want to use (Multi Quick Button)."
 msgstr ""
 
 msgid "Select input device"
@@ -6938,7 +6938,7 @@ msgstr ""
 msgid "Show VCR scart on main menu"
 msgstr "show DVD main menu"
 
-msgid "Show ViX spinning logo when the system is busy."
+msgid "Show Obh spinning logo when the system is busy."
 msgstr ""
 
 #
@@ -8705,7 +8705,7 @@ msgstr ""
 msgid "Use USALS for this sat"
 msgstr ""
 
-msgid "Use ViX colored Buttons*"
+msgid "Use Obh colored Buttons*"
 msgstr ""
 
 msgid "Use ViaSat EPG information when it is available."
@@ -8873,7 +8873,7 @@ msgstr "Vertical"
 msgid "Vertical turning speed"
 msgstr ""
 
-msgid "ViX EPG"
+msgid "Obh EPG"
 msgstr ""
 
 msgid "Video Enhancement Settings"
@@ -9024,7 +9024,7 @@ msgstr ""
 
 #
 #, fuzzy
-msgid "Vix forum user name"
+msgid "Obh forum user name"
 msgstr "סרוקת שירות"
 
 #
@@ -10171,7 +10171,7 @@ msgid "handled"
 msgstr ""
 
 msgid ""
-"has been sent to the ViX beta team.\n"
+"has been sent to the Obh beta team.\n"
 "please quote"
 msgstr ""
 

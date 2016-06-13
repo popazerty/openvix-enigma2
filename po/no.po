@@ -1459,8 +1459,8 @@ msgstr "Knapp"
 msgid "Button setup"
 msgstr "Knapp oppsett"
 
-msgid "By Team ViX"
-msgstr "Av Team ViX"
+msgid "By Team Obh"
+msgstr "Av Team Obh"
 
 msgid "Bypass HDMI EDID Check"
 msgstr "Bypass HDMI EDID sjekk"
@@ -7243,10 +7243,10 @@ msgid "Select if you want the Subservice mode to be activated."
 msgstr "Velg om du vil underkanal modus skal aktiveres."
 
 msgid ""
-"Select if you want to use the ViX colored buttons (set to 'no' if you want "
+"Select if you want to use the Obh colored buttons (set to 'no' if you want "
 "to use (Multi Quick Button)."
 msgstr ""
-"Velg om du vil bruke VIX fargede knapper (satt til 'nei' hvis du ønsker å "
+"Velg om du vil bruke Obh fargede knapper (satt til 'nei' hvis du ønsker å "
 "bruke (Multi Hurtig Knapper)."
 
 msgid "Select input device"
@@ -7712,8 +7712,8 @@ msgstr "Vis transponder gjenværende/medgått som"
 msgid "Show VCR scart on main menu"
 msgstr "Vis VCR scart på hovedmenyen"
 
-msgid "Show ViX spinning logo when the system is busy."
-msgstr "Vis Vix spinne logo når systemet er opptatt."
+msgid "Show Obh spinning logo when the system is busy."
+msgstr "Vis Obh spinne logo når systemet er opptatt."
 
 #
 msgid "Show WLAN status"
@@ -9714,8 +9714,8 @@ msgstr "Bruk TVens fjernkontroll"
 msgid "Use USALS for this sat"
 msgstr "Bruk USALS for denne Sat"
 
-msgid "Use ViX colored Buttons*"
-msgstr "Bruk ViX fargede knapper*"
+msgid "Use Obh colored Buttons*"
+msgstr "Bruk Obh fargede knapper*"
 
 msgid "Use ViaSat EPG information when it is available."
 msgstr "Bruk ViaSat EPG informasjon når den er tilgjengelig."
@@ -9906,8 +9906,8 @@ msgstr "Vertikal"
 msgid "Vertical turning speed"
 msgstr "Vertikal snuhastighet"
 
-msgid "ViX EPG"
-msgstr "ViX EPG"
+msgid "Obh EPG"
+msgstr "Obh EPG"
 
 msgid "Video Enhancement Settings"
 msgstr "Bildeforbedrings innstillinger"
@@ -10065,8 +10065,8 @@ msgstr "Se på Video CD..."
 msgid "Virtuosso Image Xtreme"
 msgstr "Virtuosso Image Xtreme"
 
-msgid "Vix forum user name"
-msgstr "Vix forum brukernavn"
+msgid "Obh forum user name"
+msgstr "Obh forum brukernavn"
 
 #
 msgid "Voltage mode"
@@ -11553,10 +11553,10 @@ msgid "handled"
 msgstr "håndteres"
 
 msgid ""
-"has been sent to the ViX beta team.\n"
+"has been sent to the Obh beta team.\n"
 "please quote"
 msgstr ""
-"har blitt sendt til ViX beta team.\n"
+"har blitt sendt til Obh beta team.\n"
 "vennligst oppgi"
 
 msgid "height"

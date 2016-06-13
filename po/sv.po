@@ -1492,8 +1492,8 @@ msgstr "Knappinställning"
 msgid "ButtonSetup Setup"
 msgstr "Knappinställning inställningar"
 
-msgid "By Team ViX"
-msgstr "Av Vix Teamet"
+msgid "By Team Obh"
+msgstr "Av Obh Teamet"
 
 msgid "Bypass HDMI EDID Check"
 msgstr "Hoppa över HDMI EDID kontroll"
@@ -7878,8 +7878,8 @@ msgstr "Visa Transponder Återstående/Förfluten som"
 msgid "Show VCR scart on main menu"
 msgstr "Visa VCR scart i huvudmenyn"
 
-msgid "Show ViX spinning logo when the system is busy."
-msgstr "Visa snurrande ViX logo när systemet är upptaget."
+msgid "Show Obh spinning logo when the system is busy."
+msgstr "Visa snurrande Obh logo när systemet är upptaget."
 
 #
 msgid "Show WLAN status"
@@ -8327,7 +8327,7 @@ msgstr "Tyvärr, feeds är nere för underhåll"
 msgid "Sorry feeds are down for maintenance, please try again later."
 msgstr "Tyvärr, feeds är nere för underåll, v.v. försök igen senare."
 
-msgid "Sorry feeds are down for maintenance, please try again later. If this issue persists please check openvix.co.uk or world-of-satellite.com."
+msgid "Sorry feeds are down for maintenance, please try again later. If this issue persists please check openObh.co.uk or world-of-satellite.com."
 msgstr "Tyvärr, feeds är nere för underhåll, v.v. försök igen senare."
 
 msgid "Sorry feeds seem be in an unstable state, if you wish to use them please enable 'Allow unstable (experimental) updates' in \"Software update settings\"."
@@ -10114,8 +10114,8 @@ msgstr "Vertikal"
 msgid "Vertical turning speed"
 msgstr "Vertikal förflyttningshastighet"
 
-msgid "ViX EPG"
-msgstr "ViX EPG"
+msgid "Obh EPG"
+msgstr "Obh EPG"
 
 msgid "Video Enhancement Settings"
 msgstr "Bildförbättringar"
@@ -10267,8 +10267,8 @@ msgstr "Visa Video CD..."
 msgid "Virtuosso Image Xtreme"
 msgstr "Virtuosso Image Xtreme"
 
-msgid "Vix forum user name"
-msgstr "VIX forum användarnamn"
+msgid "Obh forum user name"
+msgstr "Obh forum användarnamn"
 
 #
 msgid "Voltage mode"
@@ -11613,10 +11613,10 @@ msgid "handled"
 msgstr "hanteras"
 
 msgid ""
-"has been sent to the ViX beta team.\n"
+"has been sent to the Obh beta team.\n"
 "please quote"
 msgstr ""
-"har skickats till ViX beta team.\n"
+"har skickats till Obh beta team.\n"
 "vänligen ange"
 
 msgid "height"
@@ -12552,8 +12552,8 @@ msgstr "zappad"
 #~ msgid "Select if you want the Subservice mode to be activated."
 #~ msgstr "Välj om du vill att Subservice-läget skall vara aktiverat."
 #, fuzzy
-#~ msgid "Select if you want to use the ViX colored buttons (set to 'no' if you want to use (Multi Quick Button)."
-#~ msgstr "Välj om du vill använda VIX färgade Knappar (sätt till 'nej' om du vill använda (Multi) Quick Knapp)."
+#~ msgid "Select if you want to use the Obh colored buttons (set to 'no' if you want to use (Multi Quick Button)."
+#~ msgstr "Välj om du vill använda Obh färgade Knappar (sätt till 'nej' om du vill använda (Multi) Quick Knapp)."
 
 #, fuzzy
 #~ msgid "Select what you want the Channel +/- buttons to activate."
@@ -12579,8 +12579,8 @@ msgstr "zappad"
 #~ msgid "Uncommitted DiSEqC command"
 #~ msgstr "Uncommitted DiSEqC kommando"
 #, fuzzy
-#~ msgid "Use ViX colored Buttons*"
-#~ msgstr "Använd ViX färgade Knappar *"
+#~ msgid "Use Obh colored Buttons*"
+#~ msgstr "Använd Obh färgade Knappar *"
 
 #
 #~ msgid "Video fine tuning"

@@ -1417,8 +1417,8 @@ msgstr "Tuş"
 msgid "Button setup"
 msgstr "Tuş kurulumu"
 
-msgid "By Team ViX"
-msgstr "ViX Ekibi tarafından"
+msgid "By Team Obh"
+msgstr "Obh Ekibi tarafından"
 
 msgid "Bypass HDMI EDID Check"
 msgstr "HDMI EDID Kontrolunu atla"
@@ -6866,8 +6866,8 @@ msgid "Select if you want the Subservice mode to be activated."
 msgstr "Alt servis kipinin etkinleştirilmesini seçin."
 
 #, fuzzy
-msgid "Select if you want to use the ViX colored buttons (set to 'no' if you want to use (Multi Quick Button)."
-msgstr "ViX renkli düğmelerini kullanmak istiorsanız seçin ('hayır' (Çoklu) Hızlı Düğme)."
+msgid "Select if you want to use the Obh colored buttons (set to 'no' if you want to use (Multi Quick Button)."
+msgstr "Obh renkli düğmelerini kullanmak istiorsanız seçin ('hayır' (Çoklu) Hızlı Düğme)."
 
 msgid "Select input device"
 msgstr "Giriş aygıtı seçin"
@@ -7310,8 +7310,8 @@ msgid "Show VCR scart on main menu"
 msgstr "VCR skartı ana menüde göster"
 
 #, fuzzy
-msgid "Show ViX spinning logo when the system is busy."
-msgstr "Sistem meşgulken, dönen ViX logosunu göster. "
+msgid "Show Obh spinning logo when the system is busy."
+msgstr "Sistem meşgulken, dönen Obh logosunu göster. "
 
 #
 msgid "Show WLAN status"
@@ -9131,8 +9131,8 @@ msgid "Use USALS for this sat"
 msgstr "Bu uydu için USALS kullan"
 
 #, fuzzy
-msgid "Use ViX colored Buttons*"
-msgstr "ViX renkli tuşlarını kullan *"
+msgid "Use Obh colored Buttons*"
+msgstr "Obh renkli tuşlarını kullan *"
 
 msgid "Use ViaSat EPG information when it is available."
 msgstr "Varsa ViaSat EPG bilgisini kullan."
@@ -9299,8 +9299,8 @@ msgstr "Dikey (V)"
 msgid "Vertical turning speed"
 msgstr "Dikey dönüş hızı"
 
-msgid "ViX EPG"
-msgstr "ViX EPG"
+msgid "Obh EPG"
+msgstr "Obh EPG"
 
 msgid "Video Enhancement Settings"
 msgstr "Görüntü İyileştirme Ayarları"
@@ -9464,7 +9464,7 @@ msgid "Virtuosso Image Xtreme"
 msgstr "Virtuosso Image Xtreme"
 
 #, fuzzy
-msgid "Vix forum user name"
+msgid "Obh forum user name"
 msgstr "Kanal dının sağında"
 
 #
@@ -10735,10 +10735,10 @@ msgid "handled"
 msgstr "kullanıldı"
 
 msgid ""
-"has been sent to the ViX beta team.\n"
+"has been sent to the Obh beta team.\n"
 "please quote"
 msgstr ""
-"ViX beta takımına gönderildi.\n"
+"Obh beta takımına gönderildi.\n"
 "lütfen alıntı yapın"
 
 msgid "height"

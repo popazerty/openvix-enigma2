@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: ViX-Enigma2\n"
+"Project-Id-Version: Obh-Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-05-06 13:24+0100\n"
 "PO-Revision-Date: 2016-05-10 11:43+0300\n"
@@ -1471,8 +1471,8 @@ msgstr "Nuppude seadistus:"
 msgid "ButtonSetup"
 msgstr "Nuppude seadistus"
 
-msgid "By Team ViX"
-msgstr "ViX tiimilt"
+msgid "By Team Obh"
+msgstr "Obh tiimilt"
 
 msgid "Bypass HDMI EDID Check"
 msgstr "HDMI EDID kontrollist möödaminek"
@@ -6153,8 +6153,8 @@ msgstr "Lukusta seiskamismenüü"
 msgid "Protect timer menu"
 msgstr "Lukusta taimeri menüü"
 
-msgid "Protect vix menu"
-msgstr "Lukusta ViX menüü"
+msgid "Protect Obh menu"
+msgstr "Lukusta Obh menüü"
 
 msgid "Protocol"
 msgstr "Protokoll"
@@ -7398,7 +7398,7 @@ msgstr "Jäänud/kulunud transponderi näit"
 msgid "Show VCR scart on main menu"
 msgstr "Kuva VCR-SCART valik peamenüüs"
 
-msgid "Show ViX spinning logo when the system is busy."
+msgid "Show Obh spinning logo when the system is busy."
 msgstr "Näita süsteemi hõivatusel animatsiooni"
 
 msgid "Show WLAN status"
@@ -7820,8 +7820,8 @@ msgstr "Solo4K lisaseaded"
 msgid "Some plugins are not available:\n"
 msgstr "Mõned pluginad pole saadaval:\n"
 
-msgid "Sorry feeds are down for maintenance, please try again later. If this issue persists please check openvix.co.uk or world-of-satellite.com."
-msgstr "Toimuvad serverite hooldetööd. Proovi hiljem uuesti. Kui probleem on kestev, vaata lehele openvix.co.uk or world-of-satellite.com."
+msgid "Sorry feeds are down for maintenance, please try again later. If this issue persists please check openObh.co.uk or world-of-satellite.com."
+msgstr "Toimuvad serverite hooldetööd. Proovi hiljem uuesti. Kui probleem on kestev, vaata lehele openObh.co.uk or world-of-satellite.com."
 
 msgid "Sorry feeds seem be in an unstable state, if you wish to use them please enable 'Allow unstable (experimental) updates' in \"Software update settings\"."
 msgstr "Uuendused serverites on testimata. Kui soovid neid kasutada luba 'Testimata uuendused' tarkvara uuendamise seadistustes."
@@ -8268,7 +8268,7 @@ msgstr "TB"
 
 #. TRANSLATORS: Add here whatever should be shown in the "translator" about screen, up to 6 lines (use \n for newline)
 msgid "TRANSLATOR_INFO"
-msgstr "OpenViX-enigma2 tõlge eesti keelde"
+msgstr "OpenObh-enigma2 tõlge eesti keelde"
 
 msgid "TS file is too large for ISO9660 level 1!"
 msgstr "TS fail on liiga suur ISO9660/1 jaoks!"
@@ -8381,10 +8381,10 @@ msgstr ""
 
 msgid ""
 "The Cool TV Guide plugin is not installed!\n"
-"Dont bother with it and use the default ViX EPG guide instead."
+"Dont bother with it and use the default Obh EPG guide instead."
 msgstr ""
 "Cool TV Guide ei ole paigaldatud!\n"
-"Ära vaeva ennast sellega, kasuta hoopis ViX EPG saatekava."
+"Ära vaeva ennast sellega, kasuta hoopis Obh EPG saatekava."
 
 #, python-format
 msgid "The DVD standard doesn't support H.264 (HDTV) video streams. Do you want to create a %s %s format data DVD (which will not play in stand-alone DVD players) instead?"
@@ -8541,8 +8541,8 @@ msgstr "Täitmata tegevusi ei ole."
 msgid "There are no updates available."
 msgstr "Uuendusi ei ole saadaval."
 
-msgid "There has been an error, please try again later. If this issue persists, please check openvix.co.uk or world-of-satellite.com"
-msgstr "Toimus viga, proovi hiljem uuesti. Probleemi jätkudes vaata lehele openvix.co.uk või world-of-satellite.com"
+msgid "There has been an error, please try again later. If this issue persists, please check openObh.co.uk or world-of-satellite.com"
+msgstr "Toimus viga, proovi hiljem uuesti. Probleemi jätkudes vaata lehele openObh.co.uk või world-of-satellite.com"
 
 msgid "There is no [webif] section in oscam.conf"
 msgstr "[webif] osa puudub 'oscam.conf' failis"
@@ -9452,8 +9452,8 @@ msgstr "Vertikaalne"
 msgid "Vertical turning speed"
 msgstr "Vertikaalse pööramise kiirus"
 
-msgid "ViX EPG"
-msgstr "ViX EPG"
+msgid "Obh EPG"
+msgstr "Obh EPG"
 
 msgid "Video Enhancement Settings"
 msgstr "Pildi paranduste sätted"
@@ -9588,8 +9588,8 @@ msgstr "Virtuosso Image Xtreme"
 msgid "Visual impaired commentary"
 msgstr "Kommentaar vaegnägijatele"
 
-msgid "Vix forum user name"
-msgstr "Vix foorumi kasutajanimi"
+msgid "Obh forum user name"
+msgstr "Obh foorumi kasutajanimi"
 
 msgid "Voltage mode"
 msgstr "Pinge tüüp"
@@ -10778,10 +10778,10 @@ msgid "handled"
 msgstr "töödeldud"
 
 msgid ""
-"has been sent to the ViX team.\n"
+"has been sent to the Obh team.\n"
 "please quote"
 msgstr ""
-"saadeti ViX tiimile.\n"
+"saadeti Obh tiimile.\n"
 "palun osunda"
 
 msgid "height"

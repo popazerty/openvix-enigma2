@@ -1328,7 +1328,7 @@ msgstr ""
 msgid "Button setup"
 msgstr "Definições do posicionador"
 
-msgid "By Team ViX"
+msgid "By Team Obh"
 msgstr ""
 
 msgid "Bypass HDMI EDID Check"
@@ -6375,7 +6375,7 @@ msgstr "Parar o timeshift?"
 msgid "Select if you want the Subservice mode to be activated."
 msgstr ""
 
-msgid "Select if you want to use the ViX colored buttons (set to 'no' if you want to use (Multi Quick Button)."
+msgid "Select if you want to use the Obh colored buttons (set to 'no' if you want to use (Multi Quick Button)."
 msgstr ""
 
 msgid "Select input device"
@@ -6813,7 +6813,7 @@ msgid "Show VCR scart on main menu"
 msgstr "mostrar menu de DVD"
 
 #, fuzzy
-msgid "Show ViX spinning logo when the system is busy."
+msgid "Show Obh spinning logo when the system is busy."
 msgstr "Mostrar o indicador de ocupado quando o sistema estiver ocupado."
 
 msgid "Show WLAN status"
@@ -8521,7 +8521,7 @@ msgstr "Usar o controle remoto da TV"
 msgid "Use USALS for this sat"
 msgstr "Usar usals para este satélite"
 
-msgid "Use ViX colored Buttons*"
+msgid "Use Obh colored Buttons*"
 msgstr ""
 
 msgid "Use ViaSat EPG information when it is available."
@@ -8687,7 +8687,7 @@ msgid "Vertical turning speed"
 msgstr "Velocidade de retorno 'vertical'"
 
 #, fuzzy
-msgid "ViX EPG"
+msgid "Obh EPG"
 msgstr "Sair do EPG"
 
 #, fuzzy
@@ -8832,7 +8832,7 @@ msgid "Virtuosso Image Xtreme"
 msgstr ""
 
 #, fuzzy
-msgid "Vix forum user name"
+msgid "Obh forum user name"
 msgstr "Picon e nome do serviço"
 
 msgid "Voltage mode"
@@ -9984,7 +9984,7 @@ msgid "handled"
 msgstr "UnhandledKey"
 
 msgid ""
-"has been sent to the ViX beta team.\n"
+"has been sent to the Obh beta team.\n"
 "please quote"
 msgstr ""
 

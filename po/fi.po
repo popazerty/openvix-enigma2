@@ -1669,8 +1669,8 @@ msgstr "Näppäinmääritykset"
 msgid "ButtonSetup"
 msgstr "Näppäinmääritykset"
 
-msgid "By Team ViX"
-msgstr "Team ViX:iltä"
+msgid "By Team Obh"
+msgstr "Team Obh:iltä"
 
 msgid "Bypass HDMI EDID Check"
 msgstr "Ohita HDMI EDID-tarkistus"
@@ -7216,8 +7216,8 @@ msgid "Protect timer menu"
 msgstr "Suojaa ajastusvalikko"
 
 #
-msgid "Protect vix menu"
-msgstr "Suojaa Vix-valikko"
+msgid "Protect Obh menu"
+msgstr "Suojaa Obh-valikko"
 
 msgid "Protocol"
 msgstr "Protokolla"
@@ -8681,8 +8681,8 @@ msgstr "Näytä ohjelman jäljellä oleva/kulunut aika:"
 msgid "Show VCR scart on main menu"
 msgstr "Näytä VCR-Scart päävalikossa"
 
-msgid "Show ViX spinning logo when the system is busy."
-msgstr "Näytä pyörivä ViX-logo kun järjestelmä on varattu."
+msgid "Show Obh spinning logo when the system is busy."
+msgstr "Näytä pyörivä Obh-logo kun järjestelmä on varattu."
 
 #
 msgid "Show WLAN status"
@@ -9180,7 +9180,7 @@ msgstr "Seuraavat lisäosat eivät ole saatavilla:\n"
 
 msgid ""
 "Sorry feeds are down for maintenance, please try again later. If this issue "
-"persists please check openvix.co.uk or world-of-satellite.com."
+"persists please check openObh.co.uk or world-of-satellite.com."
 msgstr ""
 "Ohjelmasyötteet eivät ole käytössä huollon takia, yritä myöhemmin uudelleen."
 
@@ -9831,10 +9831,10 @@ msgstr ""
 
 msgid ""
 "The Cool TV Guide plugin is not installed!\n"
-"Dont bother with it and use the default ViX EPG guide instead."
+"Dont bother with it and use the default Obh EPG guide instead."
 msgstr ""
 "Cool TV Guide -lisäosaa ei ole asennettu!\n"
-"Käytä VIX EPG:tä sen sijaan."
+"Käytä Obh EPG:tä sen sijaan."
 
 #
 #, python-format
@@ -10018,9 +10018,9 @@ msgstr "Päivityksiä ei ole saatavilla."
 
 msgid ""
 "There has been an error, please try again later. If this issue persists, "
-"please check openvix.co.uk or world-of-satellite.com"
+"please check openObh.co.uk or world-of-satellite.com"
 msgstr ""
-"Tapahtui virhe, yritä myöhemmin uudelleen. Jos virhe jatkuu käy openvix.co."
+"Tapahtui virhe, yritä myöhemmin uudelleen. Jos virhe jatkuu käy openObh.co."
 "uk or world-of-satellite.com sivuilla."
 
 msgid "There is no [webif] section in oscam.conf"
@@ -11172,8 +11172,8 @@ msgstr "Vertikaali"
 msgid "Vertical turning speed"
 msgstr "Vertikaalinen kääntönopeus"
 
-msgid "ViX EPG"
-msgstr "ViX EPG"
+msgid "Obh EPG"
+msgstr "Obh EPG"
 
 msgid "Video Enhancement Settings"
 msgstr "Laajemmat kuvasäädöt"
@@ -11330,8 +11330,8 @@ msgstr "Virtuosso Image Xtreme"
 msgid "Visual impaired commentary"
 msgstr "Näkövammaisten äänitekstitys"
 
-msgid "Vix forum user name"
-msgstr "Vix-foorumin käyttäjänimi"
+msgid "Obh forum user name"
+msgstr "Obh-foorumin käyttäjänimi"
 
 #
 msgid "Voltage mode"
@@ -12848,10 +12848,10 @@ msgid "handled"
 msgstr "hoidettu"
 
 msgid ""
-"has been sent to the ViX team.\n"
+"has been sent to the Obh team.\n"
 "please quote"
 msgstr ""
-"on lähetetty ViX beta teemille.\n"
+"on lähetetty Obh beta teemille.\n"
 "lainaa"
 
 msgid "height"

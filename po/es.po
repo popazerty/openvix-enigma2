@@ -1436,8 +1436,8 @@ msgstr "Tecla"
 msgid "Button setup"
 msgstr "Configuración de teclas"
 
-msgid "By Team ViX"
-msgstr "Por el equipo de ViX"
+msgid "By Team Obh"
+msgstr "Por el equipo de Obh"
 
 msgid "Bypass HDMI EDID Check"
 msgstr ""
@@ -6937,8 +6937,8 @@ msgid "Select if you want the Subservice mode to be activated."
 msgstr "Selecciona si quieres que el modo Subcanal se active."
 
 #, fuzzy
-msgid "Select if you want to use the ViX colored buttons (set to 'no' if you want to use (Multi Quick Button)."
-msgstr "Selecciona si quieres utilizar los botones de color de ViX. Marca 'no' si quieres usar el botón rápido (multi)."
+msgid "Select if you want to use the Obh colored buttons (set to 'no' if you want to use (Multi Quick Button)."
+msgstr "Selecciona si quieres utilizar los botones de color de Obh. Marca 'no' si quieres usar el botón rápido (multi)."
 
 msgid "Select input device"
 msgstr "Seleccionar dispositivo de entrada"
@@ -7382,8 +7382,8 @@ msgid "Show VCR scart on main menu"
 msgstr "Ver el menú principal de DVD"
 
 #, fuzzy
-msgid "Show ViX spinning logo when the system is busy."
-msgstr "Ver logo giratorio ViX cuando el sistema esté ocupado."
+msgid "Show Obh spinning logo when the system is busy."
+msgstr "Ver logo giratorio Obh cuando el sistema esté ocupado."
 
 #
 msgid "Show WLAN status"
@@ -9232,8 +9232,8 @@ msgid "Use USALS for this sat"
 msgstr "Usar USALS para este satélite."
 
 #, fuzzy
-msgid "Use ViX colored Buttons*"
-msgstr "Usar las teclas de colores de VIX*."
+msgid "Use Obh colored Buttons*"
+msgstr "Usar las teclas de colores de Obh*."
 
 msgid "Use ViaSat EPG information when it is available."
 msgstr "Usar información EPG de Viasat cuando esté disponible."
@@ -9402,8 +9402,8 @@ msgstr "Vertical"
 msgid "Vertical turning speed"
 msgstr "Velocidad de giro vertical"
 
-msgid "ViX EPG"
-msgstr "ViX EPG"
+msgid "Obh EPG"
+msgstr "Obh EPG"
 
 msgid "Video Enhancement Settings"
 msgstr "Ajustes de mejora de vídeo"
@@ -9566,7 +9566,7 @@ msgid "Virtuosso Image Xtreme"
 msgstr "Virtuosso Image Xtreme"
 
 #, fuzzy
-msgid "Vix forum user name"
+msgid "Obh forum user name"
 msgstr "Picon y nombre de canal"
 
 #
@@ -10835,10 +10835,10 @@ msgid "handled"
 msgstr "Gestionado"
 
 msgid ""
-"has been sent to the ViX beta team.\n"
+"has been sent to the Obh beta team.\n"
 "please quote"
 msgstr ""
-"Se ha enviado al equipo de ViX Beta.\n"
+"Se ha enviado al equipo de Obh Beta.\n"
 "Cítalo, por favor."
 
 msgid "height"

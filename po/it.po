@@ -14,7 +14,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 1.6.10\n"
 "X-Poedit-SourceCharset: iso-8859-1\n"
-"Language-Team: ViX/DAX\n"
+"Language-Team: Obh/DAX\n"
 "X-Poedit-Language: Italian\n"
 "X-Poedit-Country: ITALY\n"
 
@@ -1487,8 +1487,8 @@ msgstr "Configurazione pulsante"
 msgid "Button setup for"
 msgstr ""
 
-msgid "By Team ViX"
-msgstr "By Team ViX"
+msgid "By Team Obh"
+msgstr "By Team Obh"
 
 msgid "Bypass HDMI EDID Check"
 msgstr ""
@@ -7933,7 +7933,7 @@ msgstr ""
 msgid "Show VCR scart on main menu"
 msgstr "Mostrare il Menu principale DVD"
 
-msgid "Show ViX spinning logo when the system is busy."
+msgid "Show Obh spinning logo when the system is busy."
 msgstr ""
 
 #
@@ -8420,7 +8420,7 @@ msgstr ""
 msgid "Sorry feeds are down for maintenance, please try again later."
 msgstr ""
 
-msgid "Sorry feeds are down for maintenance, please try again later. If this issue persists please check openvix.co.uk or world-of-satellite.com."
+msgid "Sorry feeds are down for maintenance, please try again later. If this issue persists please check openObh.co.uk or world-of-satellite.com."
 msgstr ""
 
 msgid "Sorry feeds seem be in an unstable state, if you wish to use them please enable 'Allow unstable (experimental) updates' in \"Software update settings\"."
@@ -10198,7 +10198,7 @@ msgstr "Verticale"
 msgid "Vertical turning speed"
 msgstr ""
 
-msgid "ViX EPG"
+msgid "Obh EPG"
 msgstr ""
 
 msgid "Video Enhancement Settings"
@@ -10362,7 +10362,7 @@ msgstr ""
 
 #
 #, fuzzy
-msgid "Vix forum user name"
+msgid "Obh forum user name"
 msgstr "Ricerca canali"
 
 #
@@ -11667,7 +11667,7 @@ msgid "handled"
 msgstr ""
 
 msgid ""
-"has been sent to the ViX beta team.\n"
+"has been sent to the Obh beta team.\n"
 "please quote"
 msgstr ""
 
