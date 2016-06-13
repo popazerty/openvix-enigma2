@@ -3247,11 +3247,14 @@ class InfoBarSubserviceSelection:
 		self.bsel = None
 
 	def GreenPressed(self):
-		try:
-			from Screens.BpGreen import DeliteGreenPanel
-			self.session.open(DeliteGreenPanel)
-		except:
-			pass
+		service = self.session.nav.getCurrentService()
+		subservices = service and service.subServices()
+		if not subservices or subservices.getNumberOfSubservices() == 0:
+			try:
+				from Screens.BpGreen import DeliteGreenPanel
+				self.session.open(DeliteGreenPanel)
+			except:
+				pass
 #		if not config.vixsettings.Subservice.value:
 #			self.openTimerList()
 #		else:
