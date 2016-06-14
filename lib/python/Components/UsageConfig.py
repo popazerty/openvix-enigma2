@@ -747,9 +747,7 @@ def InitUsageConfig():
 	config.epgselection.graph_piconwidth = ConfigSelectionNumber(default = 100, stepwidth = 1, min = 70, max = 500, wraparound = True)
 	config.epgselection.graph_infowidth = ConfigSelectionNumber(default = 50, stepwidth = 25, min = 0, max = 150, wraparound = True)
 
-	if not os.path.exists('/usr/softcams/'):
-		os.mkdir('/usr/softcams/',0755)
-	softcams = os.listdir('/usr/softcams/')
+	softcams = ""
 	config.oscaminfo = ConfigSubsection()
 	config.oscaminfo.showInExtensions = ConfigYesNo(default=False)
 	config.oscaminfo.userdatafromconf = ConfigYesNo(default = True)
