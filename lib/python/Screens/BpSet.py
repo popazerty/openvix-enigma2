@@ -61,11 +61,11 @@ class DeliteSettings(Screen):
 		elif self.sel == 2:
 			self.session.open(Setup, "userinterface")
 		elif self.sel == 3:
-			from Screens.UserInterfacePositioner import OSD3DSetupScreen
-			self.session.open(OSD3DSetupScreen)
-		elif self.sel == 4:
 			from Screens.UserInterfacePositioner import UserInterfacePositioner
 			self.session.open(UserInterfacePositioner)
+		elif self.sel == 4:
+			from Screens.UserInterfacePositioner import OSD3DSetupScreen
+			self.session.open(OSD3DSetupScreen)
 		elif self.sel == 5:
 			from Screens.BpFormat import Bp_UsbFormat
 			self.session.open(Bp_UsbFormat)
