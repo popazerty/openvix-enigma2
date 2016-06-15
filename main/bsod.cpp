@@ -180,7 +180,7 @@ void bsodFatal(const char *component)
 	os.clear();
 	os << "We are really sorry. Your receiver encountered "
 		"a software problem, and needs to be restarted.\n"
-		"Please upload the crash log " << crashlog_name << "to www.vuplus-community.net.\n"
+		"Please upload the crash log " << crashlog_name << " to www.vuplus-community.net.\n"
 		"Your STB will restart in 10 seconds!\n"
 		"Component: " << component;
 
