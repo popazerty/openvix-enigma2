@@ -71,7 +71,7 @@ class DeliteAddons(Screen):
 		
 		mypixmap = mypath + "icons/nabpackpanel.png"
 		png = LoadPixmap(mypixmap)
-		name = _("Online Black Hole image update")
+		name = _("Open Black Hole online update")
 		idx = 1
 		res = (name, png, idx)
 		self.list.append(res)
