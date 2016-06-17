@@ -482,17 +482,13 @@ class DeliteInadyn(Screen):
 					
  			f.close()
 
-		rc = system("ps > /tmp/ninady.tmp")
+		import process
+		p = process.ProcessList()
 		check = False
-		if fileExists("/tmp/ninady.tmp"):
-			f = open("/tmp/ninady.tmp",'r')
- 			for line in f.readlines():
-				if line.find('inadyn') != -1:
-					check = True
+		inadyn_process = str(p.named('inadyn-mt')).strip('[]')
+		if inadyn_process:
+			check = True
 
-			f.close()
-			system("rm -f /tmp/ninady.tmp")
-			
 		if check == True:
 			self["labstop"].hide()
 			self["labrun"].show()
@@ -563,22 +559,22 @@ class DeliteInaSetup(Screen, ConfigListScreen):
 			f = open("/etc/inadyn.conf",'r')
  			for line in f.readlines():
 				line = line.strip()
-				if line.find('username ') != -1:
+				if line.startswith('username '):
 					line = line[9:]
 					self.ina_user.value = line
 					ina_user1 = getConfigListEntry(_("Username"), self.ina_user)
 					self.list.append(ina_user1)
-				elif line.find('password ') != -1:
+				elif line.startswith('password '):
 					line = line[9:]
 					self.ina_pass.value = line
 					ina_pass1 = getConfigListEntry(_("Password"), self.ina_pass)
 					self.list.append(ina_pass1)
-				elif line.find('alias ') != -1:
+				elif line.startswith('alias '):
 					line = line[6:]
 					self.ina_alias.value = line
 					ina_alias1 = getConfigListEntry(_("Alias"), self.ina_alias)
 					self.list.append(ina_alias1)
-				elif line.find('update_period_sec ') != -1:
+				elif line.startswith('update_period_sec '):
 					line = int(line[18:])
 					line = (line / 60)
 					self.ina_period.value = line
@@ -664,16 +660,16 @@ class DeliteInaSetup(Screen, ConfigListScreen):
 			out = open("/tmp/inadyn.conf",'w')
 			for line in inme.readlines():
 				line = line.replace('\n', '')
-				if line.find('username ') != -1:
+				if line.startswith('username '):
 					line = "username " + self.ina_user.value.strip()
 				
-				elif line.find('password ') != -1:
+				elif line.startswith('password '):
 					line = "password " + self.ina_pass.value.strip()
 				
-				elif line.find('alias ') != -1:
+				elif line.startswith('alias '):
 					line = "alias " + self.ina_alias.value.strip()
 				
-				elif line.find('update_period_sec ') != -1:
+				elif line.startswith('update_period_sec '):
 					strview = (self.ina_period.value * 60)
 					strview = str(strview)
 					line = "update_period_sec " + strview
