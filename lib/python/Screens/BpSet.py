@@ -588,8 +588,8 @@ class DeliteInaSetup(Screen, ConfigListScreen):
 						self.ina_sysactive.value = False
 					ina_sysactive1 = getConfigListEntry(_("Set System"), self.ina_sysactive)
 					self.list.append(ina_sysactive1)
-				elif line.find('DYN_SYSTEM=') != -1:
-					line = line[11:]
+				elif line.find('dyndns_system ') != -1:
+					line = line[13:]
 					self.ina_system.value = line
 					ina_system1 = getConfigListEntry(_("System"), self.ina_system)
 					self.list.append(ina_system1)
@@ -680,8 +680,8 @@ class DeliteInaSetup(Screen, ConfigListScreen):
 						strview = "1"
 					line = "DYN_SYSTEM_ON=" + strview
 				
-				elif line.find('DYN_SYSTEM=') != -1:
-					line = "DYN_SYSTEM=" + self.ina_system.value.strip()
+				elif line.find('dyndns_system ' ) != -1:
+					line = "dyndns_system " + self.ina_system.value.strip()
 				
 				out.write(line + "\n")
 				
