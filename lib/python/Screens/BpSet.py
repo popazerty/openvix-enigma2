@@ -433,8 +433,8 @@ class DeliteInadyn(Screen):
 			mybox = self.session.open(MessageBox, _("You have to Activate Inadyn before to start"), MessageBox.TYPE_INFO)
 			mybox.setTitle("Info")
 		else:
-			rc = system("/etc/init.d/inadyn stop")
-			rc = system("/etc/init.d/inadyn start")
+			rc = system("/etc/init.d/inadyn-mt stop")
+			rc = system("/etc/init.d/inadyn-mt start")
 			rc = system("ps")
 			self.updateIna()
 
@@ -447,40 +447,38 @@ class DeliteInadyn(Screen):
 		self["labstop"].hide()
 		
 		self.my_nabina_state = False
+
+		if fileExists("/etc/rc3.d/S20inadyn-mt"):
+			self["lactive"].show()
+			self.my_nabina_state = True
+		else:
+			self["linactive"].show()
 		
-		if fileExists("/etc/init.d/inadyn"):
-			f = open("/etc/init.d/inadyn",'r')
+		if fileExists("/etc/inadyn.conf"):
+			f = open("/etc/inadyn.conf",'r')
  			for line in f.readlines():
 				line = line.strip()
-				if line.find('INADYN_ON=') != -1:
-					line = line[10:]
-					if line == "1":
-						self["lactive"].show()
-						self.my_nabina_state = True
-					else:
-						self["linactive"].show()
-				elif line.find('INADYN_USERNAME=') != -1:
-					line = line[16:]
+				elif line.find('username ') != -1:
+					line = line[9:]
 					self["labuser"].setText(line)
-				elif line.find('INADYN_PASSWORD=') != -1:
-					line = line[16:]
+				elif line.find('password ') != -1:
+					line = line[9:]
 					self["labpass"].setText(line)
-				elif line.find('INADYN_ALIAS=') != -1:
-					line = line[13:]
+				elif line.find('alias ') != -1:
+					line = line[6:]
 					self["labalias"].setText(line)
-				elif line.find('UPDATE_PERIOD=') != -1:
-					line = int(line[14:])
-					line = ((line/1000) / 60)
+				elif line.find('update_period_sec ') != -1:
+					line = int(line[18:])
+					line = (line / 60)
 					self["labtime"].setText(str(line))
-				elif line.find('DYN_SYSTEM_ON=') != -1:
+				elif line.find('dyndns_system ') != -1:
 					line = line[14:]
 					if line == "1":
 						self["sactive"].show()
+						line = line[14:]
+						self["labsys"].setText(line)
 					else:
 						self["sinactive"].show()
-				elif line.find('DYN_SYSTEM=') != -1:
-					line = line[11:]
-					self["labsys"].setText(line)
 					
  			f.close()
 
@@ -554,36 +552,35 @@ class DeliteInaSetup(Screen, ConfigListScreen):
 		self.ina_sysactive = NoSave(ConfigYesNo(default="False"))
 		self.ina_system = NoSave(ConfigText(fixed_size = False))
 		
-		if fileExists("/etc/init.d/inadyn"):
-			f = open("/etc/init.d/inadyn",'r')
+		if fileExists("/etc/rc3.d/S20inadyn-mt"):
+			self.ina_active.value = True
+		else:
+			self.ina_active.value = False
+		ina_active1 = getConfigListEntry(_("Activate Inadyn"), self.ina_active)
+		self.list.append(ina_active1)
+
+		if fileExists("/etc/inadyn.conf"):
+			f = open("/etc/inadyn.conf",'r')
  			for line in f.readlines():
 				line = line.strip()
-				if line.find('INADYN_ON=') != -1:
-					line = line[10:]
-					if line == "1":
-						self.ina_active.value = True
-					else:
-						self.ina_active.value = False
-					ina_active1 = getConfigListEntry(_("Activate Inadyn"), self.ina_active)
-					self.list.append(ina_active1)
-				elif line.find('INADYN_USERNAME=') != -1:
-					line = line[16:]
+				elif line.find('username ') != -1:
+					line = line[9:]
 					self.ina_user.value = line
 					ina_user1 = getConfigListEntry(_("Username"), self.ina_user)
 					self.list.append(ina_user1)
-				elif line.find('INADYN_PASSWORD=') != -1:
-					line = line[16:]
+				elif line.find('password ') != -1:
+					line = line[9:]
 					self.ina_pass.value = line
 					ina_pass1 = getConfigListEntry(_("Password"), self.ina_pass)
 					self.list.append(ina_pass1)
-				elif line.find('INADYN_ALIAS=') != -1:
-					line = line[13:]
+				elif line.find('alias ') != -1:
+					line = line[6:]
 					self.ina_alias.value = line
 					ina_alias1 = getConfigListEntry(_("Alias"), self.ina_alias)
 					self.list.append(ina_alias1)
-				elif line.find('UPDATE_PERIOD=') != -1:
-					line = int(line[14:])
-					line = ((line/1000) / 60)
+				elif line.find('update_period_sec ') != -1:
+					line = int(line[18:])
+					line = (line / 60)
 					self.ina_period.value = line
 					ina_period1 = getConfigListEntry(_("Time Update in Minutes"), self.ina_period)
 					self.list.append(ina_period1)
@@ -662,30 +659,24 @@ class DeliteInaSetup(Screen, ConfigListScreen):
 		
 	def saveIna(self):
 		
-		if fileExists("/etc/init.d/inadyn"):
-			inme = open("/etc/init.d/inadyn",'r')
-			out = open("/usr/bin/inadyn_script.tmp",'w')
+		if fileExists("/etc/inadyn.conf"):
+			inme = open("/etc/inadyn.conf",'r')
+			out = open("/tmp/inadyn.conf",'w')
 			for line in inme.readlines():
 				line = line.replace('\n', '')
-				if line.find('INADYN_ON=') != -1:
-					strview = "0"
-					if self.ina_active.value == True:
-						strview = "1"
-					line = "INADYN_ON=" + strview
+				if line.find('username ') != -1:
+					line = "username " + self.ina_user.value.strip()
 				
-				elif line.find('INADYN_USERNAME=') != -1:
-					line = "INADYN_USERNAME=" + self.ina_user.value.strip()
+				elif line.find('password ') != -1:
+					line = "password " + self.ina_pass.value.strip()
 				
-				elif line.find('INADYN_PASSWORD=') != -1:
-					line = "INADYN_PASSWORD=" + self.ina_pass.value.strip()
+				elif line.find('alias ') != -1:
+					line = "alias " + self.ina_alias.value.strip()
 				
-				elif line.find('INADYN_ALIAS=') != -1:
-					line = "INADYN_ALIAS=" + self.ina_alias.value.strip()
-				
-				elif line.find('UPDATE_PERIOD=') != -1:
-					strview = (self.ina_period.value * 1000 * 60)
+				elif line.find('update_period_sec ') != -1:
+					strview = (self.ina_period.value * 60)
 					strview = str(strview)
-					line = "UPDATE_PERIOD=" + strview
+					line = "update_period_sec " + strview
 				
 				elif line.find('DYN_SYSTEM_ON=') != -1:
 					strview = "0"
@@ -704,10 +695,12 @@ class DeliteInaSetup(Screen, ConfigListScreen):
 		else :
 			self.session.open(MessageBox, _("Sorry Inadyn Script is Missing"), MessageBox.TYPE_INFO)
 			self.close()
+
+		if self.ina_active.value == True:
+			system("update-rc.d -f inadyn-mt defaults")
 			
-		if fileExists("/usr/bin/inadyn_script.tmp"):
-			system("mv -f  /usr/bin/inadyn_script.tmp /etc/init.d/inadyn")
-			system("chmod 0755 /etc/init.d/inadyn")
+		if fileExists("/tmp/inadyn.conf"):
+			system("mv -f  /tmp/inadyn.conf /etc/inadyn.conf")
 		
 		self.myStop()
 
