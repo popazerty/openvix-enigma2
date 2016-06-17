@@ -70,6 +70,7 @@ class FeedsStatusCheck:
 # HACK OBH
 		trafficLight = 'stable'
 		status = '0'
+		config.softwareupdate.updateisunstable.setValue(status)
 		return trafficLight
 # END
 	def getFeedsBool(self):
