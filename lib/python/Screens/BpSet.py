@@ -458,7 +458,7 @@ class DeliteInadyn(Screen):
 			f = open("/etc/inadyn.conf",'r')
  			for line in f.readlines():
 				line = line.strip()
-				elif line.find('username ') != -1:
+				if line.find('username ') != -1:
 					line = line[9:]
 					self["labuser"].setText(line)
 				elif line.find('password ') != -1:
