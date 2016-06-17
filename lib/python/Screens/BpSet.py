@@ -563,7 +563,7 @@ class DeliteInaSetup(Screen, ConfigListScreen):
 			f = open("/etc/inadyn.conf",'r')
  			for line in f.readlines():
 				line = line.strip()
-				elif line.find('username ') != -1:
+				if line.find('username ') != -1:
 					line = line[9:]
 					self.ina_user.value = line
 					ina_user1 = getConfigListEntry(_("Username"), self.ina_user)
