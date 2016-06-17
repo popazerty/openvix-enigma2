@@ -670,7 +670,7 @@ class NimSetup(Screen, ConfigListScreen, ServiceStopScreen):
 
 	def keyCancel(self):
 		if self["config"].isChanged():
-			self.session.openWithCallback(self.cancelConfirm, MessageBox, _("Really close without saving settings?"), default = False)
+			self.session.openWithCallback(self.cancelConfirm, MessageBox, _("Really close without saving settings?"), default = True)
 		else:
 			self.restoreService(_("Zap back to service before tuner setup?"))
 
