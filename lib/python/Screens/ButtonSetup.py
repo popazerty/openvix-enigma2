@@ -16,12 +16,8 @@ from Components.Label import Label
 
 ButtonSetupKeys = [	(_("Red"), "red", "Infobar/activateRedButton"),
 	(_("Red long"), "red_long", ""),
-	(_("Green"), "green", ""),
 	(_("Green long"), "green_long", ""),
-	(_("Yellow"), "yellow", "Infobar/audioSelection"),
 	(_("Yellow long"), "yellow_long", "Infobar/subtitleSelection"),
-	(_("Blue"), "blue", ""),
-	(_("Blue long"), "blue_long", ""),
 	(_("Info (EPG)"), "info", "Infobar/InfoPressed/1"),
 	(_("Info (EPG) Long"), "info_long", "Infobar/showEventInfoPlugins/1"),
 	(_("Epg/Guide"), "epg", "Infobar/EPGPressed/1"),
