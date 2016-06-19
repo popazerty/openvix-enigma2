@@ -179,7 +179,7 @@ class DeliteAddons(Screen):
 		if check == 1:
 			self.session.open(Nab_downPanel)
 		else:
-			mybox = self.session.open(MessageBox, _("Nothing to install.\nYou have to Upload a bh.tgz package in the /tmp directory before to install Addons"), MessageBox.TYPE_INFO)
+			mybox = self.session.open(MessageBox, _("Nothing to install.\nYou have to Upload a bh.tgz package in the /tmp directory before you can install Addons"), MessageBox.TYPE_INFO)
 			mybox.setTitle(_("Info"))
 			
 	def checkPanel2(self):
@@ -191,7 +191,7 @@ class DeliteAddons(Screen):
 		if check == 1:
 			self.session.open(Nab_downPanelIPK)
 		else:
-			mybox = self.session.open(MessageBox, _("Nothing to install.\nYou have to Upload an ipk package in the /tmp directory before to install Addons"), MessageBox.TYPE_INFO)
+			mybox = self.session.open(MessageBox, _("Nothing to install.\nYou have to Upload an ipk package in the /tmp directory before you can install Addons"), MessageBox.TYPE_INFO)
 			mybox.setTitle(_("Info"))
 		
 class Nab_downArea(Screen):
@@ -564,7 +564,7 @@ class Nab_ShowDownFile(Screen):
 				rc = system(cmd)
 				if fileExists("/usr/sbin/nab_e2_restart.sh"):
 					rc = system("rm -f /usr/sbin/nab_e2_restart.sh")
-					mybox = self.session.openWithCallback(self.hrestEn, MessageBox, _("Gui will be now restarted to complete package installation.\nPress ok to continue"), MessageBox.TYPE_INFO)
+					mybox = self.session.openWithCallback(self.hrestEn, MessageBox, _("Gui will now restart to complete the package installation.\nPress ok to continue"), MessageBox.TYPE_INFO)
 					mybox.setTitle(_("Info"))
 				else:
 					mybox = self.session.open(MessageBox, _("Addon Succesfully Installed."), MessageBox.TYPE_INFO)
@@ -600,7 +600,7 @@ class Nab_ShowDownFile(Screen):
 					rc = system(cmd)
 			f.close()
 			rc = system("rm -f /tmp/package.info")
-		mybox = self.session.openWithCallback(self.hrestEn, MessageBox, _("Gui will be now restarted to complete package installation.\nPress ok to continue"), MessageBox.TYPE_INFO)
+		mybox = self.session.openWithCallback(self.hrestEn, MessageBox, _("Gui will now restart to complete the package installation.\nPress ok to continue"), MessageBox.TYPE_INFO)
 		mybox.setTitle(_("Info"))
 				
 
@@ -659,7 +659,7 @@ class Nab_downPanel(Screen):
 			rc = system(cmd)
 			if fileExists("/usr/sbin/nab_e2_restart.sh"):
 				rc = system("rm -f /usr/sbin/nab_e2_restart.sh")
-				mybox = self.session.openWithCallback(self.hrestEn, MessageBox, _("Gui will be now hard restarted to complete package installation.\nPress ok to continue"), MessageBox.TYPE_INFO)
+				mybox = self.session.openWithCallback(self.hrestEn, MessageBox, _("Gui will now be restarted to complete the package installation.\nPress ok to continue"), MessageBox.TYPE_INFO)
 				mybox.setTitle(_("Info"))
 			else:
 				mybox = self.session.open(MessageBox, _("Addon Succesfully Installed."), MessageBox.TYPE_INFO)
@@ -694,7 +694,7 @@ class Nab_downPanelIPK(Screen):
 				self.flist.append(res)
 				idx = idx + 1
 		
-		self["warntext"] = Label(_("Here you can install any kind of ipk packages."))
+		self["warntext"] = Label(_("Here you can install any ipk packages."))
 		self["list"] = List(self.flist)
 		
 		self["actions"] = ActionMap(["WizardActions", "ColorActions"],
@@ -741,7 +741,7 @@ class Nab_downPanelIPK(Screen):
 					rc = system(cmd)
 			f.close()
 			rc = system("rm -f /tmp/package.info")
-		mybox = self.session.openWithCallback(self.hrestEn, MessageBox, _("Gui will be now restarted to complete package installation.\nPress ok to continue"), MessageBox.TYPE_INFO)
+		mybox = self.session.openWithCallback(self.hrestEn, MessageBox, _("Gui will now restart to complete the package installation.\nPress ok to continue"), MessageBox.TYPE_INFO)
 		mybox.setTitle(_("Info"))
 				
 
@@ -794,7 +794,7 @@ class Nab_uninstPanel(Screen):
 			orig = "/usr/uninstall/" + self.sel
 			cmd = "sh " + orig
 			rc = system(cmd)
-			mybox = self.session.openWithCallback(self.hrestEn, MessageBox, _("Addon Succesfully Removed. Gui will be now restarted for the changes to take effect.\nPress ok to continue"), MessageBox.TYPE_INFO)
+			mybox = self.session.openWithCallback(self.hrestEn, MessageBox, _("Addon Succesfully Removed. Gui will now restart for the changes to take effect.\nPress ok to continue"), MessageBox.TYPE_INFO)
 			mybox.setTitle(_("Info"))
 			
 	def hrestEn(self, answer):
