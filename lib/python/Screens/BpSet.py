@@ -15,8 +15,7 @@ from os import system, remove as os_remove, rename as os_rename, popen, getcwd, 
 from Screens.Setup import Setup
 from Plugins.SystemPlugins.NetworkBrowser.NetworkBrowser import NetworkBrowser
 from Plugins.SystemPlugins.SoftwareManager.BackupRestore import BackupScreen
-
-
+import process
 
 class DeliteSettings(Screen):
 	skin = """
@@ -433,9 +432,9 @@ class DeliteInadyn(Screen):
 			mybox = self.session.open(MessageBox, _("You have to Activate Inadyn before to start"), MessageBox.TYPE_INFO)
 			mybox.setTitle("Info")
 		else:
+			print "[BpSet] restartIna"
 			rc = system("/etc/init.d/inadyn-mt stop")
 			rc = system("/etc/init.d/inadyn-mt start")
-			rc = system("ps")
 			self.updateIna()
 
 	def updateIna(self):
@@ -482,7 +481,6 @@ class DeliteInadyn(Screen):
 					
  			f.close()
 
-		import process
 		p = process.ProcessList()
 		check = False
 		inadyn_process = str(p.named('inadyn-mt')).strip('[]')
@@ -827,13 +825,13 @@ class DeliteOpenvpn(Screen):
 		
 	def updateVpn(self):
 		
-		rc = system("ps > /tmp/nvpn.tmp")
 		self["labrun"].hide()
 		self["labstop"].hide()
 		self["labactive"].setText(_("Inactive"))
 		self["key_yellow"].setText(_("Set Active"))
 		self.my_vpn_active = False
 		self.my_vpn_run = False
+
 		
 		
 		if fileExists("/etc/rc3.d/S40openvpn"):
@@ -841,14 +839,10 @@ class DeliteOpenvpn(Screen):
 			self["key_yellow"].setText(_("Deactivate"))
 			self.my_vpn_active = True
 				
-		if fileExists("/tmp/nvpn.tmp"):
-			f = open("/tmp/nvpn.tmp",'r')
- 			for line in f.readlines():
-				if line.find('openvpn') != -1:
-					self.my_vpn_run = True
-
-			f.close()
-			os_remove("/tmp/nvpn.tmp")
+		p = process.ProcessList()
+		openvpn_process = str(p.named('openvpn')).strip('[]')
+		if openvpn_process:
+			self.my_vpn_run = True
 			
 		if self.my_vpn_run == True:
 			self["labstop"].hide()
