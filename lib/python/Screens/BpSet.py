@@ -894,7 +894,7 @@ class DeliteVpnLog(Screen):
 
 class BhBackupSettings(Screen):
 	skin = """
-	<screen position="center,center,100" size="800,300" title="Back Up your settings">
+	<screen position="center,center,100" size="800,300" title="Backup your settings">
 		<widget name="infotext" position="10,10" size="780,240" font="Regular;26" />
 		<ePixmap pixmap="skin_default/buttons/red.png" position="330,250" size="140,40" alphatest="on" />
 		<widget name="key_red" position="330,250" zPosition="1" size="140,40" font="Regular;20" halign="center" valign="center" backgroundColor="#9f1313" transparent="1" />
@@ -903,7 +903,7 @@ class BhBackupSettings(Screen):
 	def __init__(self, session):
 		Screen.__init__(self, session)
 		
-		msg = _("Backup your Settings.\n\nYou can setup backup location and backup files in Plugins -> Softare managment -> advanced.")
+		msg = _("Backup your Settings.\n\nYou can setup backup location and backup files in Plugins -> Software management -> advanced.")
 		
 		self["infotext"] = Label(msg)
 		self["key_red"] = Label(_("Backup"))
