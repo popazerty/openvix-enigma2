@@ -470,14 +470,14 @@ class DeliteInadyn(Screen):
 					line = int(line[18:])
 					line = (line / 60)
 					self["labtime"].setText(str(line))
-				elif line.find('dyndns_system ') != -1:
-					line = line[14:]
-					if line == "1":
-						self["sactive"].show()
-						line = line[14:]
-						self["labsys"].setText(line)
-					else:
+				elif line.startswith('dyndns_system ') or line.startswith('#dyndns_system '):
+					if line.startswith('#'):
+						line = line[15:]
 						self["sinactive"].show()
+					else:
+						line = line[14:]
+						self["sactive"].show()
+						self["labsys"].setText(line)
 					
  			f.close()
 
@@ -585,9 +585,11 @@ class DeliteInaSetup(Screen, ConfigListScreen):
 					else:
 						line = line[14:]
 						self.ina_sysactive.value = True
+
 					ina_sysactive1 = getConfigListEntry(_("Set System"), self.ina_sysactive)
 					self.list.append(ina_sysactive1)
 
+					self.ina_system.value = line
 					ina_system1 = getConfigListEntry(_("System"), self.ina_system)
 					self.list.append(ina_system1)
 					
@@ -671,14 +673,13 @@ class DeliteInaSetup(Screen, ConfigListScreen):
 					strview = str(strview)
 					line = "update_period_sec " + strview
 				
-				elif line.find('DYN_SYSTEM_ON=') != -1:
+				elif line.startswith('dyndns_system ') or line.startswith('#dyndns_system '):
 					strview = "0"
-					if self.ina_sysactive.value == True:
+					if self.ina_sysactive.value:
+						line = ('dyndns_system ' + self.ina_system.value.strip())
 						strview = "1"
-					line = "DYN_SYSTEM_ON=" + strview
-				
-				elif line.find('dyndns_system ' ) != -1:
-					line = "dyndns_system " + self.ina_system.value.strip()
+					else:
+						line = ('#dyndns_system ' + self.ina_system.value.strip())
 				
 				out.write(line + "\n")
 				
@@ -691,9 +692,12 @@ class DeliteInaSetup(Screen, ConfigListScreen):
 
 		if self.ina_active.value == True:
 			system("update-rc.d -f inadyn-mt defaults")
+		else:
+			system("update-rc.d -f inadyn-mt remove")
+			system("/etc/init.d/inadyn-mt stop")
 			
 		if fileExists("/tmp/inadyn.conf"):
-			system("mv -f  /tmp/inadyn.conf /etc/inadyn.conf")
+			system("mv -f /tmp/inadyn.conf /etc/inadyn.conf")
 		
 		self.myStop()
 
