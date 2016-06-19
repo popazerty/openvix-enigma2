@@ -1462,7 +1462,8 @@ class InfoBarEPG:
 
 	def EPGPressed(self):
 		if isStandardInfoBar(self) or isMoviePlayerInfoBar(self):
-			self.openGraphEPG()
+#			self.openGraphEPG()
+			self.openSingleServiceEPG()
 
 	def showEventInfoWhenNotVisible(self):
 		if self.shown:
