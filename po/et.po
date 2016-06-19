@@ -8095,17 +8095,8 @@ msgstr "Tarkvarahalduri info"
 msgid "Some plugins are not available:\n"
 msgstr "Mõned pluginad pole saadaval:\n"
 
-<<<<<<< HEAD
 msgid "Sorry feeds are down for maintenance, please try again later. If this issue persists please check vuplus-community.net"
 msgstr "Toimuvad serverite hooldetööd. Proovi hiljem uuesti. Kui probleem on kestev, vaata lehele vuplus-community.net"
-=======
-msgid ""
-"Sorry feeds are down for maintenance, please try again later. If this issue "
-"persists please check openvix.co.uk or world-of-satellite.com."
-msgstr ""
-"Toimuvad serverite hooldetööd. Proovi hiljem uuesti. Kui probleem on kestev, "
-"vaata lehele openvix.co.uk or world-of-satellite.com."
->>>>>>> OpenViX/master
 
 msgid ""
 "Sorry feeds seem be in an unstable state, if you wish to use them please "
