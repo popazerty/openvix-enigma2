@@ -8839,17 +8839,8 @@ msgstr "Täitmata tegevusi ei ole."
 msgid "There are no updates available."
 msgstr "Uuendusi ei ole saadaval."
 
-<<<<<<< HEAD
 msgid "There has been an error, please try again later. If this issue persists, please check vuplus-community.net"
 msgstr "Toimus viga, proovi hiljem uuesti. Probleemi jätkudes vaata lehele openObh.co.uk või world-of-satellite.com"
-=======
-msgid ""
-"There has been an error, please try again later. If this issue persists, "
-"please check openvix.co.uk or world-of-satellite.com"
-msgstr ""
-"Toimus viga, proovi hiljem uuesti. Probleemi jätkudes vaata lehele openvix."
-"co.uk või world-of-satellite.com"
->>>>>>> OpenViX/master
 
 msgid "There is no [webif] section in oscam.conf"
 msgstr "[webif] osa puudub 'oscam.conf' failis"
