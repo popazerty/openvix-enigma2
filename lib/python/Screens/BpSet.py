@@ -914,7 +914,7 @@ class BhBackupSettings(Screen):
 	def __init__(self, session):
 		Screen.__init__(self, session)
 		
-		msg = _("Backup your Settings.\n\nYou can setup backup location and backup files in Plugins -> Softare managment -> advanced.")
+		msg = _("Backup your Settings.\n\nYou can setup backup location and backup files in Plugins -> Software management -> advanced.")
 		
 		self["infotext"] = Label(msg)
 		self["key_red"] = Label(_("Backup"))
