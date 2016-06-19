@@ -578,17 +578,16 @@ class DeliteInaSetup(Screen, ConfigListScreen):
 					self.ina_period.value = line
 					ina_period1 = getConfigListEntry(_("Time Update in Minutes"), self.ina_period)
 					self.list.append(ina_period1)
-				elif line.find('DYN_SYSTEM_ON=') != -1:
-					line = line[14:]
-					if line == "1":
-						self.ina_sysactive.value = True
-					else:
+				elif line.startswith('dyndns_system ') or line.startswith('#dyndns_system '):
+					if line.startswith('#'):
+						line = line[15:]
 						self.ina_sysactive.value = False
+					else:
+						line = line[14:]
+						self.ina_sysactive.value = True
 					ina_sysactive1 = getConfigListEntry(_("Set System"), self.ina_sysactive)
 					self.list.append(ina_sysactive1)
-				elif line.find('dyndns_system ') != -1:
-					line = line[13:]
-					self.ina_system.value = line
+
 					ina_system1 = getConfigListEntry(_("System"), self.ina_system)
 					self.list.append(ina_system1)
 					
