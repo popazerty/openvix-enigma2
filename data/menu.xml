@@ -181,13 +181,13 @@ self.session.open(HdmiCECSetupScreen)
 <!-- Menu / Backup Menu -->
 	<menu weight="3" text="Backup Menu" entryID="backup_screen">
 		<id val="bhbackup" />
-	<item weight="10" text="BH Settings Backup" entryID="blackhole_extra"><screen module="BpSet" screen="BhBackupSettings" /></item>
-	<item weight="100" level="1" text="Full Backup">
+	<item weight="10" level="1" text="Full Backup">
 				<code>
 from Plugins.SystemPlugins.SoftwareManager.ImageBackup import ImageBackup
 self.session.open(ImageBackup)
 </code>
 		</item>	
+	<item weight="100" text="Settings Backup" entryID="blackhole_extra"><screen module="BpSet" screen="BhBackupSettings" /></item>	
 	</menu>		
 
 <!-- Menu / BH Apps -->
