@@ -659,7 +659,7 @@ class Nab_downPanel(Screen):
 			rc = system(cmd)
 			if fileExists("/usr/sbin/nab_e2_restart.sh"):
 				rc = system("rm -f /usr/sbin/nab_e2_restart.sh")
-				mybox = self.session.openWithCallback(self.hrestEn, MessageBox, _("Gui will now be restarted to complete the package installation.\nPress ok to continue"), MessageBox.TYPE_INFO)
+				mybox = self.session.openWithCallback(self.hrestEn, MessageBox, _("Gui will now restart to complete the package installation.\nPress ok to continue"), MessageBox.TYPE_INFO)
 				mybox.setTitle(_("Info"))
 			else:
 				mybox = self.session.open(MessageBox, _("Addon Succesfully Installed."), MessageBox.TYPE_INFO)
