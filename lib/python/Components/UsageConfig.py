@@ -69,6 +69,7 @@ def InitUsageConfig():
 	config.usage.show_infobar_on_event_change = ConfigYesNo(default = False)
 	config.usage.show_infobar_channel_number = ConfigYesNo(default = False)
 	config.usage.show_second_infobar = ConfigSelection(default = "5", choices = [("none", _("None"))] + choicelist + [("EPG",_("EPG")),("INFOBAREPG",_("InfoBar EPG"))])
+	config.usage.fix_second_infobar = ConfigYesNo(default = False)
 	def showsecondinfobarChanged(configElement):
 		if config.usage.show_second_infobar.value != "INFOBAREPG":
 			SystemInfo["InfoBarEpg"] = True
@@ -681,7 +682,7 @@ def InitUsageConfig():
 	config.vixsettings = ConfigSubsection()
 	config.vixsettings.Subservice = ConfigYesNo(default = False)
 	config.vixsettings.ColouredButtons = ConfigYesNo(default = True)
-	config.vixsettings.InfoBarEpg_mode = ConfigSelection(default="3", choices = [
+	config.vixsettings.InfoBarEpg_mode = ConfigSelection(default="0", choices = [
 					("0", _("as plugin in extended bar")),
 					("1", _("with long OK press")),
 					("2", _("with exit button")),

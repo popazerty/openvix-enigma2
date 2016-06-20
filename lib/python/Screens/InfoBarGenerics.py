@@ -176,7 +176,7 @@ class InfoBarUnhandledKey:
 		except:
 			print '[InfoBarGenerics] KEY: %s' % key
 		self.unhandledKeyDialog.hide()
-		if self.closeSIB(key) and self.secondInfoBarScreen and self.secondInfoBarScreen.shown:
+		if self.closeSIB(key) and self.secondInfoBarScreen and self.secondInfoBarScreen.shown and not config.usage.fix_second_infobar.value:
 			self.secondInfoBarScreen.hide()
 			self.secondInfoBarWasShown = False
 
@@ -519,7 +519,7 @@ class InfoBarShowHide(InfoBarScreenSaver):
 		self.secondInfoBarScreen = ""
 		if isStandardInfoBar(self):
 			self.secondInfoBarScreen = self.session.instantiateDialog(SecondInfoBar)
-			self.secondInfoBarScreen.show()
+#			self.secondInfoBarScreen.show()
 
 		self.onLayoutFinish.append(self.__layoutFinished)
 
@@ -624,7 +624,12 @@ class InfoBarShowHide(InfoBarScreenSaver):
 				self.hideTimer.start(idx*1000, True)
 
 	def doShow(self):
-		self.show()
+		if config.usage.fix_second_infobar.value:
+			self.hide()
+			self.secondInfoBarScreen.show()
+			self.secondInfoBarWasShown = True
+		else: 
+			self.show()
 		self.startHideTimer()
 
 	def doTimerHide(self):
@@ -672,13 +677,24 @@ class InfoBarShowHide(InfoBarScreenSaver):
 		if not hasattr(self, "LongButtonPressed"):
 			self.LongButtonPressed = False
 		if not self.LongButtonPressed:
-			if self.__state == self.STATE_HIDDEN:
+			if self.__state == self.STATE_HIDDEN and not config.usage.fix_second_infobar.value:
 				if not self.secondInfoBarWasShown:
 					self.show()
 				if self.secondInfoBarScreen:
 					self.secondInfoBarScreen.hide()
-				self.secondInfoBarWasShown = False
+					self.secondInfoBarWasShown = False
 				self.EventViewIsShown = False
+			elif self.__state == self.STATE_HIDDEN and config.usage.fix_second_infobar.value:
+				if not self.secondInfoBarWasShown:
+					self.hide()
+					self.secondInfoBarScreen.show()
+					self.secondInfoBarWasShown = True
+					self.startHideTimer()
+					self.EventViewIsShown = False
+				else:
+					self.secondInfoBarScreen.hide()
+					self.secondInfoBarWasShown = False
+					
 			elif isStandardInfoBar(self) and config.usage.show_second_infobar.value == "EPG":
 				self.showDefaultEPG()
 			elif isStandardInfoBar(self) and config.usage.show_second_infobar.value == "INFOBAREPG":
