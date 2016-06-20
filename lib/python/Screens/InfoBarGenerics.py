@@ -624,7 +624,7 @@ class InfoBarShowHide(InfoBarScreenSaver):
 				self.hideTimer.start(idx*1000, True)
 
 	def doShow(self):
-		if config.usage.fix_second_infobar.value:
+		if config.usage.fix_second_infobar.value and self.secondInfoBarScreen:
 			self.hide()
 			self.secondInfoBarScreen.show()
 			self.secondInfoBarWasShown = True
@@ -677,7 +677,7 @@ class InfoBarShowHide(InfoBarScreenSaver):
 		if not hasattr(self, "LongButtonPressed"):
 			self.LongButtonPressed = False
 		if not self.LongButtonPressed:
-			if self.__state == self.STATE_HIDDEN and not config.usage.fix_second_infobar.value:
+			if (self.__state == self.STATE_HIDDEN and not config.usage.fix_second_infobar.value) or (self.__state == self.STATE_HIDDEN and not self.secondInfoBarScreen):
 				if not self.secondInfoBarWasShown:
 					self.show()
 				if self.secondInfoBarScreen:
