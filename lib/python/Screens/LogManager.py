@@ -324,7 +324,7 @@ class LogManager(Screen):
 			self["LogsSize"].update(config.crash.debug_path.value)
 			
 	def sendlog_bh(self, addtionalinfo = None):
-		self.session.open(MessageBox, _("Sorry, due to spamming reasons the log sending is not available.\nPlease post your log @ vuplus-community.net."), MessageBox.TYPE_INFO)
+		self.session.open(MessageBox, _("Sorry due to spamming, log sending has been disabled.\nPlease post your log @ www.vuplus-community.net."), MessageBox.TYPE_INFO)
 
 	def sendlog(self, addtionalinfo = None):
 		try:
