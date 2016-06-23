@@ -1052,15 +1052,14 @@ class BhSpeedUp(Screen, ConfigListScreen):
 					self.mycmdlist.append("rm -rf /usr/local/hbb-browser")
 				elif cmd == "opkg remove --force-depends --force-remove enigma2-plugin-extensions-vuplus-kodi":
 					self.mycmdlist.append("rm -rf /usr/lib/enigma2/python/Plugins/Extensions/Kodi")
+					self.mycmdlist.append("opkg remove --force-depends --force-remove enigma2-plugin-extensions-subssupport")
 				elif cmd == "opkg remove --force-depends --force-remove enigma2-plugin-extensions-webkithbbtv":
 					self.mycmdlist.append("rm -rf /usr/lib/enigma2/python/Plugins/Extensions/WebkitHbbTV")
 					self.mycmdlist.append("opkg remove --force-depends --force-remove enigma2-plugin-extensions-chromium")
 					self.mycmdlist.append("rm -rf /usr/lib/enigma2/python/Plugins/Extensions/Chromium")
 				elif cmd == "opkg install enigma2-plugin-extensions-webkithbbtv":
 					self.mycmdlist.append("opkg install enigma2-plugin-extensions-chromium")
-									
-				
-			
+											
 
 		if len(self.mycmdlist) > 0:
 			self.session.open(Console, title=_("Black Hole Speed Up"), cmdlist=self.mycmdlist, finishedCallback = self.allDone)
