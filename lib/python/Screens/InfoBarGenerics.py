@@ -171,14 +171,17 @@ class InfoBarUnhandledKey:
 
 	#this function is called on every keypress!
 	def actionA(self, key, flag):
+		mkey = "unset"
 		try:
-			print '[InfoBarGenerics] KEY: %s %s' % (key,getKeyDescription(key)[0])
+			mkey = getKeyDescription(key)[0]
+			print '[InfoBarGenerics] KEY: %s %s' % (key,mkey)
 		except:
 			print '[InfoBarGenerics] KEY: %s' % key
 		self.unhandledKeyDialog.hide()
-		if self.closeSIB(key) and self.secondInfoBarScreen and self.secondInfoBarScreen.shown and not config.usage.fix_second_infobar.value:
-			self.secondInfoBarScreen.hide()
-			self.secondInfoBarWasShown = False
+		if self.closeSIB(key) and self.secondInfoBarScreen and self.secondInfoBarScreen.shown: 
+			if not config.usage.fix_second_infobar.value or mkey not in ("LEFT", "RIGHT", "BOUQUET+", "BOUQUET-"):
+				self.secondInfoBarScreen.hide()
+				self.secondInfoBarWasShown = False
 
 		if flag != 4:
 			if self.flags & (1<<1):
