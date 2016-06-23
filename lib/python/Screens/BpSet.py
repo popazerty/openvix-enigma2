@@ -1,5 +1,6 @@
 from Screens.Screen import Screen
 from Screens.MessageBox import MessageBox
+from Screens.Standby import TryQuitMainloop
 from Screens.VirtualKeyBoard import VirtualKeyBoard
 from Components.ActionMap import ActionMap
 from Components.Label import Label
