@@ -294,9 +294,9 @@ class SecondInfoBar(Screen):
 
 	def __Show(self):
 		if config.vixsettings.ColouredButtons.value:
-			self["key_yellow"].setText(_("Search"))
-		self["key_red"].setText(_("Similar"))
-		self["key_blue"].setText(_("Extensions"))
+			self["key_yellow"].setText(_("Audio Panel"))
+		self["key_red"].setText(_(" "))
+		self["key_blue"].setText(_("Blue Panel"))
 		self["SecondInfoBar"].doBind()
 		self.getEvent()
 
@@ -333,7 +333,7 @@ class SecondInfoBar(Screen):
 			if self.isRecording:
 				self["key_green"].setText("")
 			else:
-				self["key_green"].setText(_("Add timer"))
+				self["key_green"].setText(_("Green Panel"))
 			self.setEvent(self.event)
 
 	def getNowNext(self):
@@ -1482,7 +1482,7 @@ class InfoBarEPG:
 	def EPGPressed(self):
 		if isStandardInfoBar(self) or isMoviePlayerInfoBar(self):
 #			self.openGraphEPG()
-			self.openSingleServiceEPG()
+			self.openEventView()
 
 	def showEventInfoWhenNotVisible(self):
 		if self.shown:
