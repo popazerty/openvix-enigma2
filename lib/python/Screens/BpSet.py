@@ -958,8 +958,7 @@ class BhSpeedUp(Screen, ConfigListScreen):
 		self.pluglist = [
 		["DVDPlayer", "enigma2-plugin-extensions-dvdplayer"],
 		["Dlna Browser (Djmount Client)", "enigma2-plugin-extensions-dlnabrowser"],
-		["MiniDlna UPnP Server", "enigma2-plugin-extensions-dlnaserver"],
-		["OpenMultiBoot", "enigma2-plugin-extensions-openmultiboot"]
+		["MiniDlna UPnP Server", "enigma2-plugin-extensions-dlnaserver"]
 		]
 		
 		machine = self.nab_Detect_Machine()
