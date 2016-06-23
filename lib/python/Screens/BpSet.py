@@ -79,11 +79,17 @@ class DeliteSettings(Screen):
 		elif self.sel == 8:
 			self.session.open(DeliteInadyn)
 		elif self.sel == 9:
-			from Plugins.Extensions.DLNABrowser.plugin import DLNADeviceBrowser
-			self.session.open(DLNADeviceBrowser)
+			try:
+				from Plugins.Extensions.DLNABrowser.plugin import DLNADeviceBrowser
+				self.session.open(DLNADeviceBrowser)
+			except:
+				self.session.open(MessageBox, _("Dlna Browser not installed."), MessageBox.TYPE_INFO)
 		elif self.sel == 10:
-			from Plugins.Extensions.DLNAServer.plugin import DLNAServer
-			self.session.open(DLNAServer)
+			try: 
+				from Plugins.Extensions.DLNAServer.plugin import DLNAServer
+				self.session.open(DLNAServer)
+			except:
+				self.session.open(MessageBox, _("MiniDlna Server not installed."), MessageBox.TYPE_INFO)
 		elif self.sel == 11:
 			self.session.open(DeliteOpenvpn)
 		elif self.sel == 12:
@@ -958,15 +964,14 @@ class BhSpeedUp(Screen, ConfigListScreen):
 		self.pluglist = [
 		["DVDPlayer", "enigma2-plugin-extensions-dvdplayer"],
 		["Dlna Browser (Djmount Client)", "enigma2-plugin-extensions-dlnabrowser"],
-		["MiniDlna UPnP Server", "enigma2-plugin-extensions-dlnaserver"]
+		["MiniDlna UPnP Server", "enigma2-plugin-extensions-dlnaserver"],
 		]
 		
 		machine = self.nab_Detect_Machine()
 #		if machine != "vusolo4k":
 #			self.pluglist.append(["OpenMultiBoot", "enigma2-plugin-extensions-openmultiboot"])
 		
-		if machine == "vusolo2":
-			self.pluglist.append(["Web Manual (5.2 Mega)", "vuplus-manual"])
+		
 		if machine != "vusolo" and machine != "vusolo4k":
 			self.pluglist.append(["Opera browser & HbbTV", "enigma2-plugin-extensions-hbbtv"])
 		elif machine == "vusolo4k":
