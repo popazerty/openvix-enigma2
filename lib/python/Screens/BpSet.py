@@ -15,6 +15,8 @@ from os import system, remove as os_remove, rename as os_rename, popen, getcwd, 
 from Screens.Setup import Setup
 from Plugins.SystemPlugins.NetworkBrowser.NetworkBrowser import NetworkBrowser
 from Plugins.SystemPlugins.SoftwareManager.BackupRestore import BackupScreen
+from enigma import eTimer
+from Screens.Console import Console
 import process
 
 class DeliteSettings(Screen):
@@ -53,46 +55,48 @@ class DeliteSettings(Screen):
 		self.sel = self.sel[2]
 		
 		if self.sel == 0:
+			self.session.open(BhSpeedUp)
+		elif self.sel == 1:
 			from Screens.BpDevice import DeliteDevicesPanel
 			self.session.open(DeliteDevicesPanel)
-		elif self.sel == 1:
-			self.session.open(Setup, "usage")
 		elif self.sel == 2:
-			self.session.open(Setup, "userinterface")
+			self.session.open(Setup, "usage")
 		elif self.sel == 3:
+			self.session.open(Setup, "userinterface")
+		elif self.sel == 4:
 			from Screens.UserInterfacePositioner import UserInterfacePositioner
 			self.session.open(UserInterfacePositioner)
-		elif self.sel == 4:
+		elif self.sel == 5:
 			from Screens.UserInterfacePositioner import OSD3DSetupScreen
 			self.session.open(OSD3DSetupScreen)
-		elif self.sel == 5:
+		elif self.sel == 6:
 			from Screens.BpFormat import Bp_UsbFormat
 			self.session.open(Bp_UsbFormat)
-		elif self.sel == 6:
+		elif self.sel == 7:
 			from Screens.BpDevice import BlackPoleSwap
 			self.session.open(BlackPoleSwap)
-		elif self.sel == 7:
-			self.session.open(DeliteInadyn)
 		elif self.sel == 8:
+			self.session.open(DeliteInadyn)
+		elif self.sel == 9:
 			from Plugins.Extensions.DLNABrowser.plugin import DLNADeviceBrowser
 			self.session.open(DLNADeviceBrowser)
-		elif self.sel == 9:
+		elif self.sel == 10:
 			from Plugins.Extensions.DLNAServer.plugin import DLNAServer
 			self.session.open(DLNAServer)
-		elif self.sel == 10:
-			self.session.open(DeliteOpenvpn)
 		elif self.sel == 11:
-			self.session.open(Setup, "epgsettings")
+			self.session.open(DeliteOpenvpn)
 		elif self.sel == 12:
-			self.session.open(Setup, "recording")
+			self.session.open(Setup, "epgsettings")
 		elif self.sel == 13:
+			self.session.open(Setup, "recording")
+		elif self.sel == 14:
 			from Screens.RecordPaths import RecordPathsSettings
 			self.session.open(RecordPathsSettings)
-		elif self.sel == 14:
-			self.session.open(Setup, "subtitlesetup")
 		elif self.sel == 15:
-			self.session.open(Setup, "autolanguagesetup")
+			self.session.open(Setup, "subtitlesetup")
 		elif self.sel == 16:
+			self.session.open(Setup, "autolanguagesetup")
+		elif self.sel == 17:
 			self.session.open(BhNetBrowser)
 		
 		else:
@@ -109,122 +113,129 @@ class DeliteSettings(Screen):
 		if mypath == "/usr/share/enigma2/" or mypath == "/usr/share/enigma2/./":
 			mypath = "/usr/share/enigma2/skin_default/"
 		
-		mypixmap = mypath + "icons/infopanel_space.png"
+		mypixmap = mypath + "icons/infopanel_osd.png"
 		png = LoadPixmap(mypixmap)
-		name = _("Devices Manager")
+		name = _("Black Hole Speed Up")
 		idx = 0
 		res = (name, png, idx)
 		self.list.append(res)
 		
-		mypixmap = mypath + "icons/infopanel_osd.png"
+		mypixmap = mypath + "icons/infopanel_space.png"
 		png = LoadPixmap(mypixmap)
-		name = _("General settings")
+		name = _("Devices Manager")
 		idx = 1
 		res = (name, png, idx)
 		self.list.append(res)
 		
 		mypixmap = mypath + "icons/infopanel_osd.png"
 		png = LoadPixmap(mypixmap)
-		name = _("Osd settings")
+		name = _("General settings")
 		idx = 2
 		res = (name, png, idx)
 		self.list.append(res)
 		
 		mypixmap = mypath + "icons/infopanel_osd.png"
 		png = LoadPixmap(mypixmap)
-		name = _("Osd Position setup")
+		name = _("Osd settings")
 		idx = 3
 		res = (name, png, idx)
 		self.list.append(res)
 		
 		mypixmap = mypath + "icons/infopanel_osd.png"
 		png = LoadPixmap(mypixmap)
-		name = _("Osd 3D setup")
+		name = _("Osd Position setup")
 		idx = 4
+		res = (name, png, idx)
+		self.list.append(res)
+		
+		mypixmap = mypath + "icons/infopanel_osd.png"
+		png = LoadPixmap(mypixmap)
+		name = _("Osd 3D setup")
+		idx = 5
 		res = (name, png, idx)
 		self.list.append(res)
 		
 		mypixmap = mypath + "icons/infopanel_space.png"
 		png = LoadPixmap(mypixmap)
 		name = _("Usb Format Wizard")
-		idx = 5
+		idx = 6
 		res = (name, png, idx)
 		self.list.append(res)
 		
 		mypixmap = mypath + "icons/swapsettings.png"
 		png = LoadPixmap(mypixmap)
 		name = _("Swap File settings")
-		idx = 6
+		idx = 7
 		res = (name, png, idx)
 		self.list.append(res)
 		
 		mypixmap = mypath + "icons/inadynsettings.png"
 		png = LoadPixmap(mypixmap)
 		name = _("Inadyn")
-		idx = 7
-		res = (name, png, idx)
-		self.list.append(res)
-		
-		mypixmap = mypath + "icons/infopanel_samba.png"
-		png = LoadPixmap(mypixmap)
-		name = _("Dlna Client")
 		idx = 8
 		res = (name, png, idx)
 		self.list.append(res)
 		
 		mypixmap = mypath + "icons/infopanel_samba.png"
 		png = LoadPixmap(mypixmap)
-		name = _("Dlna Server")
+		name = _("Dlna Client")
 		idx = 9
 		res = (name, png, idx)
 		self.list.append(res)
 		
 		mypixmap = mypath + "icons/infopanel_samba.png"
 		png = LoadPixmap(mypixmap)
-		name = _("OpenVpn Panel")
+		name = _("Dlna Server")
 		idx = 10
 		res = (name, png, idx)
 		self.list.append(res)
 		
 		mypixmap = mypath + "icons/infopanel_samba.png"
 		png = LoadPixmap(mypixmap)
-		name = _("Internal Epg settings")
+		name = _("OpenVpn Panel")
 		idx = 11
+		res = (name, png, idx)
+		self.list.append(res)
+		
+		mypixmap = mypath + "icons/infopanel_samba.png"
+		png = LoadPixmap(mypixmap)
+		name = _("Internal Epg settings")
+		idx = 12
 		res = (name, png, idx)
 		self.list.append(res)
 		
 		mypixmap = mypath + "icons/infopanel_cron.png"
 		png = LoadPixmap(mypixmap)
 		name = _("Record settings")
-		idx = 12
+		idx = 13
 		res = (name, png, idx)
 		self.list.append(res)
 		
 #		mypixmap = mypath + "icons/infopanel_space.png"
 #		png = LoadPixmap(mypixmap)
 #		name = _("Recording paths")
-#		idx = 13
+#		idx = 14
 #		res = (name, png, idx)
 #		self.list.append(res)
 				
 		mypixmap = mypath + "icons/infopanel_kmod.png"
 		png = LoadPixmap(mypixmap)
 		name = _("Subtitle settings")
-		idx = 14
+		idx = 15
 		res = (name, png, idx)
 		self.list.append(res)
 		
 		mypixmap = mypath + "icons/inadynsettings.png"
 		png = LoadPixmap(mypixmap)
 		name = _("Auto language settings")
-		idx = 15
+		idx = 16
 		res = (name, png, idx)
 		self.list.append(res)
 		
 		mypixmap = mypath + "icons/mountwizard.png"
 		png = LoadPixmap(mypixmap)
 		name = _("Network Browser & Mountpoints")
-		idx = 16
+		idx = 17
 		res = (name, png, idx)
 		self.list.append(res)
 		
@@ -914,3 +925,155 @@ class BhBackupSettings(Screen):
 	def doIt(self):
 		self.session.open(BackupScreen, runBackup = True)
 		self["infotext"].setText(_("Backup Complete"))
+
+class BhSpeedUp(Screen, ConfigListScreen):
+	skin = """
+	<screen position="center,center" size="902,570" title="Black Hole Speed Up">
+		<widget name="lab1" position="10,10" size="882,60" font="Regular;20" valign="top" transparent="1"/>
+		<widget name="config" position="30,70" size="840,450" scrollbarMode="showOnDemand"/>
+		<ePixmap pixmap="skin_default/buttons/red.png" position="200,530" size="140,40" alphatest="on"/>
+		<ePixmap pixmap="skin_default/buttons/green.png" position="550,530" size="140,40" alphatest="on"/>
+		<widget name="key_red" position="200,530" zPosition="1" size="140,40" font="Regular;20" halign="center" valign="center" backgroundColor="#9f1313" transparent="1"/>
+		<widget name="key_green" position="550,530" zPosition="1" size="140,40" font="Regular;20" halign="center" valign="center" backgroundColor="#1f771f" transparent="1"/>
+	</screen>"""
+
+	def __init__(self, session, firstrun = False):
+		Screen.__init__(self, session)
+		
+		self.firstrun = firstrun
+		self.list = []
+		ConfigListScreen.__init__(self, self.list)
+		self["lab1"] = Label(_("Retrieving data ..."))
+		self["key_red"] = Label(_("Save"))
+		self["key_green"] = Label(_("Cancel"))
+		
+		self["actions"] = ActionMap(["WizardActions", "ColorActions"],
+		{
+			"red": self.saveMypoints,
+			"green": self.close,
+			"back": self.close
+
+		})
+		self.pluglist = [
+		["DVDPlayer", "enigma2-plugin-extensions-dvdplayer"],
+		["Dlna Browser (Djmount Client)", "enigma2-plugin-extensions-dlnabrowser"],
+		["MiniDlna UPnP Server", "enigma2-plugin-extensions-dlnaserver"],
+		["OpenMultiBoot", "enigma2-plugin-extensions-openmultiboot"]
+		]
+		
+		machine = self.nab_Detect_Machine()
+#		if machine != "vusolo4k":
+#			self.pluglist.append(["OpenMultiBoot", "enigma2-plugin-extensions-openmultiboot"])
+		
+		if machine == "vusolo2":
+			self.pluglist.append(["Web Manual (5.2 Mega)", "vuplus-manual"])
+		if machine != "vusolo" and machine != "vusolo4k":
+			self.pluglist.append(["Opera browser & HbbTV", "enigma2-plugin-extensions-hbbtv"])
+		elif machine == "vusolo4k":
+			self.pluglist.append(["Web Browser & HbbTV", "webkit-hbbtv-browser-vusolo4k"])
+			
+		if machine not in ("vusolo", "vuduo", "vuultimo", "vuuno", "vuzero"): 
+			self.pluglist.append(["Kodi", "enigma2-plugin-extensions-vuplus-kodi"])	
+			
+#		if machine == "vusolo" or machine == "bm750" or machine == "vuuno":
+#			self.pluglist.append(["Wmv, Wma, Asf media support", "gst-ffmpeg"])
+		
+		self.activityTimer = eTimer()
+		self.activityTimer.timeout.get().append(self.updateFeed2)
+		
+		self.updateFeed()
+	
+	def nab_Detect_Machine(self):
+		machine = "dm8000"
+		if fileExists("/etc/bpmachine"):
+			f = open("/etc/bpmachine",'r')
+			machine = f.readline().strip()
+			f.close()
+		return machine
+		
+	def updateFeed(self):
+		self.activityTimer.start(3)
+		
+	def updateFeed2(self):
+		self.activityTimer.stop()
+		if not fileExists("/var/volatile/tmp/official-all"):
+			ret = system("opkg update")
+		self.updateList()
+	
+	def updateList(self):
+		self.list = []
+		
+		if fileExists("/tmp/bhspeed.tmp"):
+			os_remove("/tmp/bhspeed.tmp")
+		
+		for plug in self.pluglist:
+			cmd = "opkg status %s >> /tmp/bhspeed.tmp" % (plug[1])
+			system(cmd)
+		
+		for plug in self.pluglist:
+			item = NoSave(ConfigSelection(default = "Enabled", choices = [("Enabled", _("Enabled")), ("Disabled", _("Disabled"))]))
+			installed = self.checkInst(plug[1])
+			if installed == True:
+				item.value = "Enabled"
+			else:
+				item.value = "Disabled"
+			
+			res = getConfigListEntry(plug[0], item)
+			self.list.append(res)
+		
+		self["config"].list = self.list
+		self["config"].l.setList(self.list)
+		
+		self["lab1"].setText(_("Please disable ALL the plugins you don't need to use.\nThis will Speed Up Image Performance."))
+		
+	def checkInst(self, name):
+		ret = False
+		f = open("/tmp/bhspeed.tmp",'r')
+		for line in f.readlines():
+			if line.find(name) != -1:
+				ret = True
+				break
+		f.close()
+		return ret
+		
+	def saveMypoints(self):
+		self.mycmdlist = []
+		for x in self["config"].list:
+			cmd = self.buildcoM(x[0], x[1].value)
+			if cmd != "":
+				self.mycmdlist.append(cmd)
+				if cmd == "opkg remove --force-depends --force-remove enigma2-plugin-extensions-hbbtv":
+					self.mycmdlist.append("opkg remove --force-depends --force-remove opera-hbbtv")
+					self.mycmdlist.append("rm -rf /usr/local/hbb-browser")
+					
+				
+			
+
+		if len(self.mycmdlist) > 0:
+			self.session.open(Console, title=_("Black Hole Speed Up"), cmdlist=self.mycmdlist, finishedCallback = self.allDone)
+		else:
+			self.close()
+		
+	def buildcoM(self, name, what):
+		cmd = ""
+		for plug in self.pluglist:
+			if plug[0] == name:
+				installed = self.checkInst(plug[1])
+				if what == "Enabled" and installed == False:
+					cmd = "opkg install %s" % (plug[1])
+				elif what == "Disabled" and installed == True:
+					cmd = "opkg remove --force-depends --force-remove %s" % (plug[1])
+				break
+		return cmd
+		
+		
+	def allDone(self):
+		if self.firstrun == True:
+			self.close()
+		else:
+			mybox = self.session.openWithCallback(self.hrestEn, MessageBox, _("Enigma2 will be now restarted for the changes to take effect.\nPress ok to continue"), MessageBox.TYPE_INFO)
+			mybox.setTitle(_("Info"))
+	
+	def hrestEn(self, answer):
+		self.session.open(TryQuitMainloop, 3)
+		
