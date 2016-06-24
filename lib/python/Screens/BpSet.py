@@ -1048,7 +1048,7 @@ class BhSpeedUp(Screen, ConfigListScreen):
 			if cmd != "":
 				self.mycmdlist.append(cmd)
 				if cmd == "opkg remove --force-depends --force-remove enigma2-plugin-extensions-hbbtv":
-					self.mycmdlist.append("opkg remove --force-depends --force-remove opera-hbbtv")
+					self.mycmdlist.append("opkg remove --force-depends --force-remove vuplus-opera-browser-util vuplus-opera-dumpait")
 #					self.mycmdlist.append("rm -rf /usr/local/hbb-browser")
 				elif cmd == "opkg remove --force-depends --force-remove enigma2-plugin-extensions-vuplus-kodi":
 					self.mycmdlist.append("rm -rf /usr/lib/enigma2/python/Plugins/Extensions/Kodi")
@@ -1061,9 +1061,11 @@ class BhSpeedUp(Screen, ConfigListScreen):
 					self.mycmdlist.append("opkg install enigma2-plugin-extensions-chromium")
 				elif cmd == "opkg install enigma2-plugin-extensions-hbbtv":
 					self.mycmdlist = []
-					self.mycmdlist.append("opkg install opera-hbbtv")
+#					self.mycmdlist.append("opkg install opera-hbbtv")
 					self.mycmdlist.append("opkg install enigma2-plugin-extensions-hbbtv")
-					
+		if self.mycmdlist:
+			self.mycmdlist.append("sleep 1")
+									
 											
 
 		if len(self.mycmdlist) > 0:
