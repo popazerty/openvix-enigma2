@@ -475,16 +475,16 @@ class DeliteInadyn(Screen):
 			f = open("/etc/inadyn.conf",'r')
  			for line in f.readlines():
 				line = line.strip()
-				if line.find('username ') != -1:
+				if line.startswith('username '):
 					line = line[9:]
 					self["labuser"].setText(line)
-				elif line.find('password ') != -1:
+				elif line.startswith('password '):
 					line = line[9:]
 					self["labpass"].setText(line)
-				elif line.find('alias ') != -1:
+				elif line.startswith('alias '):
 					line = line[6:]
 					self["labalias"].setText(line)
-				elif line.find('update_period_sec ') != -1:
+				elif line.startswith('update_period_sec '):
 					line = int(line[18:])
 					line = (line / 60)
 					self["labtime"].setText(str(line))
