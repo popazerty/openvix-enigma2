@@ -975,7 +975,7 @@ class BhSpeedUp(Screen, ConfigListScreen):
 		if machine != "vusolo" and machine != "vusolo4k":
 			self.pluglist.append(["Opera browser & HbbTV", "enigma2-plugin-extensions-hbbtv"])
 		elif machine == "vusolo4k":
-			self.pluglist.append(["Chromium Browser & HbbTV", "enigma2-plugin-extensions-webkithbbtv"])
+			self.pluglist.append(["Chromium Browser & HbbTV", "webkit-hbbtv-browser-vusolo4k"])
 			
 		if machine not in ("vusolo", "vuduo", "vuultimo", "vuuno", "vuzero"): 
 			self.pluglist.append(["Kodi", "enigma2-plugin-extensions-vuplus-kodi"])	
@@ -1053,11 +1053,11 @@ class BhSpeedUp(Screen, ConfigListScreen):
 				elif cmd == "opkg remove --force-depends --force-remove enigma2-plugin-extensions-vuplus-kodi":
 					self.mycmdlist.append("rm -rf /usr/lib/enigma2/python/Plugins/Extensions/Kodi")
 					self.mycmdlist.append("opkg remove --force-depends --force-remove enigma2-plugin-extensions-subssupport")
-				elif cmd == "opkg remove --force-depends --force-remove enigma2-plugin-extensions-webkithbbtv":
-					self.mycmdlist.append("rm -rf /usr/lib/enigma2/python/Plugins/Extensions/WebkitHbbTV")
-					self.mycmdlist.append("opkg remove --force-depends --force-remove enigma2-plugin-extensions-chromium")
+				elif cmd == "opkg remove --force-depends --force-remove webkit-hbbtv-browser-vusolo4k":
+					self.mycmdlist.append("opkg remove --force-depends --force-remove enigma2-plugin-extensions-chromium vuplus-webkithbbtv-dumpait enigma2-plugin-extensions-webkithbbtv")
 					self.mycmdlist.append("rm -rf /usr/lib/enigma2/python/Plugins/Extensions/Chromium")
-				elif cmd == "opkg install enigma2-plugin-extensions-webkithbbtv":
+					self.mycmdlist.append("rm -rf /usr/lib/enigma2/python/Plugins/Extensions/WebkitHbbTV")
+				elif cmd == "opkg install webkit-hbbtv-browser-vusolo4k":
 					self.mycmdlist.append("opkg install enigma2-plugin-extensions-chromium")
 				elif cmd == "opkg install enigma2-plugin-extensions-hbbtv":
 					self.mycmdlist = []
