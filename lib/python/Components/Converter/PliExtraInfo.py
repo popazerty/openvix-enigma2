@@ -34,7 +34,8 @@ class PliExtraInfo(Poll, Converter, object):
 			("0x4aee", "0x4aee", "BulCrypt", "BU", True  ),
 			("0x5581", "0x5581", "BulCrypt", "BU", False ),
 			("0x2600", "0x2600", "Biss",     "BI", True  ),			
-			( "0xe00",  "0xeff", "PowerVu",  "PV", True  )
+			( "0xe00",  "0xeff", "PowerVu",  "PV", True  ),
+			("0x1010", "0x1010", "Tandberg", "TD", True  )
 		)
 		self.ca_table = (
 			("CryptoCaidBetaAvailable",	"B",	False),
@@ -63,6 +64,7 @@ class PliExtraInfo(Poll, Converter, object):
 			("CryptoCaidBulCrypt2Selected",	"BU",	True),
 			("CryptoCaidBissSelected",	"BI",	True),
 			("CryptoCaidPowerVuSelected",	"PV",	True),
+			("CryptoCaidTandbergSelected",	"TD",	True),			
 		)
 		self.ecmdata = GetEcmInfo()
 		self.feraw = self.fedata = self.updateFEdata = None
@@ -247,6 +249,22 @@ class PliExtraInfo(Poll, Converter, object):
 		res = color + 'PV'
 		res += "\c00??????"
 		return res
+		
+	def createCryptoTandberg(self, info):
+		available_caids = info.getInfoObject(iServiceInformation.sCAIDs)
+		if int('0x1010', 16) <= int(self.current_caid, 16) <= int('0x1010', 16):
+			color="\c004c7d3f"
+		else:
+			color = "\c009?9?9?"
+			try:
+				for caid in available_caids:
+					if int('0x1010', 16) <= caid <= int('0x1010', 16):
+						color="\c00eeee00"
+			except:
+				pass
+		res = color + 'TD'
+		res += "\c00??????"
+		return res		
 
 	def createCryptoBeta(self, info):
 		available_caids = info.getInfoObject(iServiceInformation.sCAIDs)
@@ -662,6 +680,13 @@ class PliExtraInfo(Poll, Converter, object):
 				return self.createCryptoPowerVu(info)
 			else:
 				return ""
+				
+		if self.type == "CryptoTandberg":
+			if int(config.usage.show_cryptoinfo.value) > 0:
+				self.getCryptoInfo(info)
+				return self.createCryptoTandberg(info)
+			else:
+				return ""				
 
 		if self.type == "CryptoBulCrypt":
 			if int(config.usage.show_cryptoinfo.value) > 0:
