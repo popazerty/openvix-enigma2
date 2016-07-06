@@ -777,8 +777,8 @@ class DeliteOpenvpn(Screen):
 	def __init__(self, session):
 		Screen.__init__(self, session)
 		
-		self["lab1"] = Label(_(""))
-		self["lab1a"] = Label(_("OpenVPN Panel - by Black Hole Team."))
+		self["lab1"] = Label(_("      OpenVPN"))
+		self["lab1a"] = Label(_("Panel - by Black Hole Team"))
 		self["lab2"] = Label(_("Startup Module:"))
 		self["labactive"] = Label(_("Inactive"))
 		self["lab3"] = Label(_("Current Status:"))
