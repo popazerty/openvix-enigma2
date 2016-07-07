@@ -71,6 +71,7 @@
 		<item level="2" text="Close PiP on exit" description="When enabled, the PiP can be closed by the EXIT button.">config.usage.pip_hideOnExit</item>
 		<item level="2" text="Show VCR scart on main menu" description="When enabled, the VCR scart option will be shown in the main menu" requires="ScartSwitch">config.usage.show_vcr_scart</item>
 		<item level="1" text="Behavior of 0 key in PiP-mode" description="Choose what you want the '0' button to do when PIP is active.">config.usage.pip_zero_button</item>
+		<item level="2" text="Number of digits in channel number" description="This allows you to set the number of digits to 5, if you have more than 9999 channels.">config.usage.maxchannelnumlen</item>
 		<item level="1" text="History buttons mode" description="Configure the function of the &lt;  &gt; buttons.">config.usage.historymode</item>
 	</setup>
 	<setup key="channelselection" title="Channel selection settings">
