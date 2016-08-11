@@ -73,12 +73,13 @@ class ImageBackup(Screen):
 		
 		self["key_green"] = Button("USB")
 		self["key_red"] = Button("HDD")
-		self["key_blue"] = Button("Exit")
+		self["key_blue"] = Button(_("Exit"))
 		self["key_yellow"] = Button(_("Exit"))
 		self["info-usb"] = Label(_("USB = Do you want to make a USB backup ?\nThis will take between 4 and 15 minutes depending on the filesystem used and is fully automatic.\nMake sure you insert a USB flash drive before you select USB."))
 		self["info-hdd"] = Label(_("HDD = Do you want to make a backup image on your HDD ? \nThis will take between 2 and 10 minutes, and is fully automatic."))
 		self["actions"] = ActionMap(["OkCancelActions", "ColorActions"], 
 		{
+			"blue": self.quit,
 			"yellow": self.quit,
 			"green": self.green,
 			"red": self.red,
