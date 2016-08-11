@@ -36,7 +36,7 @@ class DeliteSettings(Screen):
 		</widget>
 	</screen>"""
 	
-	def __init__(self, session):
+	def __init__(self, session, menu_path=""):
 		Screen.__init__(self, session)
 		
 		self.list = []
@@ -263,7 +263,7 @@ class BhNetBrowser(Screen):
 		<widget name="key_yellow" position="440,480" zPosition="1" size="140,40" font="Regular;20" halign="center" valign="center" backgroundColor="#a08500" transparent="1" />
     	</screen>"""
 	
-	def __init__(self, session):
+	def __init__(self, session, menu_path=""):
 		Screen.__init__(self, session)
 		
 		self["key_red"] = Label(_("Select"))
@@ -308,7 +308,7 @@ class BhMinidlna(Screen):
 		<widget name="key_green" position="325,362" zPosition="1" size="150,25" font="Regular;20" halign="center" backgroundColor="transpBlack" transparent="1"/>
 	</screen>"""
 	
-	def __init__(self, session):
+	def __init__(self, session, menu_path=""):
 		Screen.__init__(self, session)
 		
 		mytext = _("Minidlna: UPnP media server Black Hole version.\nMinidlna is fully configured for your box and ready to work. Just enable it and play.\nMinidlna include little web interface.\n\nMinidlna webif url: http://ip_box:8200\nMinidlna config: /etc/minidlna.conf\nMinidlna home site: http://sourceforge.net/projects/minidlna/")
@@ -405,7 +405,7 @@ class DeliteInadyn(Screen):
 		<widget name="key_yellow" position="320,360" zPosition="1" size="140,40" font="Regular;20" halign="center" valign="center" backgroundColor="#a08500" transparent="1" />
 	</screen>"""
 	
-	def __init__(self, session):
+	def __init__(self, session, menu_path=""):
 		Screen.__init__(self, session)
 		
 		self["lab1"] = Label(_("Activate Inadyn"))
@@ -535,7 +535,7 @@ class DeliteInaSetup(Screen, ConfigListScreen):
 		<widget name="key_red" position="150,250" zPosition="1" size="140,40" font="Regular;20" halign="center" valign="center" backgroundColor="#9f1313" transparent="1" />
 	</screen>"""
 	
-	def __init__(self, session):
+	def __init__(self, session, menu_path=""):
 		Screen.__init__(self, session)
 		
 		self.list = []
@@ -730,7 +730,7 @@ class DeliteInaLog(Screen):
 		<widget name="infotext" position="10,10" size="420,280" font="Regular;18" />
 	</screen>"""
 	
-	def __init__(self, session):
+	def __init__(self, session, menu_path=""):
 		Screen.__init__(self, session)
 		
 		self["infotext"] = ScrollLabel("")
@@ -774,7 +774,7 @@ class DeliteOpenvpn(Screen):
 		<widget name="key_blue" position="420,260" zPosition="1" size="140,40" font="Regular;20" halign="center" valign="center" backgroundColor="#18188b" transparent="1" />
 	</screen>"""
 	
-	def __init__(self, session):
+	def __init__(self, session, menu_path=""):
 		Screen.__init__(self, session)
 		
 		self["lab1"] = Label(_("      OpenVPN"))
@@ -881,7 +881,7 @@ class DeliteVpnLog(Screen):
 		<widget name="infotext" position="10,10" size="540,380" font="Regular;18" />
 	</screen>"""
 	
-	def __init__(self, session):
+	def __init__(self, session, menu_path=""):
 		Screen.__init__(self, session)
 		
 		self["infotext"] = ScrollLabel("")
@@ -915,7 +915,7 @@ class BhBackupSettings(Screen):
 		<widget name="key_red" position="330,250" zPosition="1" size="140,40" font="Regular;20" halign="center" valign="center" backgroundColor="#9f1313" transparent="1" />
 	</screen>"""
 	
-	def __init__(self, session):
+	def __init__(self, session, menu_path=""):
 		Screen.__init__(self, session)
 		
 		msg = _("Backup your Settings.\n\nYou can setup backup location and backup files in Plugins -> Software management -> advanced.")
@@ -944,7 +944,7 @@ class BhSpeedUp(Screen, ConfigListScreen):
 		<widget name="key_green" position="550,530" zPosition="1" size="140,40" font="Regular;20" halign="center" valign="center" backgroundColor="#1f771f" transparent="1"/>
 	</screen>"""
 
-	def __init__(self, session, firstrun = False):
+	def __init__(self, session, firstrun = False, menu_path=""):
 		Screen.__init__(self, session)
 		
 		self.firstrun = firstrun

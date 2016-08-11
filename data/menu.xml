@@ -187,11 +187,11 @@ from Plugins.SystemPlugins.SoftwareManager.ImageBackup import ImageBackup
 self.session.open(ImageBackup)
 </code>
 		</item>	
-	<item weight="100" text="Settings Backup" entryID="blackhole_extra"><screen module="BpSet" screen="BhBackupSettings" /></item>	
+	<item weight="100" text="Settings Backup" entryID="blackhole_extra"><screen module="BpSet" screen="BhBackupSettings"/></item>	
 	</menu>		
 
 <!-- Menu / BH Apps -->
-		<item weight="4" text="Black Hole Apps" entryID="blackhole_extra"><screen module="BpSet" screen="DeliteSettings" /></item>
+		<item weight="4" text="Black Hole Apps" entryID="blackhole_extra"><screen module="BpSet" screen="DeliteSettings"/></item>
 
 <!-- Menu / Plugins -->		
 		<item weight="5" text="Plugins" entryID="plugin_selection"><screen module="PluginBrowser" screen="PluginBrowser"/></item>
