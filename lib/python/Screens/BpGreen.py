@@ -20,21 +20,21 @@ class DeliteGreenPanel(Screen):
 	<screen name="DeliteGreenPanel" position="center,center" size="1000,720" title="Black Hole Green Panel" flags="wfNoBorder">
 		<eLabel text="Black Hole Green Panel" position="80,30" size="800,38" font="Regular;34" halign="left" foregroundColor="#004c74" backgroundColor="transpBlack" transparent="1"/>
 		<widget source="list" render="Listbox" position="80,105" zPosition="1" size="840,500" scrollbarMode="showOnDemand"  transparent="1">
-             <convert type="TemplatedMultiContent">
-                 {"template": [
-                 MultiContentEntryText(pos = (125, 0), size = (650, 24), font=0, text = 0),
-                 MultiContentEntryText(pos = (125, 24), size = (650, 24), font=1, text = 1),
-                 MultiContentEntryPixmapAlphaTest(pos = (6, 5), size = (100, 40), png = 2),
-                 ],
-                 "fonts": [gFont("Regular", 24),gFont("Regular", 20)],
-                 "itemHeight": 50
-                 }
-             </convert>
-             </widget>
+			<convert type="TemplatedMultiContent">
+				{"template": [
+				MultiContentEntryText(pos = (125, 0), size = (650, 24), font=0, text = 0),
+				MultiContentEntryText(pos = (125, 24), size = (650, 24), font=1, text = 1),
+				MultiContentEntryPixmapAlphaTest(pos = (6, 5), size = (100, 40), png = 2),
+				],
+				"fonts": [gFont("Regular", 24),gFont("Regular", 20)],
+				"itemHeight": 50
+				}
+			</convert>
+		</widget>
 		<ePixmap position="88,650" size="140,40" pixmap="skin_default/buttons/red.png" alphatest="on" zPosition="1" />
-        <ePixmap position="316,650" size="140,40" pixmap="skin_default/buttons/green.png" alphatest="on" zPosition="1" />
-        <ePixmap position="544,650" size="140,40" pixmap="skin_default/buttons/yellow.png" alphatest="on" zPosition="1" />
-        <ePixmap position="772,650" size="140,40" pixmap="skin_default/buttons/blue.png" alphatest="on" zPosition="1" />
+		<ePixmap position="316,650" size="140,40" pixmap="skin_default/buttons/green.png" alphatest="on" zPosition="1" />
+		<ePixmap position="544,650" size="140,40" pixmap="skin_default/buttons/yellow.png" alphatest="on" zPosition="1" />
+		<ePixmap position="772,650" size="140,40" pixmap="skin_default/buttons/blue.png" alphatest="on" zPosition="1" />
 		<widget name="key_red" position="88,650" zPosition="2" size="140,40" font="Regular;24" halign="center" valign="center" backgroundColor="red" transparent="1" />
 		<widget name="key_green" position="316,650" zPosition="2" size="140,40" font="Regular;24" halign="center" valign="center" backgroundColor="green" transparent="1" />
 		<widget name="key_yellow" position="544,650" zPosition="2" size="140,40" font="Regular;24" halign="center" valign="center" backgroundColor="yellow" transparent="1" />
@@ -42,16 +42,16 @@ class DeliteGreenPanel(Screen):
 	</screen>"""
 	def __init__(self, session):
 		Screen.__init__(self, session)
-		
+
 		self["key_red"] = Label(_("Fast Plug. Setup"))
 		self["key_green"] = Label(_("Fast Plug"))
 		self["key_yellow"] = Label(_("Addons"))
 		self["key_blue"] = Label(_("Scripts"))
-		
+
 		self.list = []
 		self["list"] = List(self.list)
 		self.updateList()
-		
+
 		self["actions"] = ActionMap(["WizardActions", "ColorActions"],
 		{
 			"ok": self.runPlug,
@@ -61,13 +61,13 @@ class DeliteGreenPanel(Screen):
 			"yellow": self.keyYellow,
 			"blue": self.keyBlue
 		}, -1)
-			
+
 	def runPlug(self):
 		mysel = self["list"].getCurrent()
 		if mysel:
 			plugin = mysel[3]
 			plugin(session=self.session)
-		
+
 	def updateList(self):
 		self.list = [ ]
 		self.pluginlist = plugins.getPlugins(PluginDescriptor.WHERE_PLUGINMENU)
@@ -78,23 +78,23 @@ class DeliteGreenPanel(Screen):
 				png = plugin.icon
 			res = (plugin.name, plugin.description, png, plugin)
 			self.list.append(res)
-		
-		self["list"].list = self.list	
-	
+
+		self["list"].list = self.list
+
 	def keyYellow(self):
 		from Screens.BpAd import DeliteAddons
 		self.session.open(DeliteAddons)
-	
+
 	def keyRed(self):
 		self.session.open(DeliteSetupFp)
-		
+
 	def keyGreen(self):
 		runplug = None
 		for plugin in self.list:
 			if  plugin[3].name == config.misc.fast_plugin_button.value:
 				runplug = plugin[3]
 				break
-		
+
 		if runplug is not None:
 			runplug(session=self.session)
 		else:
@@ -112,7 +112,7 @@ class DeliteSetupFp(Screen):
 		<ePixmap pixmap="skin_default/buttons/red.png" position="115,320" size="140,40" alphatest="on" />
 		<widget name="key_red" position="115,320" zPosition="1" size="140,40" font="Regular;20" halign="center" valign="center" backgroundColor="#9f1313" transparent="1" />
 	</screen>"""
-	
+
 	def __init__(self, session):
 		Screen.__init__(self, session)
 		
@@ -120,14 +120,14 @@ class DeliteSetupFp(Screen):
 		self.list = []
 		self["list"] = List(self.list)
 		self.updateList()
-		
+
 		self["actions"] = ActionMap(["WizardActions", "ColorActions"],
 		{
 			"ok": self.save,
 			"back": self.close,
 			"red": self.save
 		}, -1)
-			
+
 	def updateList(self):
 		self.list = [ ]
 		self.pluginlist = plugins.getPlugins(PluginDescriptor.WHERE_PLUGINMENU)
@@ -138,9 +138,9 @@ class DeliteSetupFp(Screen):
 				png = plugin.icon
 			res = (plugin.name, plugin.description, png)
 			self.list.append(res)
-		
+
 		self["list"].list = self.list
-		
+
 	def save(self):
 		mysel = self["list"].getCurrent()
 		if mysel:
@@ -150,7 +150,6 @@ class DeliteSetupFp(Screen):
 			config.misc.fast_plugin_button.value = mysel[0]
 			config.misc.fast_plugin_button.save()
 			configfile.save()
-
 
 class DeliteScript(Screen):
 	skin = """
@@ -162,17 +161,17 @@ class DeliteScript(Screen):
 		<ePixmap pixmap="skin_default/buttons/red.png" position="210,360" size="140,40" alphatest="on" />
 		<widget name="key_red" position="210,360" zPosition="1" size="140,40" font="Regular;20" halign="center" valign="center" backgroundColor="#9f1313" transparent="1" />
 	</screen>"""
-	
+
 	def __init__(self, session):
 		Screen.__init__(self, session)
-		
+
 		self["statuslab"] = Label("N/A")
 		self["key_red"] = Label(_("Execute"))
 		self.mlist = []
 		self.populateSL()
 		self["list"] = List(self.mlist)
 		self["list"].onSelectionChanged.append(self.schanged)
-		
+
 		self["actions"] = ActionMap(["WizardActions", "ColorActions"],
 		{
 			"ok": self.myGo,
@@ -180,11 +179,11 @@ class DeliteScript(Screen):
 			"red": self.myGo
 		})
 		self.onLayoutFinish.append(self.refr_sel)
-		
+
 	def refr_sel(self):
 		self["list"].index = 1
 		self["list"].index = 0
-		
+
 	def populateSL(self):
 		myscripts = listdir("/usr/script")
 		for fil in myscripts:
@@ -198,7 +197,7 @@ class DeliteScript(Screen):
 						desc = line[13:]
 				f.close()
 				res = (fil2, desc)
-				self.mlist.append(res)			
+				self.mlist.append(res)
 
 	def schanged(self):
 		mysel = self["list"].getCurrent()
@@ -206,7 +205,6 @@ class DeliteScript(Screen):
 			mytext = " " + mysel[1]
 			self["statuslab"].setText(mytext)
 
-			
 	def myGo(self):
 		mysel = self["list"].getCurrent()
 		if mysel:
@@ -214,4 +212,3 @@ class DeliteScript(Screen):
 			mysel2 = "/usr/script/" + mysel + ".sh"
 			mytitle = _("Black Hole E2 Script: ") + mysel
 			self.session.open(Console, title=mytitle, cmdlist=[mysel2])
-
