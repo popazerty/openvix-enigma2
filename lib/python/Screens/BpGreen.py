@@ -73,7 +73,7 @@ class DeliteGreenPanel(Screen):
 		self.pluginlist = plugins.getPlugins(PluginDescriptor.WHERE_PLUGINMENU)
 		for plugin in self.pluginlist:
 			if plugin.icon is None:
-				png = LoadPixmap(resolveFilename(SCOPE_SKIN_IMAGE, "skin_default/icons/plugin.png"))
+				png = LoadPixmap(resolveFilename(SCOPE_CURRENT_SKIN, "skin_default/icons/plugin.png"))
 			else:
 				png = plugin.icon
 			res = (plugin.name, plugin.description, png, plugin)
@@ -133,7 +133,7 @@ class DeliteSetupFp(Screen):
 		self.pluginlist = plugins.getPlugins(PluginDescriptor.WHERE_PLUGINMENU)
 		for plugin in self.pluginlist:
 			if plugin.icon is None:
-				png = LoadPixmap(resolveFilename(SCOPE_SKIN_IMAGE, "skin_default/icons/plugin.png"))
+				png = LoadPixmap(resolveFilename(SCOPE_CURRENT_SKIN, "skin_default/icons/plugin.png"))
 			else:
 				png = plugin.icon
 			res = (plugin.name, plugin.description, png)
