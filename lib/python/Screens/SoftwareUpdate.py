@@ -156,10 +156,30 @@ class SoftwareUpdateChanges(Screen):
 		self.close(("menu", "menu"))
 
 class UpdatePlugin(Screen, ProtectedScreen):
-	def __init__(self, session, menu_path=""):
+	def __init__(self, session, *args):
 		Screen.__init__(self, session)
 		ProtectedScreen.__init__(self)
-		Screen.setTitle(self, _("Software Update"))
+		screentitle = _("Software Update")
+		self.menu_path = args[0]
+		if config.usage.show_menupath.value == 'large':
+			self.menu_path += screentitle
+			self.title = self.menu_path
+			self.menu_path_compressed = ""
+			self.menu_path += ' / '
+		elif config.usage.show_menupath.value == 'small':
+			self.title = screentitle
+			condtext = ""
+			if self.menu_path and not self.menu_path.endswith(' / '):
+				condtext = self.menu_path + " >"
+			elif self.menu_path:
+				condtext = self.menu_path[:-3] + " >"
+			self.menu_path_compressed = condtext
+			self.menu_path += screentitle + ' / '
+		else:
+			self.title = screentitle
+			self.menu_path_compressed = ""
+		self["menu_path_compressed"] = StaticText(self.menu_path_compressed)
+		Screen.setTitle(self, self.title)
 
 		self["actions"] = ActionMap(["WizardActions"],
 		{
@@ -326,7 +346,7 @@ class UpdatePlugin(Screen, ProtectedScreen):
 					choices.append((_("Update channel list only"), "channels"))
 					choices.append((_("Cancel"), ""))
 					self["actions"].setEnabled(True)
-					upgrademessage = self.session.openWithCallback(self.startActualUpgrade, ChoiceBox, title=message, list=choices, skin_name = "SoftwareUpdateChoices", var=self.trafficLight)
+					upgrademessage = self.session.openWithCallback(self.startActualUpgrade, ChoiceBox, title=message, list=choices, skin_name = "SoftwareUpdateChoices", var=self.trafficLight, menu_path=self.menu_path_compressed)
 					upgrademessage.setTitle(self.title)
 				else:
 					self["actions"].setEnabled(True)
