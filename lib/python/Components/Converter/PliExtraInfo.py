@@ -344,6 +344,8 @@ class PliExtraInfo(Poll, Converter, object):
 
 	def createCryptoNameCaid(self, info):
 		caid_name = "FTA"
+		if int(self.current_caid,16) == 0:
+			return caid_name
 		try:
 			for caid_entry in self.caid_data:
 				if int(caid_entry[0], 16) <= int(self.current_caid, 16) <= int(caid_entry[1], 16):
