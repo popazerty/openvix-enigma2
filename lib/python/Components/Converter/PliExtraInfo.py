@@ -343,7 +343,7 @@ class PliExtraInfo(Poll, Converter, object):
 		return ""
 
 	def createCryptoNameCaid(self, info):
-		caid_name = "FTA"
+		caid_name = "Free to Air"
 		if int(self.current_caid,16) == 0:
 			return caid_name
 		try:
