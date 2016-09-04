@@ -223,7 +223,6 @@ class MoviePlayer(InfoBarBase, InfoBarShowHide, InfoBarLongKeyDetection, InfoBar
 
 	def __init__(self, session, service, slist = None, lastservice = None):
 		Screen.__init__(self, session)
-
 		self["key_yellow"] = Label()
 		self["key_blue"] = Label()
 		self["key_green"] = Label()
@@ -266,7 +265,7 @@ class MoviePlayer(InfoBarBase, InfoBarShowHide, InfoBarLongKeyDetection, InfoBar
 	def doButtonsCheck(self):
 		if config.vixsettings.ColouredButtons.value:
 			self["key_yellow"].setText(_("Audio Panel"))
-			self["key_green"].setText(_("Green Panel"))
+#			self["key_green"].setText(_("Green Panel"))
 		self["key_blue"].setText(_("Blue Panel"))
 
 	def __onClose(self):
