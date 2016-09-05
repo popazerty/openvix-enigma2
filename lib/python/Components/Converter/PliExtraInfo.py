@@ -658,7 +658,7 @@ class PliExtraInfo(Poll, Converter, object):
 				self.getCryptoInfo(info)
 				return self.createCryptoTandberg(info)
 			else:
-				return ""				
+				return ""
 
 		if self.type == "CryptoVia":
 			if int(config.usage.show_cryptoinfo.value) > 0:
