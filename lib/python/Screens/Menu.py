@@ -9,11 +9,13 @@ from Components.config import config
 from Components.SystemInfo import SystemInfo
 
 from Tools.BoundFunction import boundFunction
-from Tools.Directories import resolveFilename, SCOPE_SKIN
+from Tools.Directories import resolveFilename, SCOPE_SKIN, fileExists
 
 import xml.etree.cElementTree
 
 from Screens.Setup import Setup, getSetupTitle
+
+mainmenu = _("Main menu")
 
 # read the menu
 file = open(resolveFilename(SCOPE_SKIN, 'menu.xml'), 'r')
@@ -215,6 +217,14 @@ class Menu(Screen, ProtectedScreen):
 
 		if menuID is not None:
 			# plugins
+			bhorder = []
+			if fileExists(resolveFilename(SCOPE_SKIN, 'menuorder.bh')):
+				file = open(resolveFilename(SCOPE_SKIN, 'menuorder.bh'), 'r')
+				for line in file.readlines():
+					parts = line.strip().split()
+					res = (parts[0], parts[1])
+					bhorder.append(res)
+					file.close()
 			for l in plugins.getPluginsForMenu(menuID):
 				# check if a plugin overrides an existing menu
 				plugin_menuid = l[2]
@@ -222,6 +232,11 @@ class Menu(Screen, ProtectedScreen):
 					if x[2] == plugin_menuid:
 						list.remove(x)
 						break
+					weight = l[3]
+					for y in bhorder:
+						if y[0] == plugin_menuid:
+							weight = y[1]	
+						break							
 				if len(l) > 4 and l[4]:
 					list.append((l[0], boundFunction(l[1], self.session, self.close), l[2], l[3] or 50))
 				else:
