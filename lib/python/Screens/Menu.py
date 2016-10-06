@@ -225,6 +225,7 @@ class Menu(Screen, ProtectedScreen):
 					res = (parts[0], parts[1])
 					bhorder.append(res)
 					file.close()
+					
 			for l in plugins.getPluginsForMenu(menuID):
 				# check if a plugin overrides an existing menu
 				plugin_menuid = l[2]
@@ -235,8 +236,8 @@ class Menu(Screen, ProtectedScreen):
 					weight = l[3]
 					for y in bhorder:
 						if y[0] == plugin_menuid:
-							weight = y[1]	
-						break							
+							weight = y[1]
+							
 				if len(l) > 4 and l[4]:
 					list.append((l[0], boundFunction(l[1], self.session, self.close), l[2], weight or 50))
 				else:
