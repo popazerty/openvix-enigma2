@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: OpenBH 06.005\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-09-24 18:23+0100\n"
-"PO-Revision-Date: 2016-10-08 00:06+0100\n"
+"PO-Revision-Date: 2016-10-17 00:46+0100\n"
 "Last-Translator: shimano\n"
 "Language-Team: BH Team\n"
 "Language: pt_PT\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.8.8\n"
+"X-Generator: Poedit 1.8.10\n"
 
 msgid ""
 "\n"
@@ -210,7 +210,7 @@ msgstr[1] "%d trabalhos a decorrer em segundo plano!"
 
 #, python-format
 msgid "%d jobs are running in the background!"
-msgstr "%d tarefas estão a decorrer em sgundo plano!"
+msgstr "%d tarefas estão a decorrer em segundo plano!"
 
 #, python-format
 msgid "%d kB"
@@ -656,7 +656,7 @@ msgid "Add"
 msgstr "Adicionar"
 
 msgid "Add AutoTimer"
-msgstr "Adicionar AutoTimer"
+msgstr "Adic. AutoTimer"
 
 msgid "Add Timer"
 msgstr "Adicionar Timer"
@@ -1313,7 +1313,7 @@ msgid "Changelog"
 msgstr "Registo de atividade"
 
 msgid "Channel"
-msgstr "Canal"
+msgstr "Canais"
 
 msgid "Channel Info"
 msgstr "Informação do Canal"
@@ -3546,7 +3546,7 @@ msgstr "Notícias/Atualidades"
 
 msgctxt "now/next: 'next' event label"
 msgid "Next"
-msgstr "Já a Seguir:"
+msgstr "Já a Seguir"
 
 msgid "No"
 msgstr "Não"
@@ -3778,7 +3778,7 @@ msgstr "Nada, abandonar só o Menu"
 
 msgctxt "now/next: 'now' event label"
 msgid "Now"
-msgstr "Em Exibição:"
+msgstr "Em Exibição"
 
 msgid "Now, use the contrast setting to turn up the brightness of the background as much as possible, but make sure that you can still see the difference between the two brightest levels of shades.If you have done that, press OK."
 msgstr "Agora, use a configuração do contraste para aumentar o brilho do fundo tanto quanto possível, mas certifique-se de que você ainda pode ver a diferença entre os dois níveis mais brilhantes de tons. Se você tiver feito isso, pressione OK."
@@ -4489,7 +4489,7 @@ msgid "Record time limited due to conflicting timer %s"
 msgstr "Tempo de gravação limitado devido a conflito %s"
 
 msgid "Recording"
-msgstr "A gravar"
+msgstr "Gravação e Reprodução"
 
 msgid "Recording and playback settings"
 msgstr "Definições gravação/reprodução"
@@ -5378,7 +5378,7 @@ msgid "Single"
 msgstr "Único"
 
 msgid "Single EPG"
-msgstr "EPG unico"
+msgstr "EPG único"
 
 msgid "Single satellite"
 msgstr "Só um Satelite"
@@ -6232,7 +6232,7 @@ msgid "Timer type"
 msgstr "Tipo de Timer"
 
 msgid "Timers"
-msgstr "Gestão de Timers"
+msgstr "Timers Adicionar ou Remover"
 
 msgid "Timeshift"
 msgstr "Timeshift"
@@ -8496,7 +8496,7 @@ msgid "OpenVPN setup"
 msgstr "OpenVPN Rede Privada Virtual"
 
 msgid "Plugins"
-msgstr "Gestão de Plugins"
+msgstr "Plugins Adicionar ou Remover "
 
 msgid "Position setup"
 msgstr "Ajustar tamanho do Ecrã"
@@ -10337,3 +10337,237 @@ msgstr "Espere por favor! Ligação em execução ..."
 
 msgid "Connection Established"
 msgstr "Ligação efetuada!..."
+
+msgid "Show transponder info"
+msgstr "Mostrar informação do transponder"
+
+msgid "Transponder Information"
+msgstr "Informação do transponder"
+
+msgid "Set as startup service"
+msgstr "Definir o serviço no arranque"
+
+msgid "Set startup service"
+msgstr "Definir o serviço no arranque?"
+
+msgid "Only on startup"
+msgstr "Sómente no arranque"
+
+msgid "Also on standby"
+msgstr "Também para Modo de Espera"
+
+msgid "Mark service as a dedicated 3D service"
+msgstr "Marcar o serviço como um serviço 3D dedicado"
+
+msgid "Hide dotted line on the top for this service"
+msgstr "Esconder a linha de pontos superior para este serviço"
+
+msgid "Remove 'Hide dotted line on the top for this service'"
+msgstr "Remover 'Esconder a linha de pontos para este serviço'"
+
+msgid "Add service to bouquet"
+msgstr "Adicionar serviço ao bouquet"
+
+msgid "Play as picture in picture"
+msgstr "Reproduzir como imagem na imagem (PIP)"
+
+msgid "Find currently played service"
+msgstr "Encontrar o serviço em reprodução"
+
+msgid "Rename entry"
+msgstr "Renomear entrada"
+
+msgid "Please enter a new name:"
+msgstr "Escreva outro nome:"
+
+msgid "Remove entry"
+msgstr "Remover entrada"
+
+msgid "Are you sure you want to remove this entry?"
+msgstr "Tem a certeza, que quer remover esta entrada?"
+
+msgid "Enable move mode"
+msgstr "Ativar o modo de mover serviços"
+
+msgid "Add marker"
+msgstr "Adicionar marcador"
+
+msgid "markername"
+msgstr "nome do marcador"
+
+msgid "Enable bouquet edit"
+msgstr "Ativar a edição de bouquets"
+
+msgid "Add alternatives"
+msgstr "Adicionar alternativos"
+
+msgid "Edit alternatives"
+msgstr "Editar alternativos"
+
+msgid "Show alternatives"
+msgstr "Mostrar alternativos"
+
+msgid "Remove all alternatives"
+msgstr "Remover todos os alternativos"
+
+msgid "Jump first press in channel selection"
+msgstr "Saltar 'pressão leve' na seleção de canais"
+
+msgid "Show crypto icons"
+msgstr "Mostrar icons de serviço codificado"
+
+msgid "Configure if and how crypto icons will be shown in the channel selection list"
+msgstr "Configurar se e como os ícones de codificação serão mostrados na lista de seleção de canais"
+
+msgid "This option allows you to choose what the first button press jumps to in channel list screen, (so pressing '2' jumps to 'A' or '2' first), when 'Quick Actions' preset actions are performed"
+msgstr "Esta opção permite que escolha o que pressionar a tecla salta no écran de lista de canal, (então pressione '2' salta para 'A' ou '2' primeiro), quando são realizadas ações predefinidas 'Ações rápidas'"
+
+msgid "HDMI Colorspace"
+msgstr "Espaço de cor HDMI"
+
+msgid "This option allows you to change the Colorspace from Auto ro Rgb"
+msgstr "Esta opção permite-lhe mudar o Espaço de cor de Auto para Rgb"
+
+msgid "Auto Volume Level"
+msgstr "Nível de volume automático"
+
+msgid "This option configures output for Auto Volume Level."
+msgstr "Esta opção configura a saída para nível de volume automático."
+
+msgid "Enable fallback remote receiver"
+msgstr "Habilitar recursos no receptor remoto"
+
+msgid "Fallback remote receiver URL"
+msgstr "URL dos recursos no receptor remoto"
+
+msgid "Fallback remote receiver streaming port"
+msgstr "Porta de transmissão dos recursos no receptor remoto"
+
+msgid "Enable timer conflict detection"
+msgstr "Habilitar deteção de conflitos de Timer"
+
+msgid "Preferred tuner DVB-S"
+msgstr "Tuner DVB-S preferido"
+
+msgid "Preferred tuner for recordings"
+msgstr "Tuner preferido para gravações"
+
+msgid "Preferred tuner DVB-S for recordings"
+msgstr "Tuner DVB-S preferido para gravações"
+
+msgid "Descramble sending http streams"
+msgstr "Descodificar ao enviar transmissões http"
+
+msgid "Descramble receiving http streams"
+msgstr "Descodificar ao receber transmissões http"
+
+msgid "Require authentication for http streams"
+msgstr "Requere autenticação para transmissões http"
+
+msgid "Load unlinked userbouquets"
+msgstr "Carregar bouquets do utilizador desligados"
+
+msgid "Enable parental protection"
+msgstr "Habilitar proteção paternal"
+
+msgid "Please enter the new Pin code"
+msgstr "Por favor introduza o novo código Pin"
+
+msgid ""
+"When you perform a factory reset, you will lose ALL of your configuration data\n"
+"(including bouquets, services, satellite data ...)\n"
+"After completion of the factory reset, your %s %s will restart automatically!\n"
+"\n"
+"Do you really want to do a factory reset?"
+msgstr ""
+"Quando executar um reset de fábrica, vai perder TODA a configuração\n"
+"(incluindo bouquets, serviços, posições de satélite...) \n"
+"Após a conclusão do reset de fábrica, a sua %s %s reiniciará automaticamente! \n"
+"\n"
+"Pretende, mesmo assim, fazer um reset de fábrica?"
+
+msgid "Load-Save-Delete"
+msgstr "Carregar-Guardar-Apagar"
+
+msgid "Delete EPG"
+msgstr "Apagar EPG"
+
+msgid "EPG-Importer"
+msgstr "Importador EPG"
+
+msgid "Smooth"
+msgstr "Suavidade"
+
+msgid "Show warning when in a stream"
+msgstr "Mostrar aviso quando em transmissão"
+
+msgid "Rewrap subtitles"
+msgstr "Reacondicionar legendas"
+
+msgid "Show background behind subtitles"
+msgstr "Mostrar fundo atrás das legendas"
+
+msgid "External subtitle switch fonts"
+msgstr "Mudar fonte nas legendas externas"
+
+msgid "External subtitle dialog colorisation"
+msgstr "Colorir legendas externas nos diálogos"
+
+msgid "Subtitle"
+msgstr "Legendas"
+
+msgid "Customise"
+msgstr "Customizar"
+
+msgid "Convert"
+msgstr "Converter"
+
+msgid "Installation Confirm"
+msgstr "Confirmação de Instalação"
+
+msgid ""
+"Do you want to install the Addon:\n"
+" "
+msgstr ""
+"Quer instalar o Addon:\n"
+" "
+
+msgid "Ipk Package Installation"
+msgstr "Instalação de Pacotes Ipk"
+
+msgid "Here you can install any ipk packages."
+msgstr "Aqui poderá instalar quaisquer pacotes Ipk."
+
+msgid ""
+"Gui will now restart to complete the package installation.\n"
+"Press ok to continue"
+msgstr ""
+"GUI irá agora reiniciar para concluir a instalação do pacote.\n"
+"Pressione OK para continuar"
+
+msgid ""
+"Nothing to install.\n"
+"You have to Upload a bh.tgz package in the /tmp directory before you can install Addons"
+msgstr ""
+"Nada a instalar. \n"
+"Tem de carregar um pacote 'bh.tgz' no diretório /tmp, antes que possa instalar os Addons"
+
+msgid ""
+"Nothing to install.\n"
+"You have to Upload an ipk package in the /tmp directory before you can install Addons"
+msgstr ""
+"Nada a instalar. \n"
+"Tem de carregar um pacote 'ipk' no diretório /tmp, antes que possa instalar os Addons"
+
+msgid "Do you want to update Black Hole image?"
+msgstr "Quer atualizar a imagem Open Black Hole?"
+
+msgid "Addon Succesfully Installed."
+msgstr "Addon instalado com sucesso."
+
+msgid ""
+"Addon Succesfully Removed. Gui will now restart for the changes to take effect.\n"
+"Press ok to continue"
+msgstr ""
+"Addon removido com sucesso. Gui reiniciará para que as alterações produzam efeito.\n"
+"Prima OK para continuar"
