@@ -1,10 +1,14 @@
+# Copyright (C) 2012 THE enigma2'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the enigma2 package.
+# Automatically generated, 2012.
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: OpenBH 06.005\n"
+"Project-Id-Version: OpenBH 06.010\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-09-24 18:23+0100\n"
-"PO-Revision-Date: 2016-10-17 00:46+0100\n"
-"Last-Translator: shimano\n"
+"PO-Revision-Date: 2016-10-24 23:58+0100\n"
+"Last-Translator: nunigaia\n"
 "Language-Team: BH Team\n"
 "Language: pt_PT\n"
 "MIME-Version: 1.0\n"
@@ -12,7 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.8.10\n"
+"X-Generator: Poedit 1.8.11\n"
 
 msgid ""
 "\n"
@@ -869,7 +873,7 @@ msgid "Are you sure you want to exit this wizard?"
 msgstr "Tem a certeza que quer sair deste assistente?"
 
 msgid "Are you sure you want to reload the EPG data from:\n"
-msgstr "Tem certeza que deseja excluir os dados EPG de:\n"
+msgstr "Tem a certeza que deseja recarregar os dados EPG de:\n"
 
 msgid ""
 "Are you sure you want to restart your network interfaces?\n"
@@ -900,7 +904,7 @@ msgstr ""
 "O receptor será reiniciado após o backup ser restaurado!"
 
 msgid "Are you sure you want to save the EPG Cache to:\n"
-msgstr "Tem certeza que deseja guardar a Cache EPG para:\n"
+msgstr "Tem certeza que deseja guardar a Cache EPG em:\n"
 
 msgid "Are you sure you want to send this log:\n"
 msgstr "Tem a certeza que deseja enviar este log:\n"
@@ -1000,7 +1004,7 @@ msgid "Autostart"
 msgstr "Início automático"
 
 msgid "Autostart:"
-msgstr "Início automático:"
+msgstr "Início auto:"
 
 msgid "AV settings"
 msgstr "Definições de Áudio e Vídeo"
@@ -1081,10 +1085,10 @@ msgid "Block noise reduction"
 msgstr "Bloquear a redução de ruído"
 
 msgid "Blue"
-msgstr "azul"
+msgstr "Blue"
 
 msgid "Blue button..."
-msgstr "Tecla azul..."
+msgstr "Blue button..."
 
 msgid "Bookmarks"
 msgstr "Indicadores"
@@ -1102,7 +1106,7 @@ msgid "Brightness"
 msgstr "Brilho"
 
 msgid "Buffers:"
-msgstr "Memória Intermédia:"
+msgstr "Buffers:"
 
 #, python-format
 msgid "Build:\t%s"
@@ -1492,14 +1496,14 @@ msgstr "Complexo (permite misturar faixas de audio e aspetos)"
 
 #, python-format
 msgid "Configfile %s saved."
-msgstr "Configfile %s guardado."
+msgstr "Config file %s guardado."
 
 msgid "Configuration mode"
-msgstr "Modo de Configuração"
+msgstr "Modo Configuração"
 
 #, python-format
 msgid "Configuration mode: %s"
-msgstr "Modo de Configuração %s"
+msgstr "Modo de Configuração: %s"
 
 msgid "Configure remote control type"
 msgstr "Configurar o tipo de telecomando"
@@ -1577,7 +1581,7 @@ msgid "Convert ext3 to ext4"
 msgstr "Converter ext3 em ext4"
 
 msgid "Convert filesystem ext3 to ext4"
-msgstr "Converte o sitema de Arquivos ext3 em ext4"
+msgstr "Converter Sistema ext3 em ext4"
 
 msgid "Converting ext3 to ext4..."
 msgstr "A Converter ext3 em ext4..."
@@ -1644,7 +1648,7 @@ msgid "Creating directory %s failed."
 msgstr "A criação da pasta %s falhou."
 
 msgid "Creating filesystem"
-msgstr "Criando sistema de Arquivos"
+msgstr "Criando sistema de ficheiros"
 
 msgid "Creating partition"
 msgstr "Criando partição"
@@ -1912,7 +1916,7 @@ msgid "Disable timer"
 msgstr "Desativar timer"
 
 msgid "Disabled"
-msgstr "Desativado"
+msgstr "Inativo"
 
 msgid "Disconnect"
 msgstr "Desconetar"
@@ -1939,14 +1943,14 @@ msgid ""
 "Do you really want to check the filesystem?\n"
 "This could take a long time!"
 msgstr ""
-"Deseja mesmo verificar o sistema de Arquivos?\n"
+"Deseja mesmo verificar o sistema de ficheiros?\n"
 "Pode levar algum tempo!!!"
 
 msgid ""
 "Do you really want to convert the filesystem?\n"
 "You cannot go back!"
 msgstr ""
-"Deseja mesmo converter o sistema de Arquivos?\n"
+"Deseja mesmo converter o sistema de ficheiros?\n"
 "Depois não pode voltar atrás!"
 
 #, python-format
@@ -2008,7 +2012,7 @@ msgid ""
 "This allows you to mount your windows shares on this device."
 msgstr ""
 "Você quer instalar também o cliente samba?\n"
-"Isso permite que você monte seus compartilhamentos windows neste dispositivo."
+"Isso permite que monte seus compartilhamentos windows neste dispositivo."
 
 msgid ""
 "Do you want to attach a text file to explain the log ?\n"
@@ -2218,7 +2222,7 @@ msgid "Enable parental control"
 msgstr "Ativar o Controlo Paternal"
 
 msgid "Enabled"
-msgstr "Permitido"
+msgstr "Ativo"
 
 msgid "Encrypted: "
 msgstr "Encriptado:"
@@ -2411,9 +2415,6 @@ msgid "Failed to write /tmp/positionersetup.log: "
 msgstr "Falhou o registo de  /tmp/positionersetup.log: "
 
 #, python-format
-msgid "Fan %d"
-msgstr "Ventilador %d"
-
 msgid "Fast"
 msgstr "Rápido"
 
@@ -2440,7 +2441,7 @@ msgstr ""
 "Por favor insira o username/senha manualmente."
 
 msgid "Filesystem Check"
-msgstr "Verificação do sistema de Arquivos"
+msgstr "Verificação do sistema de ficheiros"
 
 msgid "Final position at"
 msgstr "Posição final em"
@@ -2494,10 +2495,10 @@ msgid "Frame size in full view"
 msgstr "Tamanho da janela em ecrã total"
 
 msgid "Free Memory:"
-msgstr "Memória Livre:"
+msgstr "Memória livre:"
 
-msgid "Free Swap:"
-msgstr "Permuta Livre:"
+msgid "Free swap:"
+msgstr "Swap livre:"
 
 msgid "Free To Air"
 msgstr "FTA-Canais Livres"
@@ -2509,7 +2510,7 @@ msgid "Free memory:"
 msgstr "Memória Livre:"
 
 msgid "Free:"
-msgstr "Livre:"
+msgstr "Livre: "
 
 msgid "French"
 msgstr "Francês"
@@ -2787,10 +2788,10 @@ msgid "Idle Time: "
 msgstr "Tempo de ocupado:"
 
 msgid "If enabled the output resolution of the box will try to match the resolution of the video contents resolution"
-msgstr "Se ativado a resolução de saída vai tentar corresponder à resolução do conteúdo de vídeo"
+msgstr "Se ativo a resolução de saída vai tentar corresponder à resolução do conteúdo de vídeo"
 
 msgid "If enabled the video will always be de-interlaced."
-msgstr "Se habilitado o vídeo será sempre progressivo."
+msgstr "Se ativo o vídeo será sempre progressivo."
 
 msgid ""
 "If you see this, something is wrong with\n"
@@ -3082,7 +3083,7 @@ msgid "Leave DVD player?"
 msgstr "Sair do Leitor DVD?"
 
 msgid "Left"
-msgstr "Esquerda"
+msgstr "Left"
 
 msgid "Left from servicename"
 msgstr "Esquerda do nome do serviço"
@@ -3110,7 +3111,7 @@ msgid "Limits cancelled"
 msgstr "Limites cancelados"
 
 msgid "Limits enabled"
-msgstr "Limites ativados"
+msgstr "Limites ativos"
 
 msgid "Limits off"
 msgstr "Desligar limites"
@@ -3313,13 +3314,6 @@ msgstr "Modo [ Configuração de satélite]"
 msgctxt "Video output mode"
 msgid "Mode"
 msgstr "Modo [ Saída de Vídeo ]"
-
-#, python-format
-msgid "Model:\t%s %s\n"
-msgstr "Modelo:\t%s %s\n"
-
-msgid "Model: "
-msgstr "Modelo:"
 
 msgid "Modulation"
 msgstr "Modulação"
@@ -3707,7 +3701,7 @@ msgstr ""
 "Por favor verifique se o adptador é compativél e se a rede está bem configurada."
 
 msgid "No, but restart from begin"
-msgstr "Não, mas reinicia do início"
+msgstr "Não, mas reinicia do princípio"
 
 msgid "No, never"
 msgstr "Não, nunca"
@@ -3781,7 +3775,7 @@ msgid "Now"
 msgstr "Em Exibição"
 
 msgid "Now, use the contrast setting to turn up the brightness of the background as much as possible, but make sure that you can still see the difference between the two brightest levels of shades.If you have done that, press OK."
-msgstr "Agora, use a configuração do contraste para aumentar o brilho do fundo tanto quanto possível, mas certifique-se de que você ainda pode ver a diferença entre os dois níveis mais brilhantes de tons. Se você tiver feito isso, pressione OK."
+msgstr "Agora, use a configuração do contraste para aumentar o brilho do fundo tanto quanto possível, mas certifique-se de que ainda pode ver a diferença entre os dois níveis mais brilhantes de tons. Se tiver feito isso, pressione OK."
 
 msgid "Number"
 msgstr "Número"
@@ -3817,7 +3811,7 @@ msgid "On end of movie"
 msgstr "Quando terminar o filme"
 
 msgid "On reaching the end of a file during playback, you can choose the box's behavior."
-msgstr "Ao atingir o final do arquivo durante a reprodução, você pode escolher o que fazer."
+msgstr "Ao atingir o final do arquivo durante a reprodução, pode escolher o que fazer."
 
 msgid "Once per day"
 msgstr "Uma vez por dia"
@@ -3947,13 +3941,13 @@ msgid "Parental control type"
 msgstr "Tipo de Controlo Paternal"
 
 msgid "Password"
-msgstr "Palavra-Passe"
+msgstr "Senha"
 
 msgid "Password (httpwd)"
-msgstr "Palavra-Passe (httpwd)"
+msgstr "Senha (httpwd)"
 
 msgid "Password:"
-msgstr "Palavra Chave:"
+msgstr "Senha:"
 
 msgid "Pause"
 msgstr "Pausa"
@@ -4507,10 +4501,10 @@ msgid "Recordings"
 msgstr "Gravações"
 
 msgid "Red"
-msgstr "Vermelho"
+msgstr "Red"
 
 msgid "Red button..."
-msgstr "tecla vermelha..."
+msgstr "Red button..."
 
 msgid "Reduce time scale"
 msgstr "Reduz a escala de tempo"
@@ -4561,7 +4555,7 @@ msgstr "Lembrar do PIN do serviço"
 msgid "Remote box"
 msgstr "STB Remota"
 
-msgid "Remote Control System Code"
+msgid "Remote Control System Code "
 msgstr "Escolha do código do telecomando"
 
 msgid "Remove"
@@ -4715,7 +4709,7 @@ msgid "Reverse bouquet buttons"
 msgstr "Inverter teclas do bouquet"
 
 msgid "Right"
-msgstr "Direita"
+msgstr "Right"
 
 msgid "Right from servicename"
 msgstr "Direita do nome do serviço"
@@ -5396,7 +5390,7 @@ msgid "Site longitude"
 msgstr "Longitude Local"
 
 msgid "Size: "
-msgstr "Tamanho:"
+msgstr "Total: "
 
 msgid "Skin Setting"
 msgstr "Definição da Skin"
@@ -5760,9 +5754,6 @@ msgstr "Porta telnet"
 msgid "Telnet Setup"
 msgstr "Telnet Protocolo de Rede"
 
-msgid "Temperature and fan control"
-msgstr "Controlo da temperatura e da Fan"
-
 msgid "Terrestrial"
 msgstr "Terrestre"
 
@@ -5817,7 +5808,7 @@ msgid ""
 "The Filesystem on your Timeshift-Device does not support hardlinks.\n"
 "Make sure it is formatted in EXT2 or EXT3!"
 msgstr ""
-"O sistema de arquivos no seu dispositivo-Timeshift não suporta hardlinks.\n"
+"O sistema de ficheiros no seu dispositivo-Timeshift não suporta hardlinks.\n"
 "Certifique-se que está formatado em EXT2 ou EXT3!"
 
 msgid ""
@@ -5980,10 +5971,10 @@ msgid "This DVD RW medium is already formatted - reformatting will erase all con
 msgstr "Este DVD RW já está formatado - reformatar irá apagar todo o conteudo do disco."
 
 msgid "This allows you change the font size relative to skin size, so 1 increases by 1 point size, and -1 decreases by 1 point size"
-msgstr "Isst permite que você altere o tamanho da fonte em relação ao tamanho da skin, então 1 aumenta pelo tamanho do ponto 1, e -1 diminui em tamanho de 1 ponto"
+msgstr "Isto permite que altere o tamanho da fonte em relação ao tamanho da skin, então 1 aumenta pelo tamanho do ponto 1, e -1 diminui em tamanho de 1 ponto"
 
 msgid "This allows you to change the number of rows shown."
-msgstr "Isto permite que você altere o número de linhas exibidas."
+msgstr "Isto permite que altere o número de linhas exibidas."
 
 msgid "This option allows to reduce the block-noise in the picture. Obviously this is at the cost of the picture's sharpness."
 msgstr "Esta opção permite reduzir o bloco-ruído na foto. Obviamente isto é à custa de nitidez da imagem."
@@ -5992,34 +5983,34 @@ msgid "This option allows to set the level of dynamic contrast of the picture."
 msgstr "Esta opção permite definir o nível de contraste dinâmico da imagem."
 
 msgid "This option allows you to boost the blue tones in the picture."
-msgstr "Esta opção permite que você aumente os tons de azuis na imagem."
+msgstr "Esta opção permite que aumente os tons de azuis na imagem."
 
 msgid "This option allows you to boost the green tones in the picture."
-msgstr "Esta opção permite que você aumente os tons de verde na imagem."
+msgstr "Esta opção permite que aumente os tons de verde na imagem."
 
 msgid "This option allows you to bypass HDMI EDID check"
-msgstr "Esta opção permite você ignorar a verificação de HDMI EDID"
+msgstr "Esta opção permite ignorar a verificação de HDMI EDID"
 
 msgid "This option allows you to choose how to display 1080p 24Hz on your TV. (as not all TV's support these resolutions)"
-msgstr "Esta opção permite que você escolha como exibir 1080p 24 Hz na sua TV. (como nem todos da TV suportar estas resoluções)"
+msgstr "Esta opção permite que escolha como exibir 1080p 24 Hz na sua TV. (como nem todos da TV suportar estas resoluções)"
 
 msgid "This option allows you to choose how to display 1080p 25Hz on your TV. (as not all TV's support these resolutions)"
-msgstr "Esta opção permite que você escolha como exibir 1080p 25 Hz na sua TV. (como nem todos da TV suportar estas resoluções)"
+msgstr "Esta opção permite que escolha como exibir 1080p 25 Hz na sua TV. (como nem todos da TV suportar estas resoluções)"
 
 msgid "This option allows you to choose how to display 1080p 30Hz on your TV. (as not all TV's support these resolutions)"
-msgstr "Esta opção permite que você escolha como exibir 1080p 30 Hz na sua TV. (como nem todos da TV suportar estas resoluções)"
+msgstr "Esta opção permite que escolha como exibir 1080p 30 Hz na sua TV. (como nem todos da TV suportar estas resoluções)"
 
 msgid "This option allows you to choose how to display 720p 24Hz on your TV. (as not all TV's support these resolutions)"
-msgstr "Esta opção permite que você escolha como exibir 720p 24 Hz na sua TV. (como nem todos da TV suportar estas resoluções)"
+msgstr "Esta opção permite que escolha como exibir 720p 24 Hz na sua TV. (como nem todos da TV suportar estas resoluções)"
 
 msgid "This option allows you to choose how to display standard defintion video on your TV."
-msgstr "Esta opção permite que você escolha como exibir a definição padrão de vídeo na sua TV."
+msgstr "Esta opção permite que escolha como exibir a definição padrão de vídeo na sua TV."
 
 msgid "This option allows you to enable 3D Surround Sound."
-msgstr "Esta opção permite que você ative o som 3D Surround."
+msgstr "Esta opção permite que ative o som 3D Surround."
 
 msgid "This option allows you to view the old and new settings side by side."
-msgstr "Esta opção permite que você exibir as velhas configurações e novas lado a lado."
+msgstr "Esta opção permite que exibir as velhas configurações e novas lado a lado."
 
 msgid "This option configures the general audio delay of Dolby Digital sound tracks."
 msgstr "Esta opção configura o atraso de áudio geral de faixas de som Dolby Digital."
@@ -6043,7 +6034,7 @@ msgid "This option lets you choose the 3D mode"
 msgstr "Esta opção permite-lhe escolher o modo 3D"
 
 msgid "This option lets you show the option in the extension screen"
-msgstr "Esta opção permite que você mostre a opção no ecrã extensões"
+msgstr "Esta opção permite que mostre a opção no ecrã extensões"
 
 msgid "This option set the level of surpression of musquito noise (Musquito Noise is random aliasing as a result of strong compression). Obviously this goes at the cost of picture details."
 msgstr "Esta opção definir o nível de surpressão de ruído mosquito ( ruído Musquito é serrilhado aleatório como resultado de forte compressão ). Obviamente, à custa de detalhes da imagem."
@@ -6085,7 +6076,7 @@ msgstr ""
 "Este plugin cria um stick USB, que pode ser usado para atualizar o firmware da sua %s %s sem a necessidade de uma rede ou conexão de WLAN.\n"
 "Primeiro, um stick USB precisa estar preparado para que se torne bootável.\n"
 "Na próxima etapa, um arquivo de imagem NFI pode ser baixado do servidor de atualização e salvo na unidade USB.\n"
-"Se você já tem um pendrive inicializável preparada, por favor, insira-o agora. Caso contrário, conectar uma pendrive USB com um tamanho mínimo de 64 MB!"
+"Se já tem um pendrive inicializável preparada, por favor, insira-o agora. Caso contrário, conectar uma pendrive USB com um tamanho mínimo de 64 MB!"
 
 msgid "This plugin is installed."
 msgstr "Este plugin está instalado."
@@ -6106,9 +6097,9 @@ msgid ""
 "- if you configured your nameservers manually please verify your entries in the \"Nameserver\" configuration"
 msgstr ""
 "Este teste verifica para \"nameservers\" configurados.\n"
-"Se você receber uma mensagem \"não confirmado\":\n"
+"Se receber uma mensagem \"não confirmado\":\n"
 "- Verifique o DHCP, cabos e adaptador de configuração\n"
-"- Se você configurou os \"nameservers\"  manualmente verifique suas entradas na configuração \"Nameserver\""
+"- Se configurou os \"nameservers\"  manualmente verifique suas entradas na configuração \"Nameserver\""
 
 msgid ""
 "This test checks whether a network cable is connected to your LAN adapter.\n"
@@ -6117,7 +6108,7 @@ msgid ""
 "- verify that the cable is not broken"
 msgstr ""
 "Este teste verifica se um cabo de rede está conectado ao seu adaptador de LAN.\n"
-"Se você receber uma mensagem de \"desconectada\":\n"
+"Se receber uma mensagem de \"desconectada\":\n"
 "-verificar que um cabo de rede está conectado\n"
 "-verificar se o cabo não está danificado"
 
@@ -6128,7 +6119,7 @@ msgid ""
 "- please check your DHCP, cabling and adapter setup"
 msgstr ""
 "Este teste verifica se um endereço IP válido é encontrada para o adaptador LAN.\n"
-"Se você receber uma mensagem \"não confirmado\":\n"
+"Se receber uma mensagem \"não confirmado\":\n"
 "- Nenhum endereço IP válido foi encontrado\n"
 "- Verifique o DHCP, cabos e adaptador de configuração"
 
@@ -6141,11 +6132,11 @@ msgid ""
 "-verify that you have a configured and working DHCP server in your network."
 msgstr ""
 "Este teste verifica se o adaptador LAN está configurado para configuração automática de endereços IP com DHCP.\n"
-"Se você receber uma mensagem de \"desligado\":\n"
+"Se receber uma mensagem de \"desligado\":\n"
 "-então o adaptador LAN está configurado para configuração manual do IP\n"
-"-Verifique se você inseriu informações de IP corretas na caixa de diálogo de instalação do adaptador.\n"
-"Se você receber uma mensagem \"ativada\":\n"
-"-verificar se você tem um servidor DHCP configurado e a funcionar na sua rede."
+"-Verifique se inseriu informações de IP corretas na caixa de diálogo de instalação do adaptador.\n"
+"Se receber uma mensagem \"ativada\":\n"
+"-verificar se tem um servidor DHCP configurado e a funcionar na sua rede."
 
 msgid "This test detects your configured LAN adapter."
 msgstr "Este teste detecta o adaptador de LAN configurado."
@@ -6179,10 +6170,10 @@ msgid "Time"
 msgstr "Hora"
 
 msgid "Time Update in Minutes"
-msgstr "Tempo de atualização em minutos"
+msgstr "Tempo atualização em minutos"
 
 msgid "Time Update in Minutes:"
-msgstr "Tempo de atualização em minutos"
+msgstr "Tempo atualização (min):"
 
 msgid "Time to execute command or script"
 msgstr "Hora de executar o comando ou script"
@@ -6232,7 +6223,7 @@ msgid "Timer type"
 msgstr "Tipo de Timer"
 
 msgid "Timers"
-msgstr "Timers Adicionar ou Remover"
+msgstr "Timers"
 
 msgid "Timeshift"
 msgstr "Timeshift"
@@ -6315,11 +6306,11 @@ msgstr "Topo e Fundo"
 msgid "Total"
 msgstr "Total"
 
-msgid "Total Memory:"
-msgstr "Free Memory:"
+msgid "Total memory:"
+msgstr "Memória Total:"
 
-msgid "Total Swap:"
-msgstr "Trocas Totais:"
+msgid "Total swap:"
+msgstr "Swap total:"
 
 msgid "Total cards:"
 msgstr "Total cartões:"
@@ -6576,13 +6567,13 @@ msgid "Use slim screen"
 msgstr "Usar ecrã fino"
 
 msgid "Use the Left/Right buttons on your remote to adjust the size of the user interface. Left button decreases the size, Right increases the size."
-msgstr "Usar os botões esquerdo/direito no seu controle remoto para ajustar o tamanho da interface do usuário. O ESQUERDO diminui o tamanho, o DIREITO aumenta o tamanho."
+msgstr "Usar os botões esquerdo/direito do telecomando para ajustar o tamanho da interface do usuário. O ESQUERDO diminui o tamanho, o DIREITO aumenta o tamanho."
 
 msgid "Use the Left/Right buttons on your remote to move the user interface up/down"
-msgstr "Usar os botões esquerdo/direito no seu controle remoto para mover a interface de usuário para cima/para baixo"
+msgstr "Usar os botões esquerdo/direiro do telecomando para mover a interface de usuário para cima/para baixo"
 
-msgid "Use the Left/Right buttons on your remote to move the user inyterface left/right"
-msgstr "Use os botões esquerda/direita do telecomando para mover o interface do utilizador esquerda/direita"
+msgid "Use the Left/Right buttons on your remote to move the user interface left/right"
+msgstr "Use os botões esquerdo/direito do telecomando para mover o interface do utilizador esquerda/direita"
 
 msgid "Use the alternative screen"
 msgstr "Usar ecrã alternativo"
@@ -6877,7 +6868,7 @@ msgid ""
 msgstr ""
 "Bem-vindo ao editor de lista de cortes.\n"
 "\n"
-"Procura o início das cenas que você quer cortar. Pressione OK, selecione 'iniciar o corte'.\n"
+"Procura o início das cenas que quer cortar. Pressione OK, selecione 'iniciar o corte'.\n"
 "\n"
 "Em seguida, procurar o fim, pressione OK, selecione 'fim de corte. É isso."
 
@@ -6897,10 +6888,10 @@ msgid "What date of month ?"
 msgstr "Qual a data do mês ?"
 
 msgid "When enabled, content with an aspect ratio of 4:3 will be stretched to fit the screen."
-msgstr "Quando habilitado, o conteúdo com uma proporção de 4:3 vai ser esticado no ecrã."
+msgstr "Quando ativo, o conteúdo com uma proporção de 4:3 vai ser esticado no ecrã."
 
 msgid "When enabled, your receiver will detect activity on the VCR SCART input."
-msgstr "Quando habilitado, o receptor irá detectar atividade na entrada VCR SCART."
+msgstr "Quando ativo, o receptor irá detectar atividade na entrada VCR SCART."
 
 msgid "When set each folder will show the previous state used, when off the default values will be shown."
 msgstr "Ao definir cada pasta irá mostrar o estado anterior usado, quando desligada os valores padrão serão mostrados."
@@ -6922,7 +6913,7 @@ msgid ""
 "\n"
 "Really do a factory reset?"
 msgstr ""
-"Quando você faz um reset de fábrica, você vai perder todos os seus dados de configuração\n"
+"Quando faz um reset de fábrica, vai perder todos os seus dados de configuração\n"
 "(Incluindo bouquets, serviços, dados de satélite ...)\n"
 "Após a conclusão do restauro de fábrica, a sua% s% s irá reiniciar automáticamente!\n"
 "\n"
@@ -7378,7 +7369,7 @@ msgid "blacklist"
 msgstr "Lista negra"
 
 msgid "blue"
-msgstr "azul"
+msgstr "blue"
 
 msgid "broadcasting/press"
 msgstr "radiodifusão/imprensa"
@@ -7475,7 +7466,7 @@ msgid "disable move mode"
 msgstr "desativar modo deslocar"
 
 msgid "disabled"
-msgstr "desativado"
+msgstr "desativo"
 
 msgid "disconnected"
 msgstr "desconectado"
@@ -7529,7 +7520,7 @@ msgid "enable move mode"
 msgstr "ativar modo deslocar"
 
 msgid "enabled"
-msgstr "ativado"
+msgstr "ativo"
 
 msgid "end alternatives edit"
 msgstr "terminar edições alternativas"
@@ -7658,10 +7649,10 @@ msgid "grab this frame as bitmap"
 msgstr "usar este frame como bitmap"
 
 msgid "green"
-msgstr "verde"
+msgstr "green"
 
 msgid "green button"
-msgstr "tecla verde..."
+msgstr "green button"
 
 msgid "handicraft"
 msgstr "artesanato"
@@ -7722,7 +7713,7 @@ msgid "leave movie player..."
 msgstr "Sair do Leitor de Mídia"
 
 msgid "left"
-msgstr "esquerda"
+msgstr "left"
 
 msgid "leisure hobbies (general)"
 msgstr "Passatempos de lazer (geral)"
@@ -7956,7 +7947,7 @@ msgid "recording..."
 msgstr "A gravar ..."
 
 msgid "red"
-msgstr "vermelho"
+msgstr "red"
 
 msgid "religion"
 msgstr "religião"
@@ -8019,7 +8010,7 @@ msgid "rewind to the previous chapter"
 msgstr "voltar ao capítulo anterior"
 
 msgid "right"
-msgstr "direita"
+msgstr "right"
 
 msgid "rock/pop"
 msgstr "rock/pop"
@@ -8379,10 +8370,10 @@ msgid "working"
 msgstr "a trabalhar"
 
 msgid "yellow"
-msgstr "amarelo"
+msgstr "yellow"
 
 msgid "yellow button..."
-msgstr "tecla amarela..."
+msgstr "yellow button..."
 
 msgid "yes"
 msgstr "sim"
@@ -8439,7 +8430,7 @@ msgid "FTP setup"
 msgstr "FTP Protocolo de Rede"
 
 msgid "Filesystem check"
-msgstr "Verificação do sistema de Arquivos"
+msgstr "Verificação do sistema de ficheiros"
 
 msgid "HDMI CEC"
 msgstr "HDMI CEC"
@@ -8496,18 +8487,18 @@ msgid "OpenVPN setup"
 msgstr "OpenVPN Rede Privada Virtual"
 
 msgid "Plugins"
-msgstr "Plugins Adicionar ou Remover "
+msgstr "Plugins Gestão"
 
 msgid "Position setup"
 msgstr "Ajustar tamanho do Ecrã"
 
 msgid "PowerTimers"
-msgstr "Ligar/Desligar Timers"
+msgstr "Timers de Energia"
 
-msgid "Remote Control Code"
+msgid "Remote Control Code "
 msgstr "Código do Telecomando"
 
-msgid "Remote Control System Code "
+msgid "Remote Control System Code"
 msgstr "Código de Sistema do Telecomando"
 
 msgid "Restart"
@@ -8597,16 +8588,16 @@ msgid "Allows the %s %s to store the EPG data regularly."
 msgstr "Permite que a %s %s guarde a informção do EPG regularmente."
 
 msgid "Allows you to enable the debug logs. They contain very detailed information about everything the system does."
-msgstr "Permite que você habilite os logs de depuração. Eles contêm informações muito detalhadas sobre tudo que o sistema faz. "
+msgstr "Permite que habilite os logs de depuração. Eles contêm informações muito detalhadas sobre tudo que o sistema faz. "
 
 msgid "Allows you to enable/disable displaying icons on the front panel."
-msgstr "Permite que você ative/desative a exibição de ícones no painel frontal."
+msgstr "Permite que ative/desative a exibição de ícones no painel frontal."
 
 msgid "Allows you to send a copy of the log to yourself."
 msgstr "Permite-lhe enviar uma cópia do log para si mesmo."
 
 msgid "Allows you to set the maximum size (MB) of the individual debug logs. When that size is reached, a new file will be created."
-msgstr "Permite que você definia o tamanho máximo (MB) dos logs de depuração individual. Quando esse tamanho é atingido, um novo arquivo será criado."
+msgstr "Permite que defina o tamanho máximo (MB) dos logs de depuração individual. Quando esse tamanho é atingido, um novo arquivo será criado."
 
 msgid "Allows you to show/hide CCcam Info in extensions (blue button)."
 msgstr "Permite mostrar/ocultar CCcam Info  em extensões (tecla azul)."
@@ -8750,7 +8741,7 @@ msgid "Choose time interval to which the graphics will be rounded off."
 msgstr " Escolha o intervalo de tempo para os gráficos serem arredondados."
 
 msgid "Choose what you want the '0' button to do when PIP is active."
-msgstr "Escolha o que você deseja que a tecla '0'  faça, quando o PIP está ativo."
+msgstr "Escolha o que deseja que a tecla '0'  faça, quando o PIP está ativo."
 
 msgid "Choose whether or not to show an icon when a motorised dish is moving."
 msgstr "Escolha se quer ou não mostrar um ícone quando uma antena motorizada está a mover."
@@ -8780,7 +8771,7 @@ msgid "Configure duration of inactivity before the hard disk drive goes to stand
 msgstr "Configurar período de inatividade antes da unidade de disco rígido ir para o modo de espera"
 
 msgid "Configure for how many minutes finished events should remain visible in the EPG. Useful when you need information about an event which has just finished, or has been delayed."
-msgstr "Configurar por quantos minutos eventos acabados, devem permanecer visíveis no EPG. É útil quando você precisar de informações sobre um evento acabou de terminar, ou foi adiado."
+msgstr "Configurar por quantos minutos eventos acabados, devem permanecer visíveis no EPG. É útil quando precisar de informações sobre um evento que acabou de terminar, ou foi adiado."
 
 msgid "Configure how recording filenames are constructed."
 msgstr "Configurar como os nomes dos arquivos das gravação são construídos."
@@ -8801,7 +8792,7 @@ msgid "Configure the IP address."
 msgstr "Configure o Endereço IP"
 
 msgid "Configure the amount of time that will be presented."
-msgstr "Configurar a por quanto tempo vai ser apresentado."
+msgstr "Configurar por quanto tempo vai ser apresentado."
 
 msgid "Configure the behavior of the 'pause' key when movie playback is already paused."
 msgstr "Configurar o comportamento da tecla \"pausa\" quando a reprodução do filme já está em pausa."
@@ -8834,7 +8825,7 @@ msgid "Configure the contrast level of the front panel display."
 msgstr "Configurar o nível de contraste do visor do painel frontal."
 
 msgid "Configure the cursor behavior in the channel selection list. When opening the channel selection list you can remain on the current service or already select up/down and you are able to revert the B+/B- buttons."
-msgstr "Configurar o comportamento do cursor na lista de seleção de canais. Ao abrir a lista de seleção de canal que podem permanecer no serviço atual ou já seleccionar cima / baixo e você é capaz de reverter os botões B+/B-."
+msgstr "Configurar o comportamento do cursor na lista de seleção de canais. Ao abrir a lista de seleção de canal que podem permanecer no serviço atual ou já seleccionar cima / baixo e é capaz de reverter os botões B+/B-."
 
 msgid "Configure the duration (in minutes) for the screensaver."
 msgstr "Configurar a duração (em minutos) para o screensaver."
@@ -8873,10 +8864,10 @@ msgid "Configure the horizontal alignment of the subtitles."
 msgstr "Configurar o alinhamento horizonlal das legendas."
 
 msgid "Configure the initial fast forward speed. When you press the fast forward button, winding will start at this speed."
-msgstr "Configure a velocidade de avanço rápido inicial. Quando você pressiona a tecla de avanço rápido, iniciará a esta velocidade."
+msgstr "Configure a velocidade de avanço rápido inicial. Quando pressiona a tecla de avanço rápido, iniciará a esta velocidade."
 
 msgid "Configure the initial rewind speed. When you press the rewind button, rewinding will start at this speed."
-msgstr "Configure a velocidade inicial de rebobinar. Quando você pressiona a tecla de rebobinagem, começará a esta velocidade."
+msgstr "Configure a velocidade inicial de rebobinar. Quando pressiona a tecla de rebobinagem, começará a esta velocidade."
 
 msgid "Configure the latitude of your location."
 msgstr "Configure a latitude da sua localização."
@@ -8900,16 +8891,16 @@ msgid "Configure the number of days old timers are kept before they are automati
 msgstr "Configure o número de dias para manter os timers. Serão removidos automáticamente da lista de timers."
 
 msgid "Configure the number of rows shown."
-msgstr "Configure o Número de linhas exibidas."
+msgstr "Configure o número de linhas exibidas."
 
 msgid "Configure the offline decoding delay (in milliseconds). The configured delay is observed at each control word parity change."
 msgstr "Configure o atraso de decodificação off-line (em milissegundos). Observa-se o atraso configurado em cada mudança de paridade de palavra de controle."
 
 msgid "Configure the possible fast forward speeds."
-msgstr "Configure a Velocidade de avanço rápido"
+msgstr "Configure a velocidade de avanço rápido"
 
 msgid "Configure the possible rewind speeds."
-msgstr "Configure a Velocidade de retrocesso rápido"
+msgstr "Configure a velocidade de retrocesso rápido"
 
 msgid "Configure the primary EPG language."
 msgstr "Configure o idioma primário do EPG."
@@ -9131,7 +9122,7 @@ msgid "If set to 'yes' the EPG will always open at the first channel of bouquet.
 msgstr "Se definido para 'Sim' o EPG abrirá sempre no primeiro canal do bouquet. Se definido como 'não' o EPG vai abrir o canal atual."
 
 msgid "If set to 'yes' the bouquets will be shown each time you open the EPG."
-msgstr "Se definido para 'Sim' os bouquets serão mostrados cada vez que você abre o EPG."
+msgstr "Se definido para 'Sim' os bouquets serão mostrados cada vez que abre o EPG."
 
 msgid "If set to 'yes' the channel list will be shown after switching between radio and TV modes."
 msgstr "Se definido para 'Sim' a lista de canais será mostrada depois de alternar entre os modos de TV e Rádio."
@@ -9146,13 +9137,13 @@ msgid "If set to 'yes' the infobar will be displayed when changing channels."
 msgstr "Se definido para 'Sim' a barra de informações será exibida quando mudar de canal"
 
 msgid "If set to 'yes' you can preview channels in the EPG list."
-msgstr "Se definido para 'Sim', você pode visualizar canais na lista EPG."
+msgstr "Se definido para 'Sim', pode visualizar canais na lista EPG."
 
 msgid "If set to 'yes' you can preview channels in the channel list. Press 'OK' to preview the selected channel, press a 2nd 'OK' to exit and zap to that channel, pressing 'EXIT' to return to the channel you started at."
-msgstr "Se definido para 'Sim', você pode visualizar canais na lista de canais. Pressione 'OK' para visualizar o canal selecionado, pressione um 2º 'OK' para sair e zap para esse canal, pressionar'EXIT' para retornar ao canal a que começou."
+msgstr "Se definido para 'Sim', pode visualizar canais na lista de canais. Pressione 'OK' para visualizar o canal selecionado, pressione um 2º 'OK' para sair e zap para esse canal, pressionar'EXIT' para retornar ao canal a que começou."
 
 msgid "If set to 'yes', allows you to use the seekbar to jump to a point within the event."
-msgstr "Se definido para 'Sim', permite que você use a seekbar para pular para um ponto dentro do evento."
+msgstr "Se definido para 'Sim', permite usar a seekbar para pular para um ponto dentro do evento."
 
 msgid "If set to 'yes', the infobar will be displayed when Fast Forwarding or Rewinding during media playback."
 msgstr "Se definido como 'Sim', a barra de informações será exibida quando o rápido encaminhamento ou rebobinamento durante a reprodução de mídia."
@@ -9278,7 +9269,7 @@ msgid "Perform an online update check in the background"
 msgstr "Executar uma verificação de atualização on-line em segundo plano."
 
 msgid "Picon width"
-msgstr "Largura do Picon"
+msgstr "Largura dos picons"
 
 msgid "Picture in graphics"
 msgstr "PIG ( Picture in Graphics )"
@@ -9365,19 +9356,19 @@ msgid "Select if timeshift should continue when set to record."
 msgstr "Selecione se o timeshift deve continuar quando definido para gravar."
 
 msgid "Select if you want the Subservice mode to be activated."
-msgstr "Selecione se você quer o modo sub-serviço ativado."
+msgstr "Selecione se quer o modo sub-serviço ativo."
 
 msgid "Select if you want to use the Obh colored buttons (set to 'no' if you want to use (Multi Quick Button)."
-msgstr "Selecione se você deseja usar os botões coloridos de OBH. Definido como 'não' se você quiser usar (Multi Quick Button)."
+msgstr "Selecione se deseja usar os botões coloridos de OBH. Definido como 'não' se quiser usar (Multi Quick Button)."
 
 msgid "Select seekbar to be activated by arrow L/R (long) or << >> (long)."
-msgstr "Selecione a seekbar para ser ativado por seta L/R (longo) ou << >> (longo)."
+msgstr "Selecione a seekbar para ser ativo por seta L/R (longo) ou << >> (longo)."
 
 msgid "Select what you want the Channel +/- buttons to activate."
-msgstr "Selecione o que você quer ativar com os botões canal + /-."
+msgstr "Selecione o que quer ativar com os botões canal + /-."
 
 msgid "Select what you want the TV button to activate."
-msgstr "Selecione o que você deseja ativar com a tecla TV."
+msgstr "Selecione o que deseja ativar com a tecla TV."
 
 msgid "Send yourself a copy"
 msgstr "Enviar uma cópia para si"
@@ -9401,7 +9392,7 @@ msgid "Service width"
 msgstr "Largura do serviço"
 
 msgid "Services may be grouped in bouquets. When enabled, you can use more than one bouquet."
-msgstr "Os Serviços podem ser agrupados em Bouquets. Quando habilitado, você pode usar mais de um Bouquet."
+msgstr "Os Serviços podem ser agrupados em Bouquets. Quando ativo, pode usar mais de um Bouquet."
 
 msgid "Set fps for external subtitles"
 msgstr "Definir o FPS para as legendas externas"
@@ -9419,7 +9410,7 @@ msgid "Set the jump-size of the seekbar."
 msgstr "Defina o tamanho de salto da seekbar."
 
 msgid "Set the scrolling speed of text on the front display, this uses a software render in some skins."
-msgstr "Conjunto a velocidade de rolagem de texto no display frontal, este usa um software de renderização em algumas skins."
+msgstr "Defina a velocidade de rolagem de texto no display frontal, este usa um software de renderização em algumas skins."
 
 msgid "Set the scrolling speed of text on the front display."
 msgstr "Defina a velocidade de rolagem de texto no display frontal."
@@ -9629,7 +9620,7 @@ msgid "Subtitle delay when timing lacks"
 msgstr "Atraso na legenda quando o tempo falha"
 
 msgid "Subtitle font size"
-msgstr "Legendas- Tamanho de Letra"
+msgstr "Tamanho da fonte nas Legendas"
 
 msgid "Subtitle language selection 1"
 msgstr "Idioma de legenda 1"
@@ -9677,55 +9668,55 @@ msgid "The %s %s stores the EPG data every (hours)."
 msgstr "A sua %s %s armazena os dados EPG cada (horas)."
 
 msgid "This allows you to change the font size relative to skin size, so 1 increases by 1 point size, and -1 decreases by 1 point size"
-msgstr "Isst permite que você altere o tamanho da fonte em relação ao tamanho da skin, então 1 aumenta pelo tamanho do ponto 1, e -1 diminui em tamanho de 1 ponto"
+msgstr "Isto permite que altere o tamanho da fonte em relação ao tamanho da skin, então 1 aumenta pelo tamanho do ponto 1, e -1 diminui em tamanho de 1 ponto"
 
 msgid "This option allows you choose how to display elapsed time as + or -"
-msgstr "Esta opção permite que você escolha como exibir o tempo decorrido como (+) ou (-)"
+msgstr "Esta opção permite que escolha como exibir o tempo decorrido como (+) ou (-)"
 
 msgid "This option allows you choose how to display remaining time, or elapsed time, or both."
-msgstr "Esta opção permite que você escolha como exibir o tempo restante, ou o tempo decorrido ou ambos."
+msgstr "Esta opção permite que escolha como exibir o tempo restante, ou o tempo decorrido ou ambos."
 
 msgid "This option allows you choose how to display the remaining/elapsed time for live TV."
-msgstr "Esta opção permite que você escolha como exibir o tempo restante, ou decorrido  no modo TV."
+msgstr "Esta opção permite que escolha como exibir o tempo restante, ou decorrido  no modo TV."
 
 msgid "This option allows you choose the background color of transparent picons."
-msgstr "Esta opção permite que você escolha a cor de fundo para picons transparentes."
+msgstr "Esta opção permite que escolha a cor de fundo para picons transparentes."
 
 msgid "This option allows you set the layout view (Text or Graphics)."
-msgstr "Esta opção permite que você defina a exibição de layout (Texto ou Gráficos)."
+msgstr "Esta opção permite que defina a exibição de layout (Texto ou Gráficos)."
 
 msgid "This option allows you to choose from the two channel lists that are available."
-msgstr "Esta opção permite que você escolha dentro das duas listas de canais que estão disponíveis."
+msgstr "Esta opção permite que escolha dentro das duas listas de canais que estão disponíveis."
 
 msgid "This option allows you to choose how to display elapsed time. As + or -"
-msgstr "Esta opção permite que você escolha como exibir o tempo decorrido. Como (+) ou (-)"
+msgstr "Esta opção permite que escolha como exibir o tempo decorrido. Como (+) ou (-)"
 
 msgid "This option allows you to choose how to display the remaining/elapsed time for Media playback."
-msgstr "Esta opção permite que você escolha como exibir o tempo restante/decorrido para reprodução de mídia."
+msgstr "Esta opção permite que escolha como exibir o tempo restante/decorrido para reprodução de mídia."
 
 msgid "This option allows you to choose how to display the remaining/elapsed time for live TV."
-msgstr "Esta opção permite que você escolha como exibir o tempo restante, ou decorrido  no modo TV."
+msgstr "Esta opção permite que escolha como exibir o tempo restante, ou decorrido  no modo TV."
 
 msgid "This option allows you to choose how to display the remaining/elapsed time for media playback."
-msgstr "Esta opção permite que você escolha como exibir o tempo restante/decorrido para reprodução de mídia."
+msgstr "Esta opção permite que escolha como exibir o tempo restante/decorrido para reprodução de mídia."
 
 msgid "This option allows you to choose what the first button press jumps to in channel list screen, (so pressing '2' jumps to 'A' or '2' first)"
-msgstr "Esta opção permite que você escolha o que salta ao pressionar a tecla na lista de canais, (então pressione '2' para 'A' ou '2' primeiro)"
+msgstr "Esta opção permite que escolha o que salta ao pressionar a tecla na lista de canais, (então pressione '2' para 'A' ou '2' primeiro)"
 
 msgid "This option allows you to disable sorting of the menus"
-msgstr "Esta opção permite que você desative a oredenação dos menus"
+msgstr "Esta opção permite que desative a oredenação dos menus"
 
 msgid "This option allows you to disable sorting of the option in setting screens"
-msgstr "Esta opção permite que você desative a ordenação da opção na definição de ecrãs"
+msgstr "Esta opção permite que desative a ordenação da opção na definição de ecrãs"
 
 msgid "This option allows you to disable sorting of the plugin browser."
 msgstr "Esta opção permite desativar a ordenação do navegador de plugins."
 
 msgid "This option allows you to set the layout view (Text or Graphics)."
-msgstr "Esta opção permite que você defina a exibição de layout (Texto ou Gráficos)."
+msgstr "Esta opção permite que defina a exibição de layout (Texto ou Gráficos)."
 
 msgid "This option allows you to show the SNR as a percentage (not all receivers support this)."
-msgstr "Esta opção permite que você mostre o SNR em percentagem (nem todos os receptores suportam isto)."
+msgstr "Esta opção permite que mostre o SNR em percentagem (nem todos os receptores suportam isto)."
 
 msgid "This option moves the PVR status from the separate window into the Movie Player infobar."
 msgstr "Esta opção move o status PVR da janela separada para a barra de informações do Leitor de Mídia."
@@ -9791,103 +9782,103 @@ msgid "Obh forum user name"
 msgstr "Nome de utilizador no forum OBH"
 
 msgid "When enabled the online checker will also check for experimental versions"
-msgstr "Quando habilitado o verificador on-line irão ser também verificadas versões experimentais"
+msgstr "Quando ativo o verificador on-line irão ser também verificadas versões experimentais"
 
 msgid "When enabled, AIT data will be included in http streams. This allows a client receiver to use HbbTV."
-msgstr "Quando habilitado, AIT os dados serão incluídos em fluxos de http. Isso permite a um receptor cliente usar HbbTV."
+msgstr "Quando ativo, AIT os dados serão incluídos em fluxos de http. Isso permite a um receptor cliente usar HbbTV."
 
 msgid "When enabled, EIT data will be included in http streams. This allows a client receiver to show EPG."
-msgstr "Quando habilitado, IET os dados serão incluídos em fluxos de http. Isso permite a um receptor de cliente mostrar o EPG."
+msgstr "Quando ativo, IET os dados serão incluídos em fluxos de http. Isso permite a um receptor de cliente mostrar o EPG."
 
 msgid "When enabled, a popup message will be shown when a movie has finished and the next one will start."
-msgstr "Quando ativado, uma mensagem pop-up será mostrada quando um filme terminar e outro começar."
+msgstr "Quando ativo, uma mensagem pop-up será mostrada quando um filme terminar e outro começar."
 
 msgid "When enabled, a popup message will be shown when a recording starts."
-msgstr "Quando ativado, uma mensagem pop-up aparece quando se inicia uma gravação."
+msgstr "Quando ativo, uma mensagem pop-up aparece quando se inicia uma gravação."
 
 msgid "When enabled, a recording is allowed to interrupt live TV, when there are no free tuners."
-msgstr "Quando ativado,a uma gravação é permitido interromper TV ao vivo, quando não houver Tuners livres."
+msgstr "Quando ativo, a uma gravação é permitido interromper TV ao vivo, quando não houver Tuners livres."
 
 msgid "When enabled, a warning will be displayed and the user will get an option to stop or to continue the timeshift."
-msgstr "Quando habilitada, será exibido um aviso e o usuário vai ter uma opção para parar ou continuar o timeshift."
+msgstr "Quando ativo, será exibido um aviso e o usuário vai ter uma opção para parar ou continuar o timeshift."
 
 msgid "When enabled, channel numbering will start at '1' for every bouquet."
-msgstr "Quando habilitado, a numeração dos canais começará em '1' para cada bouquet."
+msgstr "Quando ativo, a numeração dos canais começará em '1' para cada bouquet."
 
 msgid "When enabled, continue to the next bouquet when the last channel of the current bouquet is reached."
-msgstr "Quando habilitado, continue para o próximo bouquet quando é atingido o último canal do bouquet atual."
+msgstr "Quando ativo, continue para o próximo bouquet quando é atingido o último canal do bouquet atual."
 
 msgid "When enabled, deleted recordings are moved to the trash can, instead of being deleted immediately."
-msgstr "Quando habilitado, as gravações apagadas são movidas para a reciclagem, em vez de serem apagadas imediatamente."
+msgstr "Quando ativo, as gravações apagadas são movidas para a reciclagem, em vez de serem apagadas imediatamente."
 
 msgid "When enabled, external subtitles will always be turned on for movie playback."
-msgstr "Quando habilitado, as legendas externas serão sempre ativadas na reprodução de filmes."
+msgstr "Quando ativo, as legendas externas serão sempre ativadas na reprodução de filmes."
 
 msgid "When enabled, graphical DVB subtitles are preferred over teletext subtitles, when both types are available."
-msgstr "Quando habilitado, as legendas gráficas DVB têm preferência sobre as legendas de teletexto, quando ambos os tipos estão disponíveis."
+msgstr "Quando ativo, as legendas gráficas DVB têm preferência sobre as legendas de teletexto, quando ambos os tipos estão disponíveis."
 
 msgid "When enabled, graphical DVB subtitles will be centered horizontally."
-msgstr "Quando habilitado, as legendas gráficas  DVB serão centradas horizontalmente."
+msgstr "Quando ativo, as legendas gráficas  DVB serão centradas horizontalmente."
 
 msgid "When enabled, graphical DVB subtitles will be displayed at their original position."
-msgstr "Quando habilitado, as legendas gráficas DVB serão exibidas na sua posição original."
+msgstr "Quando ativo, as legendas gráficas DVB serão exibidas na sua posição original."
 
 msgid "When enabled, graphical DVB subtitles will be displayed in yellow, instead of the original color."
-msgstr "Quando habilitado, as legendas gráficas DVB serão exibidas em amarelo, em vez da cor original."
+msgstr "Quando ativo, as legendas gráficas DVB serão exibidas em amarelo, em vez da cor original."
 
 msgid "When enabled, it is possible to leave the Movie Player with exit."
-msgstr "Quando habilitada, é possível sair do Leitor de Mídia com <EXIT>."
+msgstr "Quando ativo, é possível sair do Leitor de Mídia com <EXIT>."
 
 msgid "When enabled, measure power consumption to detect when the rotor stops turning (when supported by the tuner)."
-msgstr "Quando habilitado, medir o consumo de energia para detectar quando o rotor parar de rodar (quando suportado pelo tuner)."
+msgstr "Quando ativo, medir o consumo de energia para detectar quando o rotor parar de rodar (quando suportado pelo tuner)."
 
 msgid "When enabled, network trash cans are probed for cleaning."
-msgstr "Quando habilitado, reciclagem da rede será analisada para a limpeza."
+msgstr "Quando ativo, reciclagem da rede será analisada para a limpeza."
 
 msgid "When enabled, pressing '0' will zap you to the first channel in your first bouquet and delete your zap-history."
-msgstr "Quando habilitado, pressionar '0' fará zap para o primeiro canal do seu primeiro bouquet e apaga o histórico do zap."
+msgstr "Quando ativo, pressionar '0' fará zap para o primeiro canal do seu primeiro bouquet e apaga o histórico do zap."
 
 msgid "When enabled, show channel numbers in the channel selection screen."
-msgstr "Quando habilitado, mostra os números dos canais no ecrã de seleção de canal."
+msgstr "Quando ativo, mostra os números dos canais no ecrã de seleção de canal."
 
 msgid "When enabled, subtitles for the hearing impaired can be used."
-msgstr "Quando ativado, podem ser usadas legendas para deficientes auditivos."
+msgstr "Quando ativo, podem ser usadas legendas para deficientes auditivos."
 
 msgid "When enabled, subtitles for the hearing impaired will be preferred over normal subtitles, when both types are available."
-msgstr "Quando habilitado, legendas para deficientes auditivos terão preferência sobre as legendas normais, quando ambas estiverem disponíveis."
+msgstr "Quando ativo, legendas para deficientes auditivos terão preferência sobre as legendas normais, quando ambas estiverem disponíveis."
 
 msgid "When enabled, teletext pages will be cached, allowing faster access."
-msgstr "Quando habilitado, as páginas de teletexto serão armazenadas, permitindo um acesso mais rápido."
+msgstr "Quando ativo, as páginas de teletexto serão armazenadas, permitindo um acesso mais rápido."
 
 msgid "When enabled, teletext subtitles will be displayed at their original position."
-msgstr "Quando habilitado, as legendas de teletexto serão exibidas na sua posição original."
+msgstr "Quando ativo, as legendas de teletexto serão exibidas na sua posição original."
 
 msgid "When enabled, the PiP can be closed by the EXIT button."
-msgstr "Quando habilitado, o PiP pode ser fechado com a tecla EXIT."
+msgstr "Quando ativo, o PiP pode ser fechado com a tecla EXIT."
 
 msgid "When enabled, the VCR scart option will be shown in the main menu"
-msgstr "Quando habilitada, a opção de scart VCR será mostrada no menu principal"
+msgstr "Quando ativo, a opção de scart VCR será mostrada no menu principal"
 
 msgid "When enabled, the length of each recording will be shown in the movielist (this might cause some additional loading time)."
-msgstr "Quando habilitado, o comprimento de cada gravação aparece na lista de filmes (isso pode causar, algum tempo adicional ao carregar)."
+msgstr "Quando ativo, o comprimento de cada gravação aparece na lista de filmes (isso pode causar, algum tempo adicional ao carregar)."
 
 msgid "When enabled, the original line breaks will be removed from the teletext subtitles."
-msgstr "Quando habilitada, as quebras de linha original serão removidas das legendas de teletexto."
+msgstr "Quando ativo, as quebras de linha original serão removidas das legendas de teletexto."
 
 msgid "When enabled, the receiver will automatically use the audio track which you selected before."
-msgstr "Quando ativado, o receptor automáticamente usará a faixa de áudio que você selecionou antes."
+msgstr "Quando ativo, o receptor automáticamente usará a faixa de áudio que selecionou antes."
 
 msgid "When enabled, the receiver will automatically use the subtitles which you selected before."
-msgstr "Quando ativado, o receptor automáticamente usará as legendas que você selecionou antes."
+msgstr "Quando ativo, o receptor automáticamente usará as legendas que selecionou antes."
 
 msgid "When enabled, the receiver will select an AC3 track (when available)."
-msgstr "Quando ativado, o receptor irá selecionar uma faixa de AC3 (se disponível)."
+msgstr "Quando ativo, o receptor irá selecionar uma faixa de AC3 (se disponível)."
 
 msgid "When enabled, timeshift starts automatically in background after the specified time."
-msgstr "Quando habilitado, o timeshift inicia-se automáticamente em segundo plano após o tempo especificado."
+msgstr "Quando ativo, o timeshift inicia-se automáticamente em segundo plano após o tempo especificado."
 
 msgid "When enabled, use DHCP for the IP configuration."
-msgstr "Quando habilitado, usa o DHCP para a configuração de IP."
+msgstr "Quando ativo, usa o DHCP para a configuração de IP."
 
 msgid "When maximum space for all logs is reached, the oldest logs will be deleted."
 msgstr "Quando é alcançado o espaço máximo para todos os logs, os registos mais antigos serão apagados."
@@ -9905,7 +9896,9 @@ msgid "With this option set to 'yes' the channel list will always show you the l
 msgstr "Com esta opção definida para 'Sim' a Lista de Canais irá sempre mostrar-lhe a lista de bouquets. Se definido como 'não' o bouquet atual será aberto."
 
 msgid "With this option you can hide Job Tasks from the extension screen (short blue button press)."
-msgstr "Com esta opção você pode ocultar as tarefas de trabalho a partir do ecrã de extensions (pressione a tecla <AZUL>)."
+msgstr ""
+"Com esta opção pode ocultar as tarefas de trabalho a partir do ecrã de extensões.\n"
+" (pressione a tecla <AZUL>)"
 
 msgid "Yellow DVB subtitles"
 msgstr "Legendas DVB em amarelo"
@@ -10416,10 +10409,10 @@ msgstr "Saltar 'pressão leve' na seleção de canais"
 msgid "Show crypto icons"
 msgstr "Mostrar icons de serviço codificado"
 
-msgid "Configure if and how crypto icons will be shown in the channel selection list"
-msgstr "Configurar se e como os ícones de codificação serão mostrados na lista de seleção de canais"
+msgid "Configure if and how crypto icons will be shown in the channel selection list."
+msgstr "Configurar se e como os ícones de codificação serão mostrados na lista de seleção de canais."
 
-msgid "This option allows you to choose what the first button press jumps to in channel list screen, (so pressing '2' jumps to 'A' or '2' first), when 'Quick Actions' preset actions are performed"
+msgid "This option allows you to choose what the first button press jumps to in channel list screen, (so pressing '2' jumps to 'A' or '2' first), when 'Quick Actions' preset actions are perfomed. "
 msgstr "Esta opção permite que escolha o que pressionar a tecla salta no écran de lista de canal, (então pressione '2' salta para 'A' ou '2' primeiro), quando são realizadas ações predefinidas 'Ações rápidas'"
 
 msgid "HDMI Colorspace"
@@ -10571,3 +10564,486 @@ msgid ""
 msgstr ""
 "Addon removido com sucesso. Gui reiniciará para que as alterações produzam efeito.\n"
 "Prima OK para continuar"
+
+msgid "If enabled the output resolution of the box will try to match the resolution of the video content"
+msgstr "Se ativo, a resolução de saída da STB seraá ajustada para a resolução do conteúdo do vídeo"
+
+msgid "Configure the refresh rate of the screen. Multi means refresh rate depends on the source 24/50/60Hz"
+msgstr "Configure a taxa de refrescamento da tela. Multi quer dizer, que a taxa depende da fonte 24/50/60Hz"
+
+msgid "Set the time before checking video source for resolution/refresh rate infomation."
+msgstr "Defina o tempo antes de verificar a fonte de vídeo para obter informações de taxa de atualização/resolução."
+
+msgid "This option allows you to change the Colorspace from Auto to RGB"
+msgstr "Esta opção permite-lhe alterar o espaço de cor do Auto para RGB"
+
+msgid "This option allows you to enable 3D Surround Sound for an output."
+msgstr "Esta opção permite que habilite o som Surround 3D para uma saída."
+
+msgid "When enabled, the receiver will select an AC3+ track (when available)."
+msgstr "Quando ativo a STB selecionará uma trilha AC3+ (quando disponível)."
+
+msgid "Enable the use of the tuners of a remote enigma2 receiver when no local tuner is available (e.g. when the tuner is occupied or service type is unavailable on the local tuner)."
+msgstr "Habilite o uso dos tuners de um receptor remoto enigma2 quando nenhum Tuner local estiver disponível (por exemplo, quando o Tuner estiver ocupado ou o tipo de serviço não estiver disponível no Tuner local)."
+
+msgid "This can be either the IP or name of the fallback receiver, not including the scheme or port number (e.g. either 'xxx.xxx.xxx.xxx' or 'name_second_box')."
+msgstr "Isto pode ser o IP ou nome do receptor fallback, não incluindo o número de porta ou esquema (por exemplo, 'xxx.xxx. xxx.xxx' ou 'nome_segunda_STB')."
+
+msgid "Streaming port of the fallback remote receiver. By default this is '8001'"
+msgstr "Porta do receptor remoto fallback de streaming. Por padrão, é '8001'"
+
+msgid "When you use the remote fallback tuner for recording, the timer conflict detection can't properly detect conflicts. This option allows you to turn off the timer confict detection. This setting is only for advanced users; the default is 'yes'."
+msgstr "Quando usar o Tuner remoto de fallback para gravação, a deteção de conflitos do Tuner não pode corretamente detetar conflitos. Esta opção permite que desligue a deteção de conflitos de Timer. Esta configuração é somente para usuários avançados; o padrão é 'Sim'."
+
+msgid "When enabled, this setting has more weight than 'Preferred tuner'."
+msgstr "Quando ativo, essa configuração tem mais peso do que 'Tuner preferencial'."
+
+msgid "Configure which tuner for recordings will be preferred, when more than one tuner is available."
+msgstr "Configure qual o Tuner será  o preferencial para gravações, quando tiver mais de um Tuner disponível."
+
+msgid "When enabled, this setting has more weight than 'Preferred tuner for recordings'."
+msgstr "Quando ativo, essa configuração tem mais peso do que 'Tuner preferenciais para gravações'."
+
+msgid "When enabled, http streams are descrambled on the server side. The (remote) client receiver does not have to do descrambling. Default on."
+msgstr "Quando ativo, os fluxos http são descodificados pelo servidor. O receptor cliente (remoto) não precisa fazer a descodificação. Por defeito \"ON\"."
+
+msgid "When enabled, always descramble receiving http streams. This takes up more resources (descrambling demuxers), only enable if necessary. Individual streams are always descrambled if 0x100 is added to the service type, regardless of this setting. Default off."
+msgstr "Se ativo, irá descodificar os fluxos recebidos por http. Isto gastará mais recursos (descodificar demuxers), ativar só se necessário. Fluxos individuais são sempre descodificados se 0x100 for adicionado para o tipo de serviço, independentemente dessa configuração. Por defeito 'OFF'."
+
+msgid "When enabled, authentication is required to watch http streams."
+msgstr "Quando ativo, a autenticação é necessária para assistir a transmissões http."
+
+msgid "Configure if and how the record indicator will be shown in the channel selection list."
+msgstr "Configure se e como, o indicador de gravação será exibido na lista de seleção de canais."
+
+msgid "Configure if and how wide the service name column will be shown in the channel selection list."
+msgstr "Configure se e como, a largura da coluna de nome de serviço será mostrada na lista de seleção de canal."
+
+msgid "When enabled enigma2 will load unlinked userbouquets. This means that userbouquets that are available, but not included in the bouquets.tv or bouquets.radio files, will still be loaded. This allows you for example to keep your own user bouquet while installed settings are upgraded"
+msgstr "Quando ativo o Enigma2 carrega userbouquets desligados. Significa que os userbouquets estão disponíveis, mas não incluídos nos arquivos bouquets.tv ou bouquets.radio e ainda serão carregados. Isto permite manter os bouquets, enquanto as configurações instaladas são atualizadas"
+
+msgid "Use Virgin EPG information when it is available."
+msgstr "Usar o EPG Virgin quando este estiver disponível."
+
+msgid "Are you sure you want to delete the EPG data from:\n"
+msgstr "Tem a certeza que deseja apagar os dados EPG de:\n"
+
+msgid "Configure alignment of the service names."
+msgstr "Configurar o alinhamento dos nomes dos serviços."
+
+msgid "Configure alignment of the service numbers."
+msgstr "Configurar o alinhamento dos números dos serviços."
+
+msgid "Configure alignment of service events."
+msgstr "Configurar o alinhamento dos eventos dos serviços."
+
+msgid "Configure alignment of the timeline date."
+msgstr "Configurar o alinhamento da data na linha de tempo."
+
+msgid "Configure the minimum width before showing the 'i' icon, '0' is equal to not showing the icon at all."
+msgstr "Configurar a largura mínima antes de mostrar o ícon 'i', '0' é igual a não mostrar qualquer ícon."
+
+msgid "Set the position of the recording icons"
+msgstr "Definir a posição dos ícons de gravação"
+
+msgid "Show time in 24 hour clock format."
+msgstr "Mostrar o relógio no formato de 24 horas."
+
+msgid "Timeline 24 Hour"
+msgstr "Linha de tempo 24 horas"
+
+msgid "Info icon width"
+msgstr "Largura do ícon de informação"
+
+msgid "Position of recording icons"
+msgstr "Posição dos ícons de gravação"
+
+msgid "Alignment of service names"
+msgstr "Alinhamento do nome dos serviços"
+
+msgid "Alignment of service numbers"
+msgstr "Alinhamento do número dos serviços"
+
+msgid "Alignment of events"
+msgstr "Alinhamento dos eventos"
+
+msgid "Alignment of timeline date"
+msgstr "Alinhamento da data na linha de tempo"
+
+msgid "Use separate Picon pack for Front Display *"
+msgstr "Usar pacote de picons separado para o Painel Frontal *"
+
+msgid "Brightness (Dimmed)"
+msgstr "Brilho ( esmaecido )"
+
+msgid "Dim delay"
+msgstr "Atraso não ofuscante"
+
+msgid "Use picon_lcd directory for picons on color LCD"
+msgstr "Usar o diretório picon_lcd para picons no LCD colorido."
+
+msgid "Configure the brightness level of the front panel display for dimmed operation."
+msgstr "Configure o nível de brilho do visor do painel frontal para operação esmaecida."
+
+msgid "Dim the LCD after specified time."
+msgstr "Ofusque o LCD depois de tempo especificado."
+
+msgid "Mount again"
+msgstr "Montar outra vez"
+
+msgid "Mount Manager"
+msgstr "Gestor de Montagens"
+
+msgid "Network Browser"
+msgstr "Explorador de Redes"
+
+msgid "Attempt to recover lost mounts (in background)"
+msgstr "Tentar recuperar montagens perdidas (em segundo plano)"
+
+msgid "Manage your network shares..."
+msgstr "Gerir as suas partilhas de rede..."
+
+msgid "Search for network shares..."
+msgstr "Busca por partilhas de rede..."
+
+msgid "Are you ready to install \"%s\" ?"
+msgstr "Está preparado para instalar \"%s\" ?"
+
+msgid "When enabled, reformat subtitles to match the width of the screen."
+msgstr "Quando ativo, ajusta as legendas à largura do écrã"
+
+msgid "Configure if behind the subtitles a background is shown."
+msgstr "Configura se atrás das legendas é exibido um fundo."
+
+msgid "Configure if the subtitle should switch between normal, italic, bold and bolditalic"
+msgstr "Configura se as legendas devem mudar entre normal. itálico, negrito e itálico negrito"
+
+msgid "Replace `- ` in dialogs with colored text per speaker (like teletext subtitles for the hearing impaired)"
+msgstr "Substitui '- ' nos diálogos com texto colorido por orador ( como legendas de teletexto para deficientes auditivos"
+
+msgid "When enabled, a warning will be displayed that timeshift is not supported in an IP stream.."
+msgstr "Quando ativo, um aviso será exibido que o timeshift não é suportado em transmissões por IP."
+
+msgid "Detected tuners:"
+msgstr "Tuners detetados:"
+
+msgid "Detected devices:"
+msgstr "Dispositivos detetados:"
+
+msgid "Network servers:"
+msgstr "Servidores de Rede:"
+
+msgid "Skin name:\t%s\n"
+msgstr "Skin nome:\t%s\n"
+
+msgid "Installed:\t%s\n"
+msgstr "Instalada:\t%s\n"
+
+msgid ""
+"Last update:\t%s\n"
+"\n"
+msgstr ""
+"Atualizada em:\t%s\n"
+"\n"
+
+msgid "Model:\t%s %s\n"
+msgstr "Modelo:\t%s %s\n"
+
+msgid ""
+"System temperature: %s%sC\n"
+"\n"
+msgstr ""
+"Temperatura do Sistema: %s%sC\n"
+"\n"
+
+msgid "Streaming clients info"
+msgstr "Informação de clientes streaming"
+
+msgid "No stream clients"
+msgstr "Não existem clientes de stream"
+
+msgid "On your remote, click on the button you want to change"
+msgstr "No seu telecomando, prima a tecla que pretende modificar"
+
+msgid "Animation Setup"
+msgstr "Definição das Animações"
+
+msgid "Disable Animations"
+msgstr "Desativar Animações"
+
+msgid "Simple fade"
+msgstr "Desvanecer simples"
+
+msgid "Grow drop"
+msgstr "Crescer e cair"
+
+msgid "Grow from left"
+msgstr "Crescer a partir da esquerda"
+
+msgid "Popup"
+msgstr "Aparecer"
+
+msgid "Slide drop"
+msgstr "Deslizar a cair"
+
+msgid "Slide left to right"
+msgstr "Deslizar da esquerda para direita"
+
+msgid "Slide top to bottom"
+msgstr "Deslizar de cima para baixo"
+
+msgid "Stripes"
+msgstr "Tiras ou Fitas"
+
+msgid "* current animation"
+msgstr "* animação em execução"
+
+msgid "Animation Speed"
+msgstr "Velocidade da animação"
+
+msgid "Select the desired function and click on \"OK\" to assign it. Use \"CH+/-\" to toggle between the lists. Select an assigned function and click on \"OK\" to de-assign it. Use \"Next/Previous\" to change the order of the assigned functions."
+msgstr "Selecione a função desejada e clique em \"OK\" para atribuí-la. Usar \"CH + /-\" para alternar entre as listas. Selecione uma função atribuída e clique em \"OK\" para desativá-la. Use \"Seguinte/Anterior\" para alterar a ordem das funções atribuídas."
+
+msgid "Enable Virgin EPG"
+msgstr "Ativar EPG Virgin"
+
+msgid "Always use second infobar"
+msgstr "Usar sempre a segunda barra de informações"
+
+msgid "Always show second infobar instead of standard infobar."
+msgstr "Mostra sempre a segunda barra de informações em vez da barra de informações padrão."
+
+msgid "Enable infobar fade-out"
+msgstr "Ativar o esmaecimento a barra de informações"
+
+msgid "Fade the infobar when hiding"
+msgstr "Esmaecer a barra de informações quando se esconde"
+
+msgid "Infobar fade-out speed"
+msgstr "Velocidade de esmaecimento da barra de informações"
+
+msgid "Configure the infobar fading speed"
+msgstr "Configurar a velocidade do esmaecimento da barra de informações"
+
+msgid "Show spinning logo when the system is busy."
+msgstr "Mostrar o logotipo a rodar quando o sistema está ocupado"
+
+msgid "Show positioner position"
+msgstr "Mostrar a posição do posicionador"
+
+msgid "Configure whether or not an rotor position will be displayed on infobar"
+msgstr "Configurar ou não se uma posição do rotor será exibida na barra de informações"
+
+msgid "Show picon background color"
+msgstr "Mostrar a cor de fundo para picons"
+
+msgid "Infobar frontend data source"
+msgstr "Fonte de dados frontend na barra de informações"
+
+msgid "Configure the source of the frontend data as shown on the infobars. 'Settings' is as stored on the settings. 'Tuner' is as reported by the tuner."
+msgstr "Configure a fonte de dados frontend como é mostrada nas barras de informações. 'Definições' são armazenadas nas configurações. 'Tuner' é como relatado pelo tuner."
+
+msgid "Show full menu path"
+msgstr "Mostrar o caminho de menu completo"
+
+msgid "This option allows you to show the full menu path"
+msgstr "Esta opção permite-lhe mostrar o caminho de menu completo"
+
+msgid "Wait please while scanning your devices..."
+msgstr "Aguarde por favor enquanto se procura por dispositivos..."
+
+msgid ""
+"Devices changes need a system restart to take effects.\n"
+"Restart your Box now?"
+msgstr ""
+"As mudanças de dispositivos necessitam de reinício do sistema para produzir efeitos.\n"
+"Reiniciar a sua Vuplus agora?"
+
+msgid "Swap already disabled."
+msgstr "Swap já inativo."
+
+msgid "Swap status: disabled"
+msgstr "Estado do Swap: inativo"
+
+msgid ""
+"Swap status: active\n"
+"Swap file: %s \n"
+"Swap size: %d M \n"
+"Swap used: %s Kb"
+msgstr ""
+"Estado do Swap: ativo\n"
+"Ficheiro Swap: %s \n"
+"Tamanho Swap: %d M \n"
+"Swap usado: %s Kb"
+
+msgid ""
+"Swap file is active.\n"
+"Remove it before to create a new swap space."
+msgstr ""
+"O ficheiro de Swap está ativo.\n"
+"Remova-o antes de criar um novo espaço Swap."
+
+msgid "Desculpe nenhum dispositivo válido.\n"
+msgstr "Desculpe nenhum dispositivo válido.\n"
+
+msgid "Be sure your device is Linux formatted and mapped.\n"
+msgstr "Certifique-se de que o  seu dispositivo está formatado em Linux e mapeado.\n"
+
+msgid "Please use Black Hole format wizard and Black Hole device manager to prepare and map your usb stick."
+msgstr "Por favor, use o assistente de formatação da Black Hole e o gestor de dispositivos Black Hole para preparar e mapear a sua unidade usb."
+
+msgid "Select the Swap File device:"
+msgstr "Selecione o dispositivo de Swap:"
+
+msgid "Select the Swap File Size:"
+msgstr "Selecionar o tamanho de Swap:"
+
+msgid "Swap File created."
+msgstr "Ficheiro de Swap criado."
+
+msgid "Swap File creation Failed. Check for available space."
+msgstr "Erro ao criar ficheiro Swap. Verifique o espaço disponível."
+
+msgid "This wizard will help you to format Usb mass storage devices for Linux.\n"
+msgstr "Este assistente ajuda-o a formatar dispositivos de armazenamento Usb em Linux.\n"
+
+msgid "Please be sure that your usb drive is NOT CONNECTED to your Vu+ box before you continue.\n"
+msgstr "Por favor, certifique-se de que sua unidade usb NÃO está CONETADA à sua VuPlus antes de continuar.\n"
+
+msgid "If your usb drive is connected and mounted you have to poweroff your box, remove the usb device and reboot.\n"
+msgstr "Se a unidade usb está conetada e montada é necessário desligar a sua VuPlus. Remova o dispositivo usb e reinicie.\n"
+
+msgid "Press Red button to continue, when you are ready and your usb is disconnected.\n"
+msgstr "Pressione a tecla VERMELHA para continuar, quando estiver pronto e a sua usb estiver desconetada.\n"
+
+msgid ""
+"Sorry, no new usb storage device detected.\n"
+"Be sure to follow the wizard instructions."
+msgstr ""
+"Desculpe, não existe alguma unidade nova detetada.\n"
+"Certifique-se que segue as instruções do assistente."
+
+msgid "Continue ->"
+msgstr "Continuar ->"
+
+msgid "Create"
+msgstr "Criar"
+
+msgid "Open Black Hole Usb Format Wizard"
+msgstr "Assistente de formatação USB OBH"
+
+msgid "Connect your usb storage to your Vu+ box\n"
+msgstr "Conete a sua unidade de massa USB à sua VuPlus STB\n"
+
+msgid ""
+"Press Red button to continue when ready.\n"
+"\n"
+msgstr ""
+"Prima a tecla VERMELHA para continuar, quando estiver pronto.\n"
+"\n"
+
+msgid "Warning: If your usb is already connected\n"
+msgstr "AVISO: Se a sua unidade USB já estiver conetada\n"
+
+msgid "to the box you have to unplug it, press\n"
+msgstr "à sua VuPlus, tem de a desconetar, prima\n"
+
+msgid "the Green button and restart the wizard.\n"
+msgstr "a tecla VERDE e reinicie o assistente.\n"
+
+msgid "The wizard will now try to identify your connected usb device."
+msgstr "O assistente irá agora tentar identificar o dispositivo conetado."
+
+msgid "Press Red button to continue."
+msgstr "Prima a tecla VERMELHA para continuar."
+
+msgid "Select number of partitions:"
+msgstr "Selecionar o número de partições:"
+
+msgid "Enter the size in Megabyte of the first partition:"
+msgstr "Introduzir o espaço em Megabytes para a 1ª partição:"
+
+msgid "Enter the size in Megabyte of the second partition:"
+msgstr "Introduzir o espaço em Megabytes para a 2ª partição:"
+
+msgid "Enter the size in Megabyte of the third partition:"
+msgstr "Introduzir o espaço em Megabytes para a 3ª partição:"
+
+msgid "Partition size"
+msgstr "Tamanho da partição"
+
+msgid "Total Megabyte Available: \t"
+msgstr "Total de MB disponíveis: \t"
+
+msgid "%s1 \t size:%s M\n"
+msgstr "%s1 \t tamanho:%s M\n"
+
+msgid "%s2 \t size:%s M\n"
+msgstr "%s2 \t tamanho:%s M\n"
+
+msgid "%s3 \t size:%s M\n"
+msgstr "%s3 \t tamanho:%s M\n"
+
+msgid "%s4 \t size:%s M\n"
+msgstr "%s4 \t tamanho:%s M\n"
+
+msgid ""
+"\n"
+"Warning: all the data will be lost.\n"
+"Are you sure you want to format this device?\n"
+msgstr ""
+"\n"
+"Aviso: todos os dados serão perdidos.\n"
+"Tem a certeza que deseja formatar este dispositivo?\n"
+
+msgid "Sorry, your partition(s) sizes are bigger than total device size."
+msgstr "Desculpe, os tamanhos das partições são maiores que o tamanho total do dispositivo."
+
+msgid "Partitioning..."
+msgstr "A particionar..."
+
+msgid ""
+"The device has been partitioned.\n"
+"Partitions will be now formatted."
+msgstr ""
+"O dispositivo foi particionado.\n"
+"As partições serão agora formatadas."
+
+msgid "Choice filesystem."
+msgstr "Escolha do Sistema de Ficheiros."
+
+msgid "Formatting..."
+msgstr "A formatar..."
+
+msgid ""
+"The Box will be now restarted to generate a new device UID.\n"
+"Don't forget to remap your device after the reboot.\n"
+"Press ok to continue"
+msgstr ""
+"A Vuplus será  reiniciada para gerar novos dispositivos UID.\n"
+"Não se esqueça de remapear o dispositivo após a reinicialização.\n"
+"Prima a tecla OK para continuar"
+
+msgid "ext2 - recommended for USB flash memory"
+msgstr "ext2 - recomendado para Usb Pen Drives"
+
+msgid "ext3 - recommended for harddrives"
+msgstr "ext3 - recomendado para Discos Rígidos"
+
+msgid "ext4 - recommended for meoboot"
+msgstr "ext4 - recomendado para OpenMultbot"
+
+msgid "vfat - use only for media-files"
+msgstr "vfat - usar apenas para arquivos de mídia"
+
+msgid "Dlna Browser not installed."
+msgstr "Explorador DLNA não está instaldado."
+
+msgid "MiniDlna Server not installed."
+msgstr "Servidor MiniDLNA não está instalado."
+
+msgid "Inactive"
+msgstr "Inativo"
+
+msgid "Set Active"
+msgstr "Ativar"
