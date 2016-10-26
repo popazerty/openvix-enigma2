@@ -1,3 +1,4 @@
+# Portuguese translations for enigma2 package.
 # Copyright (C) 2012 THE enigma2'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the enigma2 package.
 # Automatically generated, 2012.
@@ -7,7 +8,7 @@ msgstr ""
 "Project-Id-Version: OpenBH 06.010\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-09-24 18:23+0100\n"
-"PO-Revision-Date: 2016-10-24 23:58+0100\n"
+"PO-Revision-Date: 2016-10-26 22:42+0100\n"
 "Last-Translator: nunigaia\n"
 "Language-Team: BH Team\n"
 "Language: pt_PT\n"
@@ -749,7 +750,7 @@ msgid "Adjust 3D settings"
 msgstr "Ajustar as definições 3D"
 
 msgid "Adjust the color settings so that all the color shades are distinguishable, but appear as saturated as possible. If you are happy with the result, press OK to close the video fine-tuning, or use the number keys to select other test screens."
-msgstr "Ajuste as cores para que as sombras fiquem visiveis, mas apareçam o mais saturado possivel. Se estiver satisfeito com o resultado, carregue<OK> para sair do ajuste fino, ou use as teclas com números para selecionar outros Ecrãs de teste."
+msgstr "Ajuste as cores para que as sombras fiquem visiveis, mas apareçam o mais saturado possivel. Se estiver satisfeito com o resultado, carregue na tecla OK para sair do ajuste fino, ou use as teclas com números para selecionar outros Ecrãs de teste."
 
 msgid "Advanced options"
 msgstr "Opções avançadas"
@@ -3183,7 +3184,7 @@ msgid "Logs settings"
 msgstr "Definições de Logs"
 
 msgid "Long << / >>"
-msgstr "Longo <</>>"
+msgstr "Longo << / >>"
 
 msgid "Long Left/Right"
 msgstr "Premir Longo seta Esq/Dir"
@@ -4133,10 +4134,10 @@ msgid "Please select an NFI file and press green key to flash!"
 msgstr "Por favor escolha um Arquivo .NFI e prima verde para iniciar o flash!"
 
 msgid "Please select medium to be scanned"
-msgstr "Por favor, selecione a mídia a ser procurada"
+msgstr "Selecione a mídia a ser procurada"
 
 msgid "Please select medium to use as backup location"
-msgstr "Por favor selecione uma localização para backup"
+msgstr "Selecione uma localização para backup"
 
 msgid "Please select tag to filter..."
 msgstr "Por favor teste o filtro de etiquetas..."
@@ -4974,10 +4975,10 @@ msgid "Select destination for:"
 msgstr "Selecione um destino para:"
 
 msgid "Select files for backup."
-msgstr "Selecione Arquivos para backup."
+msgstr "Selecione arquivos para backup."
 
 msgid "Select files/folders to backup"
-msgstr "Selecione Arquivos/pastas para backup"
+msgstr "Arquivos e pastas para Backup"
 
 msgid "Select folders"
 msgstr "Selecione pastas"
@@ -5013,7 +5014,7 @@ msgid "Select upgrade source"
 msgstr "Selecionar fonte de atualizações"
 
 msgid "Select upgrade source to edit."
-msgstr "Selecionar fonte de atualizações para editar."
+msgstr "Selecionar a fonte para editar."
 
 msgid "Select your provider, and press OK to start the scan"
 msgstr "Selecione o seu operador, e prima OK para iniciar a busca"
@@ -8124,7 +8125,7 @@ msgid "show softwaremanager in plugin menu"
 msgstr "exibe a Gestão de software no menu de plugins"
 
 msgid "show softwaremanager on blue button"
-msgstr "Exibe a Gestão de software com tecla <AZUL>"
+msgstr "Exibe a Gestão de software com tecla AZUL"
 
 msgid "show transponder info"
 msgstr "mostrar a info do transponder "
@@ -8358,7 +8359,7 @@ msgstr[0] "com %d erro"
 msgstr[1] "com %d erros"
 
 msgid "with exit button"
-msgstr "com a tecla <EXIT>"
+msgstr "com a tecla EXIT"
 
 msgid "with left/right buttons"
 msgstr "com teclas: seta esquerda/direita"
@@ -8556,10 +8557,10 @@ msgid "1st Infobar timeout"
 msgstr "1ª Inforbar - tempo limite"
 
 msgid "Action on long power button press"
-msgstr "Ação ao premir longa/ a tecla <Power>"
+msgstr "Ação ao premir longa/ a tecla POWER"
 
 msgid "Action on short power button press"
-msgstr "Ação ao premir a tecla <Power>"
+msgstr "Ação ao premir a tecla POWER"
 
 msgid "Activate network settings"
 msgstr "Ativar as definições de rede"
@@ -9161,7 +9162,7 @@ msgid "Include EIT in http streams"
 msgstr "Incluir EIT nos streams http"
 
 msgid "Info button (long)"
-msgstr "Tecla <INFO> ( premir longo )"
+msgstr "Tecla INFO ( premir longo )"
 
 msgid "Info button (short)"
 msgstr "Tecla INFO ( premir curto )"
@@ -9785,10 +9786,10 @@ msgid "When enabled the online checker will also check for experimental versions
 msgstr "Quando ativo o verificador on-line irão ser também verificadas versões experimentais"
 
 msgid "When enabled, AIT data will be included in http streams. This allows a client receiver to use HbbTV."
-msgstr "Quando ativo, AIT os dados serão incluídos em fluxos de http. Isso permite a um receptor cliente usar HbbTV."
+msgstr "Quando ativo, os dados AIT serão incluídos em fluxos de http. Isso permite a um receptor cliente usar HbbTV."
 
 msgid "When enabled, EIT data will be included in http streams. This allows a client receiver to show EPG."
-msgstr "Quando ativo, IET os dados serão incluídos em fluxos de http. Isso permite a um receptor de cliente mostrar o EPG."
+msgstr "Quando ativo, os dados EIT serão incluídos em fluxos de http. Isso permite a um receptor de cliente mostrar o EPG."
 
 msgid "When enabled, a popup message will be shown when a movie has finished and the next one will start."
 msgstr "Quando ativo, uma mensagem pop-up será mostrada quando um filme terminar e outro começar."
@@ -9827,7 +9828,7 @@ msgid "When enabled, graphical DVB subtitles will be displayed in yellow, instea
 msgstr "Quando ativo, as legendas gráficas DVB serão exibidas em amarelo, em vez da cor original."
 
 msgid "When enabled, it is possible to leave the Movie Player with exit."
-msgstr "Quando ativo, é possível sair do Leitor de Mídia com <EXIT>."
+msgstr "Quando ativo, é possível sair do Leitor de Mídia com a tecla EXIT."
 
 msgid "When enabled, measure power consumption to detect when the rotor stops turning (when supported by the tuner)."
 msgstr "Quando ativo, medir o consumo de energia para detectar quando o rotor parar de rodar (quando suportado pelo tuner)."
@@ -9898,7 +9899,7 @@ msgstr "Com esta opção definida para 'Sim' a Lista de Canais irá sempre mostr
 msgid "With this option you can hide Job Tasks from the extension screen (short blue button press)."
 msgstr ""
 "Com esta opção pode ocultar as tarefas de trabalho a partir do ecrã de extensões.\n"
-" (pressione a tecla <AZUL>)"
+" (pressione a tecla AZUL)"
 
 msgid "Yellow DVB subtitles"
 msgstr "Legendas DVB em amarelo"
@@ -11037,7 +11038,7 @@ msgid "vfat - use only for media-files"
 msgstr "vfat - usar apenas para arquivos de mídia"
 
 msgid "Dlna Browser not installed."
-msgstr "Explorador DLNA não está instaldado."
+msgstr "Explorador DLNA não está instalado."
 
 msgid "MiniDlna Server not installed."
 msgstr "Servidor MiniDLNA não está instalado."
@@ -11047,3 +11048,91 @@ msgstr "Inativo"
 
 msgid "Set Active"
 msgstr "Ativar"
+
+msgid ""
+"Backup your Settings.\n"
+"\n"
+"You can setup backup location and backup files in Plugins -> Software management -> advanced."
+msgstr ""
+"Faça um Backup das suas definições.\n"
+"\n"
+"Pode definir a localização do Backup e efetuá-lo em:\n"
+" Gestão de Plugins -> Gestão de Software -> Avançado."
+
+msgid ""
+"HDD = Do you want to make a backup image on your HDD ? \n"
+"This will take between 2 and 10 minutes, and is fully automatic."
+msgstr "HDD = Pretende efetuar um backup completo da imagem no seu Disco Rígido?Isto irá demorar entre 2 a 10 minutos, e será completamente automático."
+
+msgid ""
+"USB = Do you want to make a USB backup ?\n"
+"This will take between 4 and 15 minutes depending on the filesystem used and is fully automatic.\n"
+"Make sure you insert a USB flash drive before you select USB."
+msgstr ""
+"USB = Pretende efetuar um backup completo da imagem no seu Disposito USB?\n"
+"Isto irá demorar entre 4 a 15 minutos dependendo do sistema de ficheiros, e será completamente automático.\n"
+"Certifique-se de inserir uma unidade USB, antes de selecionar USB."
+
+msgid "Please be patient, a backup will now be made,\n"
+msgstr "Por favor seja paciente, um backup será efetuado agora,\n"
+
+msgid "because of the used filesystem the backup\n"
+msgstr "por causa do sistema de ficheiros, o backup\n"
+
+msgid "will take between 3 and 12 minutes for this system\n"
+msgstr "demorará entre 3 a 12 minutos para este sistema.\n"
+
+msgid ""
+"No /hdd found !!\n"
+"Please make sure you have a HDD mounted.\n"
+msgstr ""
+"Não encontrado /hdd !!\n"
+"Certifique-se que o seu HDD está montado.\n"
+
+msgid ""
+"Not enough free space on /hdd !!\n"
+"You need at least 300Mb free space.\n"
+msgstr ""
+"Espaço insuficiente em /hdd !!\n"
+"Necessita de pelo menos 300Mb livres.\n"
+
+msgid ""
+"Not enough free space on %s !!\n"
+"You need at least 300Mb free space.\n"
+msgstr ""
+"Espaço insuficiente em %s !!\n"
+"Necessita de pelo menos 300Mb livres.\n"
+
+msgid ""
+"No USB Device found for fullbackup !!\n"
+"\n"
+"\n"
+msgstr ""
+"Dispositivo USB não encontrado para efetuar um Backup Completo!!\n"
+"\n"
+"\n"
+
+msgid "To backup directly to a USB stick, the USB stick MUST\n"
+msgstr "Para efetuar um backup diretamente para uma unidade USB, a unidade USB deve \n"
+
+msgid ""
+"contain a file with the name: \n"
+"\n"
+msgstr ""
+"conter um arquivo com o nome: \n"
+"\n"
+
+msgid "backupstick or backupstick.txt"
+msgstr "backupstick ou backupstick.txt"
+
+msgid "USB DEVICE found on: /media/%s"
+msgstr "Dipositivo USB encontrado em: /media/%s"
+
+msgid "Full backup on %s"
+msgstr "Backup completo em %s"
+
+msgid "%s not found !!"
+msgstr "%s não encontrado !!"
+
+msgid "Please Flash your Kernel new and Backup again"
+msgstr "Por favor atualize o seu novo KERNEL e execute o Backup novamente."
