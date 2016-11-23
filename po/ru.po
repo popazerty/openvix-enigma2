@@ -1008,17 +1008,11 @@ msgstr "Настройки анимации"
 msgid "Animation Speed"
 msgstr "Скорость анимации"
 
-msgid "Animation"
-msgstr "Анимация"
-
 msgid "Animations"
 msgstr "Анимация"
 
 msgid "Any activity"
 msgstr "Любая активность"
-
-msgid "Apps"
-msgstr "Приложения"
 
 msgid "Arabic"
 msgstr "Арабский"
@@ -1189,9 +1183,6 @@ msgstr "Режим авторизации"
 msgid "Auto"
 msgstr "Автоматически"
 
-msgid "AutoScan"
-msgstr "Автоскан"
-
 msgid "Auto Deep Standby"
 msgstr "Автоматическое выключение"
 
@@ -1299,9 +1290,6 @@ msgstr "Удаление в фоновом режиме"
 
 msgid "Background delete speed"
 msgstr "Скорость удаления в фоновом режиме"
-
-msgid "Backup"
-msgstr "Бэкап"
 
 msgid "Backup Menu"
 msgstr "Резервное копирование"
@@ -1413,9 +1401,6 @@ msgstr "Добавить зеленый"
 
 msgid "Bouquet List"
 msgstr "Список фаворитов"
-
-msgid "Bouquets"
-msgstr "Фавориты"
 
 msgid "Brightness"
 msgstr "Яркость"
@@ -1541,9 +1526,6 @@ msgstr "CH%s"
 
 msgid "CHANGE BOUQUET"
 msgstr "Изменить фаворит"
-
-msgid "CI"
-msgstr "Модуль доступа"
 
 msgid "CI (Common Interface) Setup"
 msgstr "Настройки модуля доступа"
@@ -2385,9 +2367,6 @@ msgstr "Соединение установлено"
 msgid "Connected: "
 msgstr "Подключен: "
 
-msgid "Console"
-msgstr "Консоль"
-
 msgid "Constellation"
 msgstr "Созвездие"
 
@@ -2424,9 +2403,6 @@ msgstr "Контрастность"
 msgid ""
 "Control of the position how finished timers are shown in the Timer List."
 msgstr "Настройте местоположение завершённых таймеров в списке таймеров."
-
-msgid "Convert"
-msgstr "Преобразовать"
 
 msgid "Convert ext3 filesystem to ext4"
 msgstr "Преобразование ext3 в ext4"
@@ -2563,9 +2539,6 @@ msgstr "Время пропуска для кнопок '4'/'6'"
 msgid "Custom skip time for '7'/'9' buttons"
 msgstr "Время пропуска для кнопок '7'/'9'"
 
-msgid "Customise"
-msgstr "Опции"
-
 msgid "Customize"
 msgstr "Опции"
 
@@ -2664,9 +2637,6 @@ msgstr "Снять выбор"
 
 msgid "Debug Logs"
 msgstr "Журнал отладки"
-
-msgid "Deep"
-msgstr "Выключение"
 
 msgid "Deep Standby"
 msgstr "Выключение"
@@ -2833,9 +2803,6 @@ msgstr "Найдены устройства:"
 msgid "Detected tuners:"
 msgstr "Найдены тюнера:"
 
-msgid "Device"
-msgstr "Устройство"
-
 msgid "Device: "
 msgstr "Устройство:"
 
@@ -2856,13 +2823,6 @@ msgstr "Имя устройства:"
 
 msgid "Devices"
 msgstr "Устройства"
-
-msgid ""
-"Devices changes need a system restart to take effects.\n"
-"Restart your Box now?"
-msgstr ""
-"Для принятия изменений необходимо перезагрузить систему.\n"
-"Перезагрузить Ваш ресивер сейчас?"
 
 msgid "DiSEqC"
 msgstr "DiSEqC"
@@ -2941,9 +2901,6 @@ msgstr "Отключен"
 
 msgid "Disk space to reserve for recordings (in GB)"
 msgstr "Резервировать место на диске для записей (ГБ)"
-
-msgid "Display"
-msgstr "Дисплей"
 
 msgid "Display 16:9 content as"
 msgstr "Показывать 16:9 контент как"
@@ -3132,12 +3089,6 @@ msgstr[2] "Готово - Установлены, обновлены или уд
 msgid "Down"
 msgstr "Стрелка вниз"
 
-msgid "Download"
-msgstr "Загрузить"
-
-msgid "Download Complete"
-msgstr "Загрузка завершена"
-
 msgid "Downloads Manager"
 msgstr "Менеджер загрузок"
 
@@ -3205,9 +3156,6 @@ msgid "ECM-Time"
 msgstr "Время ответа ECM"
 
 msgid "EPG"
-msgstr "Телегид"
-
-msgid "Epg"
 msgstr "Телегид"
 
 msgid "EPG Cache Check"
@@ -3740,9 +3688,6 @@ msgid ""
 msgstr ""
 "Файл oscam.conf не найден\n"
 "Пожалуйста введите имя пользователя/пароль вручную"
-
-msgid "Filesystem"
-msgstr "Файловая система"
 
 msgid "Filesystem Check"
 msgstr "Проверка файловой системы"
@@ -4885,9 +4830,6 @@ msgstr "Управление ПО Вашего %s %s's software"
 msgid "Manual"
 msgstr "Вручную"
 
-msgid "ManScan"
-msgstr "Ручной"
-
 msgid "Manual Install Bh packages"
 msgstr "Ручная установка BH пакетов"
 
@@ -5065,9 +5007,6 @@ msgid "Mount"
 msgstr "Монтировать"
 
 msgid "Mountpoints"
-msgstr "Монтирование"
-
-msgid "Mounts"
 msgstr "Монтирование"
 
 msgid "Mounts Setup"
@@ -5851,9 +5790,6 @@ msgstr "Обновление списка пакетов"
 msgid "Packages"
 msgstr "Пакета(ов)"
 
-msgid "Package Details"
-msgstr "Подробности пакета"
-
 msgid "Packet management"
 msgstr "Управление пакетами"
 
@@ -5880,9 +5816,6 @@ msgstr "Родительский каталог"
 
 msgid "Parent Directory"
 msgstr "Родительский каталог"
-
-msgid "Parental"
-msgstr "Контроль"
 
 msgid "Parental control"
 msgstr "Родительский контроль"
@@ -6250,9 +6183,6 @@ msgstr "Пожалуйста, подождите пока идет сканир�
 msgid "Please wait while scanning is in progress..."
 msgstr "Пожалуйста, подождите пока идет сканирование..."
 
-msgid "Please wait while starting\n"
-msgstr "Подождите, идет запуск\n"
-
 msgid "Please wait while we configure your network..."
 msgstr "Пожалуйста подождите, идет настройка сети..."
 
@@ -6324,9 +6254,6 @@ msgstr "Порт:"
 
 msgid "Portuguese"
 msgstr "Португальский"
-
-msgid "Position"
-msgstr "Позиция"
 
 msgid "Position Setup"
 msgstr "Настройка позиции"
@@ -6802,9 +6729,6 @@ msgstr "Запоминать PIN-код канала"
 msgid "Reminder, you have chosen to save timeshift file."
 msgstr "Напоминаем, вы выбрали сохранение файла таймшифта."
 
-msgid "Remote"
-msgstr "Пульт"
-
 msgid "Remote box"
 msgstr "Удалённый ресивер"
 
@@ -7142,9 +7066,6 @@ msgstr "Спутники"
 
 msgid "Sats"
 msgstr "Спутники"
-
-msgid "SatFinder"
-msgstr "Сигнал"
 
 msgid "Saturation"
 msgstr "Насыщенность"
@@ -8205,9 +8126,6 @@ msgstr "Название скина:\t%s\n"
 msgid "Skin setup"
 msgstr "Выбор скина"
 
-msgid "Skin"
-msgstr "Скин"
-
 msgid "Skins"
 msgstr "Скины"
 
@@ -8568,9 +8486,6 @@ msgid ""
 msgstr ""
 "Укажите, нужно ли остановить таймшифт, если идёт запись. (Желательно, если "
 "используется USB, а не HDD)"
-
-msgid "Storage"
-msgstr "Хранение"
 
 msgid "Storage devices"
 msgstr "Устройства хранения"
@@ -9729,9 +9644,6 @@ msgstr "Тюнер :"
 msgid "Tuner configuration"
 msgstr "Настройки тюнера"
 
-msgid "TunerConf"
-msgstr "Тюнер"
-
 msgid "Tuner is not supported"
 msgstr "Тюнер не поддерживается"
 
@@ -10056,9 +9968,6 @@ msgstr "Используемый тип сканирования"
 msgid "Used:"
 msgstr "Используется:"
 
-msgid "User"
-msgstr "Пользователь"
-
 msgid "User - bouquets"
 msgstr "Избранное"
 
@@ -10129,9 +10038,6 @@ msgstr "Скорость вертикального поворота"
 
 msgid "Video Enhancement Settings"
 msgstr "Расширенные настройки"
-
-msgid "Video"
-msgstr "Видео"
 
 msgid "Video PID"
 msgstr "Видео PID"
