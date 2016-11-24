@@ -126,10 +126,10 @@ msgid " (PiP)"
 msgstr " (PiP)"
 
 msgid " (Radio)"
-msgstr " (Радио)"
+msgstr ""
 
 msgid " (TV)"
-msgstr " (ТВ)"
+msgstr ""
 
 msgid " (disabled)"
 msgstr " (отключен)"
@@ -6235,7 +6235,7 @@ msgid "Position of finished Timers in the Timer list"
 msgstr "Позиции выполненных таймеров в списке таймеров"
 
 msgid "Position setup"
-msgstr "Настройки позиционера"
+msgstr "Настройка позиции"
 
 msgid "Position stored at index"
 msgstr "Сохраненный номер позиции"
@@ -9742,7 +9742,7 @@ msgid "Use TV remote control"
 msgstr "Использовать пульт телевизора"
 
 msgid "Use USALS for this sat"
-msgstr "Use USALS for this sat"
+msgstr "Использовать USALS для этого спутника"
 
 msgid "Use ViaSat EPG information when it is available."
 msgstr "Использовать информацию ViaSat телегида, когда она существует."
