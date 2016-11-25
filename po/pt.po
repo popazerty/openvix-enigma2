@@ -1,4 +1,4 @@
-# Portuguese translations for enigma2 package.
+# Portuguese translations for enigma2.
 # Copyright (C) 2012 THE enigma2'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the enigma2 package.
 # Automatically generated, 2012.
@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: OpenBH 06.010\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-09-24 18:23+0100\n"
-"PO-Revision-Date: 2016-11-15 13:43+0000\n"
+"PO-Revision-Date: 2016-11-25 09:59+0000\n"
 "Last-Translator: nunigaia\n"
 "Language-Team: BH Team\n"
 "Language: pt_PT\n"
@@ -4290,7 +4290,7 @@ msgid "Press OK on your remote control to continue."
 msgstr "Prima OK no telecomando para continuar."
 
 msgid "Press OK to activate the selected skin."
-msgstr "Prima OK para ativar a Skin selecionada."
+msgstr "Prima OK para ativar a skin selecionada."
 
 msgid "Press OK to activate the settings."
 msgstr "Prima OK para ativar as definições "
@@ -4664,10 +4664,10 @@ msgid "Resolution"
 msgstr "Resolução"
 
 msgid "Restart GUI"
-msgstr "Reiniciar Enigma2"
+msgstr "Reiniciar Enigma"
 
 msgid "Restart GUI now?"
-msgstr "Reiniciar o Enigma2 agora?"
+msgstr "Reiniciar a interface do utilizador?"
 
 msgid "Restart network"
 msgstr "Reiniciar a rede"
@@ -5529,7 +5529,7 @@ msgid "Standby"
 msgstr "On / Off"
 
 msgid "Standby / restart"
-msgstr "Espera Reinício e Suspensão"
+msgstr "Gestão de Energia"
 
 msgid "Start"
 msgstr "Iniciar"
@@ -5706,7 +5706,7 @@ msgid "Switchable tuner types:"
 msgstr "Tipos de tuner selecionáveis"
 
 msgid "Symbol rate"
-msgstr "Symbol rate"
+msgstr "Taxa de Símbolo"
 
 msgid "Sync failure moving back to origin !"
 msgstr "Falha de sincronização ao voltar à origem !"
@@ -6755,7 +6755,7 @@ msgid "View list of available recording extensions"
 msgstr "Ver lista de extensões de Gravações disponíveis"
 
 msgid "View list of available skins"
-msgstr "Ver lista de Skins disponíveis"
+msgstr "Ver lista de skins disponíveis"
 
 msgid "View list of available software extensions"
 msgstr "Ver lista de extensões de Software disponíveis"
@@ -8506,10 +8506,10 @@ msgid "Remote Control System Code"
 msgstr "Código de Sistema do Telecomando"
 
 msgid "Restart"
-msgstr "Reiniciar Total"
+msgstr "Reiniciar Sistema"
 
 msgid "Restart enigma"
-msgstr "Reiniciar Gui"
+msgstr "Reiniciar Enigma2"
 
 msgid "SABnzbd setup"
 msgstr "Instalação SABnzbd"
@@ -8524,13 +8524,13 @@ msgid "Service searching"
 msgstr "Procura de Serviços"
 
 msgid "Shutdown"
-msgstr "Desligar"
+msgstr "Desligar a Vuplus"
 
 msgid "SoftCam / CI"
 msgstr "SoftCam / CI"
 
 msgid "Standby / Restart"
-msgstr "Suspender e Reiniciar"
+msgstr "Suspender / Reiniciar"
 
 msgid "Storage devices"
 msgstr "Dispositivos de armazenamento"
@@ -10288,7 +10288,7 @@ msgid "Addons Manager"
 msgstr "Gestor de Addons"
 
 msgid "Addons Download Manager"
-msgstr "Gestor de Descargas de Addons"
+msgstr "Gestor de descargas de Addons"
 
 msgid "Open Black Hole online update"
 msgstr "Atualização Online da Imagem"
@@ -10315,13 +10315,13 @@ msgid "Downloads Manager"
 msgstr "Gestor de Descargas"
 
 msgid "Open Black Hole Image Skins"
-msgstr "Skins Imagem Open Black Hole"
+msgstr "Skins Open Black Hole"
 
 msgid "Black Hole Image Script"
 msgstr "Script Imagem Black Hole"
 
 msgid "Black Hole Image Boot Logo"
-msgstr "Logotipos Imagem Black Hole"
+msgstr "Logotipos Open Black Hole"
 
 msgid "Picons Packages"
 msgstr "Pacotes de Picons"
@@ -10890,8 +10890,14 @@ msgstr ""
 "O ficheiro de Swap está ativo.\n"
 "Remova-o antes de criar um novo espaço Swap."
 
-msgid "Desculpe nenhum dispositivo válido.\n"
-msgstr "Desculpe nenhum dispositivo válido.\n"
+msgid ""
+"Sorry no valid device found.\n"
+"Be sure your device is Linux formatted and mapped.\n"
+"Please use Black Hole format wizard and Black Hole device manager to prepare and map your usb stick."
+msgstr ""
+"Desculpe nenhum dispositivo válido.\n"
+"Certifique-se de que o  seu dispositivo está formatado em Linux e mapeado.\n"
+"Por favor, use o assistente de formatação da Black Hole e o gestor de dispositivos Black Hole para preparar e mapear a sua unidade usb."
 
 msgid "Be sure your device is Linux formatted and mapped.\n"
 msgstr "Certifique-se de que o  seu dispositivo está formatado em Linux e mapeado.\n"
@@ -11348,7 +11354,7 @@ msgid "Preferences"
 msgstr "Preferências"
 
 msgid "Deep"
-msgstr "Suspender"
+msgstr "Desligar"
 
 msgid "Parental"
 msgstr "Paternal"
@@ -11427,3 +11433,33 @@ msgstr "Gestão do ficheiro Swap"
 
 msgid "Fast Plugin Setup"
 msgstr "Definição do Plugin Rápido"
+
+msgid "Package Details"
+msgstr "Detalhes do Pacote"
+
+msgid "Download Complete"
+msgstr "Descarga Concluída"
+
+msgid "Skins Image Open Black Hole"
+msgstr "Skins Open Black Hole"
+
+msgid "Open Black Hole Skins"
+msgstr "Skins Open Black Hole"
+
+msgid "Black Hole Settings"
+msgstr "Listas Open Black Hole"
+
+msgid "Skin"
+msgstr "Skins"
+
+msgid "Configure alignment of service numbers."
+msgstr "Configurar o alinhamento dos números do serviço."
+
+msgid "Open Black Hole Addons Plugins"
+msgstr "Open BH Addons e Plugins"
+
+msgid "Frequency (kHz)"
+msgstr "Frequência (KHz)"
+
+msgid "Signal Finder"
+msgstr "Localizador de Sinal"

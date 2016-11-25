@@ -14384,7 +14384,7 @@ msgid "standard"
 msgstr "standard"
 
 msgid "start cut here"
-msgstr "Inizio taglio"
+msgstr "qui inizio taglio"
 
 msgid "start directory"
 msgstr "Cartella di avvio"
@@ -14655,3 +14655,9 @@ msgstr "zap e registrazione"
 
 msgid "zapped"
 msgstr "Zap eseguito"
+
+msgid "Hide dotted line on the top for this service"
+msgstr "Nascondere i puntini all'inizio per questo servizio"
+
+msgid "Configuration…"
+msgstr "Configurazione"
