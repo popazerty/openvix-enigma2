@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: OBH-enigma2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-06-29 02:58+0200\n"
-"PO-Revision-Date: 2016-11-23 10:49+0100\n"
+"PO-Revision-Date: 2016-11-29 00:14+0000\n"
 "Last-Translator: insanity. <insanity@>\n"
 "Language-Team: OBH. <insanity@>\n"
 "Language: it_IT\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.7.3\n"
+"X-Generator: Poedit 1.8.11\n"
 
 msgid ""
 "\n"
@@ -4227,7 +4227,7 @@ msgid "Expert"
 msgstr "Esperto"
 
 msgid "Extended"
-msgstr "Esteso"
+msgstr "Avanzato"
 
 msgid "Extended Networksetup Plugin..."
 msgstr "Plugin Impostazioni Avanzate della Rete..."
@@ -4278,7 +4278,7 @@ msgid "External subtitle switch fonts"
 msgstr "Commutare fonti sottotitoli esterni"
 
 msgid "Extra Settings"
-msgstr "Configurazioni avanzate"
+msgstr "Config. avanzate"
 
 msgid "Extra motor options"
 msgstr "Opzioni avanzate motore"
@@ -8418,7 +8418,7 @@ msgid "Satellite longitude:"
 msgstr "Longitudine satellite:"
 
 msgid "Satellites"
-msgstr "Satelliti"
+msgstr "SAT - DVBT"
 
 msgid "Satfinder"
 msgstr "Satfinder"
@@ -9848,7 +9848,7 @@ msgid "Sort Trash by deletion time"
 msgstr "Ordinare cestino per data cancellazione"
 
 msgid "Sort by"
-msgstr "Ordinare per"
+msgstr "ordina per"
 
 msgid "Sort by default"
 msgstr "Ordinare per predefinito"
@@ -13310,7 +13310,7 @@ msgid "advertisement/shopping"
 msgstr "pubblicità/shopping"
 
 msgid "alpha then oldest"
-msgstr "Trasparenza la più antica"
+msgstr "alfabetico (più datato)"
 
 msgid "alphabetic"
 msgstr "alfabetico"
@@ -13319,7 +13319,7 @@ msgid "alphabetic reverse"
 msgstr "alfabetico inverso"
 
 msgid "alpharev then newest"
-msgstr "alpharev quindi più recente"
+msgstr "alfabetico inverso (più recente)"
 
 msgid "alternative"
 msgstr "alternativo"
@@ -13704,10 +13704,10 @@ msgid "fitness & health"
 msgstr "fitness & salute"
 
 msgid "flat alphabetic"
-msgstr "alfabetico uniforme"
+msgstr "alfabetico, cartelle incluse"
 
 msgid "flat alphabetic reverse"
-msgstr "alfabetico uniforme inverso"
+msgstr "alfabetico decrescente, cartelle incluse"
 
 msgid "folk/traditional music"
 msgstr "folk/musica tradizionale"
@@ -14183,7 +14183,7 @@ msgid "restart GUI"
 msgstr "riavviare la GUI"
 
 msgid "reverse by date"
-msgstr "invertire per data"
+msgstr "inverso per data"
 
 msgid "rewind to the previous chapter"
 msgstr "Tornare al capitolo precedente"
@@ -14327,7 +14327,7 @@ msgid "show/game show (general)"
 msgstr "Show/Telequiz (generale)"
 
 msgid "shuffle"
-msgstr "shuffle"
+msgstr "ordine casuale"
 
 msgid "shut down"
 msgstr "spegnimento"
@@ -14661,3 +14661,18 @@ msgstr "Nascondere i puntini all'inizio per questo servizio"
 
 msgid "Configuration…"
 msgstr "Configurazione"
+
+msgid "Set pin code persistent"
+msgstr "Imposta codice PIN persistente"
+
+msgid "Enter persistent PIN code"
+msgstr "Immettere codice PIN persistente"
+
+msgid "Reset persistent PIN code"
+msgstr "Azzera codice PIN persistente"
+
+msgid "Show CI messages"
+msgstr "Mostra notifiche CI"
+
+msgid "DVB CI Delay"
+msgstr "Ritardo DVB CI"

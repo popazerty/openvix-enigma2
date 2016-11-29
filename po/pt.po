@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: OpenBH 06.010\n"
+"Project-Id-Version: OpenBH 06.018\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-09-24 18:23+0100\n"
-"PO-Revision-Date: 2016-11-25 09:59+0000\n"
+"PO-Revision-Date: 2016-11-26 18:17+0000\n"
 "Last-Translator: nunigaia\n"
 "Language-Team: BH Team\n"
 "Language: pt_PT\n"
@@ -1047,7 +1047,7 @@ msgid "Backup is running..."
 msgstr "Backup a decorrer..."
 
 msgid "Backup Menu"
-msgstr "Backup OpenBH"
+msgstr "Backups OpenBH"
 
 msgid "Backup system settings"
 msgstr "Backup das configurações do sistema"
@@ -1649,10 +1649,10 @@ msgid "Creating directory %s failed."
 msgstr "A criação da pasta %s falhou."
 
 msgid "Creating filesystem"
-msgstr "Criando sistema de ficheiros"
+msgstr "A criar sistema de ficheiros"
 
 msgid "Creating partition"
-msgstr "Criando partição"
+msgstr "A criar partição"
 
 msgid "Croatian"
 msgstr "Croata"
@@ -2059,7 +2059,7 @@ msgid "Do you want to remove the package:\n"
 msgstr "Deseja remover o pacote:\n"
 
 msgid "Do you want to restore your settings?"
-msgstr "Deseja fazer um restauro das definições?"
+msgstr "Deseja fazer um restauro das suas definições?"
 
 msgid "Do you want to resume this playback?"
 msgstr "Pretende retomar esta reprodução?"
@@ -2879,7 +2879,7 @@ msgid "Initializing storage device..."
 msgstr "A iniciar dispositivo de armazenamento..."
 
 msgid "Inotify Monitoring"
-msgstr "Monitorização de inotify"
+msgstr "Monitor Inotify"
 
 msgid "Input"
 msgstr "Entrada"
@@ -3341,7 +3341,7 @@ msgid "Mount"
 msgstr "Montagem"
 
 msgid "Mounts Setup"
-msgstr "Instalação Montagens"
+msgstr "Montagem de Rede"
 
 msgid "Move"
 msgstr "Mover"
@@ -4652,10 +4652,10 @@ msgid "Reset playback position"
 msgstr "Reiniciar a posição da reprodução"
 
 msgid "Reset video enhancement settings to system defaults?"
-msgstr "Reiniciar a opções de imagem para as padrão de sistema?"
+msgstr "Redefinir as configurações de otimização de vídeo para os padrões do sistema?"
 
 msgid "Reset video enhancement settings to your last configuration?"
-msgstr "Reiniciar a opções de imagem para as suas ultimas configurações?"
+msgstr "Redefinir as configurações de otimização de vídeo para sua última configuração?"
 
 msgid "Reshare:"
 msgstr "Repartilhar:"
@@ -4664,7 +4664,7 @@ msgid "Resolution"
 msgstr "Resolução"
 
 msgid "Restart GUI"
-msgstr "Reiniciar Enigma"
+msgstr "Reiniciar Enigma2"
 
 msgid "Restart GUI now?"
 msgstr "Reiniciar a interface do utilizador?"
@@ -5044,7 +5044,7 @@ msgid "Serbian"
 msgstr "Sérvio"
 
 msgid "Serial No"
-msgstr "Nº de Série"
+msgstr "Nº Série"
 
 msgid "Serv.Name"
 msgstr "Nome do Servidor"
@@ -6168,7 +6168,7 @@ msgid "Thursday"
 msgstr "Quinta-Feira"
 
 msgid "TiVo support"
-msgstr "TiVo supporte"
+msgstr "Suporte TiVo"
 
 msgid "Time"
 msgstr "Hora"
@@ -8479,7 +8479,7 @@ msgid "MiniDLNA setup"
 msgstr "MiniDLNA Partilha da Rede"
 
 msgid "Mounts setup"
-msgstr "Instalação Montagens de Rede"
+msgstr "Configuração e Montagens de Rede"
 
 msgid "NFS setup"
 msgstr "NFS Partilha para Rede Windows"
@@ -10053,7 +10053,7 @@ msgid ""
 "Please configure or verify your Nameservers by filling out the required values.\n"
 "When you are ready press OK to continue."
 msgstr ""
-"Por favor configure ou veriique o servidor DNS preenchedo os valores requeridos.\n"
+"Por favor configure ou veriique o servidor DNS preenchendo os valores requeridos.\n"
 "Quando estiver pronto prima OK."
 
 msgid ""
@@ -10164,7 +10164,7 @@ msgid "No, do nothing."
 msgstr "Não, não faça nada."
 
 msgid "No, just start my %s %s"
-msgstr "Não, somente inicie a %s %s."
+msgstr "Não, iniciar apenas a minha %s %s."
 
 msgid "OK, guide me through the upgrade process"
 msgstr "OK, ajude-me no processo de atualização"
@@ -10185,10 +10185,10 @@ msgid "Yes, backup my settings!"
 msgstr "Sim, guarde as minhas definições!"
 
 msgid "Yes, restore the settings now"
-msgstr "Sim, guardar as definições"
+msgstr "Sim, restaurar agora as minhas definições."
 
 msgid "Yes, shut down now."
-msgstr "Sim, desligar agora"
+msgstr "Sim, desligar agora."
 
 msgid "You have chosen to backup your settings. Please press OK to start the backup now."
 msgstr "Escolheu fazer um backup de configurações. Por favor prima OK para fazer o backup agora."
@@ -10228,16 +10228,16 @@ msgid "Open Black Hole Settings"
 msgstr "Definições Open Black Hole"
 
 msgid "Black Hole Speed Up"
-msgstr "Acelerar a Black Hole"
+msgstr "Acelerador da Black Hole"
 
 msgid "Devices Manager"
 msgstr "Gestor de Dispositivos"
 
 msgid "General settings"
-msgstr "Definições Gerais"
+msgstr "Configurações Gerais"
 
 msgid "Osd settings"
-msgstr "Definições do OSD"
+msgstr "Configuração do OSD"
 
 msgid "Osd Position setup"
 msgstr "Definição da posição OSD"
@@ -10252,13 +10252,13 @@ msgid "Swap File settings"
 msgstr "Definição do Ficheiro Swap"
 
 msgid "Inadyn"
-msgstr "Cliente de DNS Inadyn"
+msgstr "Inadyn Segurança de Rede"
 
 msgid "Dlna Client"
 msgstr "Cliente DLNA para Mídia"
 
 msgid "Dlna Server"
-msgstr "Servidor DLNA de Mídia"
+msgstr "Servidor DLNA para Mídia"
 
 msgid "OpenVpn Panel"
 msgstr "Painel de definição OpenVpn"
@@ -10480,7 +10480,7 @@ msgid ""
 "\n"
 "Do you really want to do a factory reset?"
 msgstr ""
-"Quando executar um reset de fábrica, vai perder TODA a configuração\n"
+"Quando executar um restauro de fábrica, vai perder TODA a sua configuração\n"
 "(incluindo bouquets, serviços, posições de satélite...) \n"
 "Após a conclusão do reset de fábrica, a sua %s %s reiniciará automaticamente! \n"
 "\n"
@@ -11463,3 +11463,53 @@ msgstr "Frequência (KHz)"
 
 msgid "Signal Finder"
 msgstr "Localizador de Sinal"
+
+msgid "Welcome..."
+msgstr "Bem vindo..."
+
+msgid "Enable Wake On Lan"
+msgstr "Ativar Wake On Lan"
+
+msgid "Please wait while your network configuration is activated..."
+msgstr "Por favor espere! Enquanto a sua configuração de rede é ativada."
+
+msgid "Red colored"
+msgstr "Colorido a vermelho"
+
+msgid "< Default >"
+msgstr "< Padrão >"
+
+msgid ""
+"Your %s %s will be restarted after the installation of the service\n"
+"Are you ready to install \"%s\" ?"
+msgstr ""
+"A sua %s %s será reiniciada após a instalação do serviço\n"
+"Está pronto para instalar \"%s\"?"
+
+msgid ""
+"Your %s %s will be restarted after the removal of the service\n"
+"Do you want to remove the service now ?"
+msgstr ""
+"A sua %s %s será reiniciada após a remoção do serviço\n"
+"Quer remover o serviço agora?"
+
+msgid "Mounts"
+msgstr "Montagens"
+
+msgid "Apps"
+msgstr "Aplicações"
+
+msgid "Device"
+msgstr "Ligações"
+
+msgid "Backup"
+msgstr "Backups"
+
+msgid "Reload Device"
+msgstr "Recarregar"
+
+msgid "Setting"
+msgstr "Definição"
+
+msgid "Backup Complete"
+msgstr "Backup concluído!..."
