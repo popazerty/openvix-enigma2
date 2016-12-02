@@ -967,7 +967,7 @@ msgid "Alternative services tuner priority"
 msgstr "Приоритет используемых тюнеров"
 
 msgid "Always ask"
-msgstr "Всегда спрашиват"
+msgstr "Всегда спрашивать"
 
 msgid "Always hide infobar"
 msgstr "Всегда скрывать инфобар"
@@ -3121,6 +3121,9 @@ msgstr "Динамическая контрастность"
 msgid "E"
 msgstr "E"
 
+msgid "E2 (re)starts:\t%s\n"
+msgstr "Перезапусков:\t%s\n"
+
 msgid "ECM Statistics"
 msgstr "Статистика ECM"
 
@@ -4207,6 +4210,9 @@ msgstr ""
 "Не беспокойтесь о ярких оттенках, они будут настроены на следующем этапе.\n"
 "Если Вас устраивает результат, нажмите OK."
 
+msgid "Image:\t%s.%s%s (%s)\n"
+msgstr "Имидж:\t%s.%s%s (%s)\n"
+
 msgid "ImageBackup"
 msgstr "Резервная копия имиджа"
 
@@ -4566,6 +4572,11 @@ msgstr "Последняя конфигурация"
 
 msgid "Last speed"
 msgstr "Последняя скорость"
+
+msgid ""
+"Last update:\t%s\n"
+msgstr ""
+"Обновлено:\t%s\n"
 
 msgid ""
 "Last update:\t%s\n"
@@ -8076,6 +8087,9 @@ msgstr "Длина сайта"
 msgid "Size: "
 msgstr "Размер: "
 
+msgid "Skin:\t%s"
+msgstr "Скин:\t%s"
+
 msgid "Skin Setting"
 msgstr "Настройки скина"
 
@@ -8638,6 +8652,9 @@ msgstr "Инфо системы"
 
 msgid "System"
 msgstr "Система"
+
+msgid "System temp:\t%s"
+msgstr "Температура:\t%s"
 
 msgid "System temperature:\t%s"
 msgstr "Температура:\t%s"
