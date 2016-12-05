@@ -967,22 +967,15 @@ class BhSpeedUp(Screen, ConfigListScreen):
 		["MiniDlna UPnP Server", "enigma2-plugin-extensions-dlnaserver"],
 		]
 		
-		machine = self.nab_Detect_Machine()
-#		if machine != "vusolo4k":
-#			self.pluglist.append(["OpenMultiBoot", "enigma2-plugin-extensions-openmultiboot"])
-		
-		
-		if machine != "vusolo" and machine != "vusolo4k":
+		machine = self.nab_Detect_Machine()		
+		if machine != "vusolo" and not machine.endswith("4k"):
 			self.pluglist.append(["Opera browser & HbbTV", "enigma2-plugin-extensions-hbbtv"])
-		elif machine == "vusolo4k":
-			self.pluglist.append(["Chromium Browser & HbbTV", "webkit-hbbtv-browser-vusolo4k"])
+		elif machine.endswith("4k"):
+			self.pluglist.append(["Chromium Browser & HbbTV", "webkit-hbbtv-browser-"+ machine ])
 			
 		if machine not in ("vusolo", "vuduo", "vuultimo", "vuuno", "vuzero"): 
 			self.pluglist.append(["Kodi", "enigma2-plugin-extensions-vuplus-kodi"])	
-			
-#		if machine == "vusolo" or machine == "bm750" or machine == "vuuno":
-#			self.pluglist.append(["Wmv, Wma, Asf media support", "gst-ffmpeg"])
-		
+					
 		self.activityTimer = eTimer()
 		self.activityTimer.timeout.get().append(self.updateFeed2)
 		
@@ -1049,25 +1042,22 @@ class BhSpeedUp(Screen, ConfigListScreen):
 				self.mycmdlist.append(cmd)
 				if cmd == "opkg remove --force-depends --force-remove enigma2-plugin-extensions-hbbtv":
 					self.mycmdlist.append("opkg remove --force-depends --force-remove vuplus-opera-browser-util vuplus-opera-dumpait")
-#					self.mycmdlist.append("rm -rf /usr/local/hbb-browser")
 				elif cmd == "opkg remove --force-depends --force-remove enigma2-plugin-extensions-vuplus-kodi":
 					self.mycmdlist.append("rm -rf /usr/lib/enigma2/python/Plugins/Extensions/Kodi")
 					self.mycmdlist.append("opkg remove --force-depends --force-remove enigma2-plugin-extensions-subssupport")
-				elif cmd == "opkg remove --force-depends --force-remove webkit-hbbtv-browser-vusolo4k":
+				elif cmd.startswith("opkg remove --force-depends --force-remove webkit-hbbtv-browser-"):	
 					self.mycmdlist.append("opkg remove --force-depends --force-remove enigma2-plugin-extensions-chromium vuplus-webkithbbtv-dumpait enigma2-plugin-extensions-webkithbbtv")
 					self.mycmdlist.append("rm -rf /usr/lib/enigma2/python/Plugins/Extensions/Chromium")
 					self.mycmdlist.append("rm -rf /usr/lib/enigma2/python/Plugins/Extensions/WebkitHbbTV")
-				elif cmd == "opkg install webkit-hbbtv-browser-vusolo4k":
-					self.mycmdlist.append("opkg install enigma2-plugin-extensions-chromium")
+				elif cmd.startswith("opkg install webkit-hbbtv-browser-"):
+					self.mycmdlist.append("opkg install enigma2-plugin-extensions-chromium")									
 				elif cmd == "opkg install enigma2-plugin-extensions-hbbtv":
 					self.mycmdlist = []
-#					self.mycmdlist.append("opkg install opera-hbbtv")
 					self.mycmdlist.append("opkg install enigma2-plugin-extensions-hbbtv")
 		if self.mycmdlist:
 			self.mycmdlist.append("sleep 1")
 									
 											
-
 		if len(self.mycmdlist) > 0:
 			self.session.open(Console, title=_("Black Hole Speed Up"), cmdlist=self.mycmdlist, finishedCallback = self.allDone)
 		else:
