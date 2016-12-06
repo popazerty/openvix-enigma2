@@ -351,7 +351,7 @@ def InitUsageConfig():
 		("2", _("Bouquet List"))
 	])
 	config.usage.show_bouquetalways = ConfigYesNo(default=False)
-	config.usage.show_event_progress_in_servicelist = ConfigSelection(default="barright", choices=[
+	config.usage.show_event_progress_in_servicelist = ConfigSelection(default="barleft", choices=[
 		("barleft", _("Progress bar left")),
 		("barright", _("Progress bar right")),
 		("percleft", _("Percentage left")),
@@ -693,7 +693,7 @@ def InitUsageConfig():
 	if SystemInfo["HasForceLNBOn"]:
 		def forceLNBPowerChanged(configElement):
 			open(SystemInfo["HasForceLNBOn"], "w").write(configElement.value)
-		config.misc.forceLnbPower = ConfigSelection(default="on", choices=[
+		config.misc.forceLnbPower = ConfigSelection(default="off", choices=[
 			("on", _("Yes")),
 			("off", _("No"))
 		])
@@ -702,7 +702,7 @@ def InitUsageConfig():
 	if SystemInfo["HasForceToneburst"]:
 		def forceToneBurstChanged(configElement):
 			open(SystemInfo["HasForceToneburst"], "w").write(configElement.value)
-		config.misc.forceToneBurst = ConfigSelection(default="enable", choices=[
+		config.misc.forceToneBurst = ConfigSelection(default="disable", choices=[
 			("enable", _("Yes")),
 			("disable", _("No"))
 		])
