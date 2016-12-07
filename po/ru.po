@@ -10620,10 +10620,10 @@ msgid "Yes (save index in setup tuner)"
 msgstr "Да (сохранить номер в настройках тюнера)"
 
 msgid "Yes to all"
-msgstr "Yes to all"
+msgstr "Да для всех"
 
 msgid "Yes, always"
-msgstr "Да - для всех"
+msgstr "Да, всегда"
 
 msgid "Yes, and delete this movie"
 msgstr "Да, удалить эту запись"
