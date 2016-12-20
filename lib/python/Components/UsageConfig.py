@@ -553,7 +553,7 @@ def InitUsageConfig():
 
 	if SystemInfo["HasForceToneburst"]:
 		def forceToneBurstChanged(configElement):
-			open(SystemInfo["HasForceToneburst"], "w").write(configElement.value
+			open(SystemInfo["HasForceToneburst"], "w").write(configElement.value)
 		config.misc.forceToneBurst = ConfigSelection(default = "disable", choices = [ ("enable", _("Yes")), ("disable", _("No"))] )
 		config.misc.forceToneBurst.addNotifier(forceToneBurstChanged)
 
