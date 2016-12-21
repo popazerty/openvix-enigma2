@@ -1,10 +1,10 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: enigma2 Open Black Hole 0.6.021\n"
+"Project-Id-Version: OBH-enigma2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-06-29 02:58+0200\n"
-"PO-Revision-Date: 2016-12-08 23:16+0000\n"
-"Last-Translator: insanity\n"
+"PO-Revision-Date: 2016-12-21 18:53+0000\n"
+"Last-Translator: nunigaia\n"
 "Language-Team: OBH. <insanity@>\n"
 "Language: it_IT\n"
 "MIME-Version: 1.0\n"
@@ -292,8 +292,8 @@ msgstr "%d minuti"
 
 msgid "%d pixels wide"
 msgid_plural "%d pixels wide"
-msgstr[0] "%d Pixel Breite"
-msgstr[1] "%d Pixel Breite"
+msgstr[0] "%d larghezza pixel"
+msgstr[1] "%d larghezza pixels"
 
 msgid "%d second"
 msgid_plural "%d seconds"
@@ -5403,10 +5403,10 @@ msgid "Jump back 24 hours"
 msgstr "Torna indietro di 24 ore"
 
 msgid "Jump first press in channel selection"
-msgstr "Scelte rapide nell'elenco canali"
+msgstr "Salta al primo canale che inizia con una delle lettere del tasto"
 
 msgid "Jump first press in channel selection*"
-msgstr "Scelte rapide nell'elenco canali*"
+msgstr "Salta al primo canale che inizia con una delle lettere del tasto*"
 
 msgid "Jump forward 24 hours"
 msgstr "Vai avanti 24 ore"
@@ -12795,7 +12795,7 @@ msgid "Yes, backup my settings!"
 msgstr "Sì, eseguire backup configurazioni!"
 
 msgid "Yes, but don't save timeshift as movie"
-msgstr "Sì, ma non salvare timeshift come mowie"
+msgstr "Sì, ma non salvare timeshift come registrazione"
 
 msgid "Yes, but save timeshift as movie and continue recording"
 msgstr "Sì, ma salvare il timeshift come film e continuare la registrazione"
@@ -14676,3 +14676,9 @@ msgstr "Mostra notifiche CI"
 
 msgid "DVB CI Delay"
 msgstr "Ritardo DVB CI"
+
+msgid "Enable Focus Animation"
+msgstr "Abilitare focus animazioni"
+
+msgid "Same behavior as current animation"
+msgstr "Stesso comportamento come animazione corrente"

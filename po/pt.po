@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: enigma2 Open Black Hole 0.6.020\n"
+"Project-Id-Version: enigma2 3.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-09-24 18:23+0100\n"
-"PO-Revision-Date: 2016-12-07 17:45+0000\n"
+"PO-Revision-Date: 2016-12-21 18:43+0000\n"
 "Last-Translator: nunigaia\n"
 "Language-Team: BH Team\n"
 "Language: pt_PT\n"
@@ -807,7 +807,7 @@ msgid "Allows you to setup the button to do what you choose."
 msgstr "Permite definir a tecla para fazer o que pretende."
 
 msgid "Alpha"
-msgstr "Alfa"
+msgstr "Alfabético"
 
 msgid "Alphanumeric"
 msgstr "Alfanumérico"
@@ -6984,7 +6984,7 @@ msgid "Yes, and delete this movie"
 msgstr "Sim, e apagar este filme"
 
 msgid "Yes, but don't save timeshift as movie"
-msgstr "Sim, mas não Salvar timeshift como filme"
+msgstr "Sim, mas não salvar timeshift como filme"
 
 msgid "Yes, but save timeshift as movie and continue recording"
 msgstr "Sim, mas Salvar timeshift como filme e continua a gravar"
@@ -8417,7 +8417,7 @@ msgid "Devices"
 msgstr "Dispositivos"
 
 msgid "Display"
-msgstr "Visor"
+msgstr "Visor Lcd"
 
 msgid "Dolby Digital/Dtd downmix"
 msgstr "Som Dolby Digital/Dtd downmix"
@@ -9175,7 +9175,7 @@ msgid "Initial rewind speed"
 msgstr "Velocidade inicial de rebobinar. "
 
 msgid "Jump first press in channel selection*"
-msgstr "Saltar primeiro para a Seleção de Canais*"
+msgstr "Salto alfabético na Seleção de Canais*"
 
 msgid "Keyboard map"
 msgstr "Mapear teclado"
@@ -9184,13 +9184,13 @@ msgid "Keyboard setup"
 msgstr "Definir teclado"
 
 msgid "LED Deep Standby"
-msgstr "LED Suspensão"
+msgstr "LED Modo de Suspensão"
 
 msgid "LED Normal"
 msgstr "LED Normal"
 
 msgid "LED Standby"
-msgstr "LED Espera"
+msgstr "LED Modo de Espera"
 
 msgid "LED brightness during deep standby."
 msgstr "Brilho do LED em Suspensão."
@@ -10403,7 +10403,7 @@ msgid "Remove all alternatives"
 msgstr "Remover todos os alternativos"
 
 msgid "Jump first press in channel selection"
-msgstr "Saltar 'pressão leve' na seleção de canais"
+msgstr "Salto alfabético na seleção de canais"
 
 msgid "Show crypto icons"
 msgstr "Mostrar icons de serviço codificado"
@@ -11528,3 +11528,9 @@ msgstr "Temp.Sistema:\t%s"
 
 msgid "Last update:\t%s\n"
 msgstr "Atualizada em:\t%s\n"
+
+msgid "Enable Focus Animation"
+msgstr "Ativar Foco da Animação"
+
+msgid "Same behavior as current animation"
+msgstr "Mesmo comportamento de animação atual"
