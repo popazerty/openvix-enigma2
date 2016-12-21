@@ -381,7 +381,7 @@ msgid "12V output."
 msgstr "12В Выход."
 
 msgid "13 V"
-msgstr "13 В"
+msgstr "13В"
 
 msgid "16:10"
 msgstr "16:10"
@@ -402,7 +402,7 @@ msgid "16:9 always"
 msgstr "16:9 всегда"
 
 msgid "18 V"
-msgstr "18 В"
+msgstr "18В"
 
 msgid "1X"
 msgstr "1X"
@@ -788,16 +788,16 @@ msgid "Add provider"
 msgstr "Добавить поставщика"
 
 msgid "Add recording (enter recording duration)"
-msgstr "Ввести длительность записи"
+msgstr "Запись (Введите длительность записи)"
 
 msgid "Add recording (enter recording endtime)"
-msgstr "Ввести время окончания"
+msgstr "Запись (Введите время окончания)"
 
 msgid "Add recording (indefinitely)"
-msgstr "Запись без определения окончания)"
+msgstr "Запись (Конец не определён)"
 
 msgid "Add recording (stop after current event)"
-msgstr "Записать текущего события"
+msgstr "Запись (Стоп после текущего события)"
 
 msgid "Add service"
 msgstr "Добавить сервис"
@@ -1160,7 +1160,7 @@ msgid "Audio language selection 4"
 msgstr "Выбор языка аудио 4"
 
 msgid "Audio options..."
-msgstr "Настройки аудио..."
+msgstr "Настройки аудио"
 
 msgid "Audio track (%s) format"
 msgstr "Формат звуковой дорожки (%s)"
@@ -1223,7 +1223,7 @@ msgid "Automatic"
 msgstr "Автоматически"
 
 msgid "Automatic Scan"
-msgstr "Автопоиск"
+msgstr "Автоматический поиск"
 
 msgid "Automatic refresh"
 msgstr "Обновлять автоматически"
@@ -2024,10 +2024,10 @@ msgid "Configure the behavior when movie playback is manually stopped."
 msgstr "Настройка действия при остановке воспроизведения вручную."
 
 msgid "Configure the behavior when movie playback is started."
-msgstr "Укажите, что делать при начале воспроизведения."
+msgstr "Настройка действия при начале воспроизведения."
 
 msgid "Configure the behavior when reaching the end of a movie, during movie playback."
-msgstr "Укажите, что делать при окончании воспроизведения."
+msgstr "Настройка действия при окончании воспроизведения."
 
 msgid ""
 "Configure the border width of the subtitles. The dark border makes the subtitles easier to "
@@ -2763,7 +2763,7 @@ msgid "Deselect"
 msgstr "Снять выбор"
 
 msgid "Details for plugin: "
-msgstr "Подробнее о плагинеn: "
+msgstr "Подробнее о плагине: "
 
 msgid "Detected devices:"
 msgstr "Найдены устройства:"
@@ -3019,10 +3019,10 @@ msgid "Do you want to remove the package:\n"
 msgstr "Хотите удалить пакет:\n"
 
 msgid "Do you want to restore your settings?"
-msgstr "Do you want to restore your settings?"
+msgstr "Хотите восстановить Ваши настройки?"
 
 msgid "Do you want to resume playback?"
-msgstr "Хотите восстановить Ваши настройки?"
+msgstr "Хотите продолжить воспроизведение?"
 
 msgid ""
 "Do you want to send all the selected files:\n"
@@ -3267,6 +3267,9 @@ msgstr "включить редактирование пакета пользо�
 
 msgid "Enable debug logs *"
 msgstr "Включить журнал отладки *"
+
+msgid "Enable Focus Animation"
+msgstr "Фокус анимации"
 
 msgid "Enable fallback remote receiver"
 msgstr "Включить резервный удаленный ресивер"
@@ -7023,6 +7026,9 @@ msgstr "Настройки Samba"
 msgid "Same resolution as skin"
 msgstr "Разрешение принятое в скине"
 
+msgid "Same behavior as current animation"
+msgstr "Как в текущей анимации"
+
 msgid "Sat"
 msgstr "Сб"
 
@@ -8124,25 +8130,25 @@ msgid "Sleep delay"
 msgstr "Задержка перед выключением"
 
 msgid "Slide drop"
-msgstr "Слайд-шоу вниз"
+msgstr "Слайд вниз"
 
 msgid "Slide from left"
-msgstr "Слайд-шоу влево"
+msgstr "Слайд влево"
 
 msgid "Slide left to right"
-msgstr "Слайд-шоу слева направо"
+msgstr "Слайд слева направо"
 
 msgid "Slide picture in loop"
 msgstr "Циклический показ слайдов"
 
 msgid "Slide right to left"
-msgstr "Слайд-шоу справа налево"
+msgstr "Слайд справа налево"
 
 msgid "Slide show interval (sec.)"
 msgstr "Интервал слайдшоу (сек.)"
 
 msgid "Slide top to bottom"
-msgstr "Слайд-шоу сверху вниз"
+msgstr "Слайд сверху вниз"
 
 msgid "Slot %d"
 msgstr "Слот %d"
