@@ -1,4 +1,5 @@
 from Screens.Screen import Screen
+from Screens.MessageBox import MessageBox
 from Components.ActionMap import ActionMap
 from Components.Language import language
 from Components.config import config
@@ -48,13 +49,15 @@ class LanguageSelection(Screen):
 
 		self["key_red"] = Label(_("Cancel"))
 		self["key_green"] = Label(_("Save"))
+		self["key_blue"] = Label(_("Delete Language"))		
 
 		self["actions"] = ActionMap(["OkCancelActions", "ColorActions"],
 		{
 			"ok": self.save,
 			"cancel": self.cancel,
 			"red": self.cancel,
-			"green": self.save,
+			"green": self.save,		
+			"blue": self.delLang,				
 		}, -1)
 
 	def selectActiveLanguage(self):
@@ -64,18 +67,49 @@ class LanguageSelection(Screen):
 			if x[0] == self.oldActiveLanguage:
 				self["languages"].index = pos
 				break
-
+				
 	def save(self):
-		self.commit(self.run())
-		if InfoBar.instance and self.oldActiveLanguage != config.osd.language.value:
-			self.close(True)
+		self.run()
+		global inWizzard
+		if inWizzard:
+			inWizzard = False
+			self.session.openWithCallback(self.deletelanguagesCB, MessageBox, _("Do you want to delete all other languages?"), default = False)
 		else:
-			self.close()
+			self.close(self.oldActiveLanguage != config.osd.language.value)
+
+	def deletelanguagesCB(self, anwser):
+		if anwser:
+			language.delLanguage()
+		self.close()
+		
+#	def save(self):
+#		self.commit(self.run())
+#		if InfoBar.instance and self.oldActiveLanguage != config.osd.language.value:
+#			self.close(True)
+#		else:
+#			self.close()
 
 	def cancel(self):
 		language.activateLanguage(self.oldActiveLanguage)
 		self.close()
 
+	def delLang(self):
+		curlang = config.osd.language.value
+		lang = curlang
+		languageList = language.getLanguageListSelection()
+		for t in languageList:
+			if curlang == t[0]:
+				lang = t[1]
+				break
+		self.session.openWithCallback(self.delLangCB, MessageBox, _("Do you want to delete all other languages?") + _(" Except %s") %(lang), default = False)
+
+	def delLangCB(self, anwser):
+		if anwser:
+			language.delLanguage()
+			language.activateLanguage(self.oldActiveLanguage)
+			self.updateList()
+			self.selectActiveLanguage()		
+		
 	def run(self):
 		print "[LanguageSelection] updating language..."
 		lang = self["languages"].getCurrent()[0]
