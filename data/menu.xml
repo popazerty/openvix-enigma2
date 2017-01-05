@@ -219,4 +219,4 @@ self.session.open(ImageBackup)
 			<item weight="4" text="Restart" entryID="restart"><screen module="Standby" screen="TryQuitMainloop">2</screen></item>
 			<item weight="5" text="Restart GUI" entryID="restart_enigma"><screen module="Standby" screen="TryQuitMainloop">3</screen></item>
 		</menu>
-</menu>
+</menu>
