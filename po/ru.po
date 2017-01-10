@@ -1208,7 +1208,7 @@ msgid "Auto language selection"
 msgstr "Автоматический выбор языка"
 
 msgid "Auto language settings"
-msgstr "Настройки автоматического выбора языка"
+msgstr "Настройки автовыбора языка"
 
 msgid "Auto play blu-ray file"
 msgstr "Автоматическое воспроизведение Blu-Ray"
@@ -2506,6 +2506,9 @@ msgstr "Время пропуска для кнопок '7'/'9'"
 msgid "Customise"
 msgstr "Опции"
 
+msgid "Customise settings"
+msgstr "Настройки параметров"
+
 msgid "Customize"
 msgstr "Опции"
 
@@ -3793,6 +3796,9 @@ msgstr "Из :"
 msgid "Front Display Panel"
 msgstr "Дисплей ресивера"
 
+msgid "Front display settings"
+msgstr "Настройки дисплея ресивера"
+
 msgid "Frontprocessor version: %d"
 msgstr "Версия фронтпроцессора: %d"
 
@@ -3820,6 +3826,9 @@ msgid ""
 msgstr ""
 "Для активации нового скина необходимо перезагрузить GUI\n"
 "Хотите перезагрузить GUI сейчас?"
+
+msgid "GUI settings"
+msgstr "Настройки интерфейса"
 
 msgid "Gateway"
 msgstr "Шлюз"
@@ -3908,6 +3917,9 @@ msgstr "Графический телегид"
 msgid "Graphical Infobar EPG settings"
 msgstr "Настройки графичес. инфобара"
 
+msgid "Graphical InfobarEPG settings"
+msgstr "Настройки графического EPG"
+
 msgid "GraphicalEPG settings"
 msgstr "Настройки графического EPG"
 
@@ -3969,6 +3981,9 @@ msgid "Handle wakeup from TV"
 msgstr "Включить при включении ТВ"
 
 msgid "Hard disk setup"
+msgstr "Настройки диска"
+
+msgid "Hard disk settings"
 msgstr "Настройки диска"
 
 msgid "Hard disk standby after"
@@ -7889,6 +7904,9 @@ msgstr "Просмотр ТВ при остановке воспроизведе
 msgid "Show menu"
 msgstr "Показать историю переключений"
 
+msgid "Show menu numbers"
+msgstr "Показывать номер меню"
+
 msgid "Show message when recording starts"
 msgstr "Показать сообщение при начале записи"
 
@@ -9141,6 +9159,9 @@ msgid ""
 msgstr ""
 "Опция позволяет выбрать отображение SNR в процентах вместо дБ (не все ресиверы "
 "поддерживают данную опцию)."
+
+msgid "This option allows you to show menu number quick links."
+msgstr "Опция позволяет показывать номер меню быстрых ссылок."
 
 msgid "This option allows you to show the full menu path"
 msgstr "Опция позволяет отображать полный путь меню"
