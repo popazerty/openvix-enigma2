@@ -75,10 +75,10 @@ self.session.openWithCallback(msgClosed, EpgDeleteMsg)
 </code>
 						</item>
 					</menu>
-					<item level="2" entryID="setup_epginfobar"><setup id="epginfobar"/></item>					
+					<item level="2" entryID="setup_epginfobar"><setup id="epginfobar"/></item>
 					<item level="2" entryID="setup_epgmulti"><setup id="epgmulti"/></item>
 					<item level="2" entryID="setup_epgenhanced"><setup id="epgenhanced"/></item>
-					<item level="2" entryID="setup_epggraphical"><setup id="epggraphical"/></item>					
+					<item level="2" entryID="setup_epggraphical"><setup id="epggraphical"/></item>
 					<item level="2" entryID="setup_epginfobargraphical"><setup id="epginfobargraphical"/></item>
 				</menu>
 				<menu weight="6" text="Front Display Panel" entryID="display_selection" requires="Display">
@@ -110,7 +110,7 @@ self.session.open(SABnzbdSetupScreen)
 					<item weight="11" level="2" text="uShare setup" entryID="netushare_setup"><screen module="NetworkSetup" screen="NetworkuShare"/></item>
 					<item weight="12" level="2" text="Password setup" entryID="password_setup"><screen module="NetworkSetup" screen="NetworkPassword"/></item>
 				</menu>
-				<item weight="8" text="Recording and playback settings" entryID="recording_setup"><screen module="Recordings" screen="RecordingSettings"/></item>						
+				<item weight="8" text="Recording and playback settings" entryID="recording_setup"><screen module="Recordings" screen="RecordingSettings"/></item>
 				<item level="1" entryID="rfmod_setup" requires="RfModulator"><setup id="RFmod"/></item>
 				<menu weight="9" text="Storage devices" entryID="hardisk_selection" requires="Harddisk">
 					<id val="harddisk"/>
@@ -126,7 +126,7 @@ self.session.open(SABnzbdSetupScreen)
 					<id val="osd_menu"/>
 					<item weight="2" level="2" text="Button setup" entryID="buttonsetup_setup"><screen module="ButtonSetup" screen="ButtonSetup"/></item>
 					<item weight="3" level="0" entryID="user_interface"><setup id="userinterface"/></item>
-					<item weight="4" level="0" text="Skin setup" entryID="skin_setup"><screen module="SkinSelector" screen="SkinSelector"/></item>					
+					<item weight="4" level="0" text="Skin setup" entryID="skin_setup"><screen module="SkinSelector" screen="SkinSelector"/></item>
 					<item weight="5" level="1" text="Input devices" entryID="input_device_setup"><screen module="InputDeviceSetup" screen="InputDeviceSelection"/></item>
 					<item weight="6" entryID="keyboard_setup" text="Keyboard"><setup id="keyboard"/></item>
 					<item weight="7" level="0" text="Language" entryID="language_setup"><screen module="LanguageSelection"/></item>
@@ -134,9 +134,9 @@ self.session.open(SABnzbdSetupScreen)
 					<id val="logs_menu"/>
 					<item level="2" entryID="logs_setup"><setup id="logs"/></item>
 					<item level="2" text="Logs manager" entryID="logs_man"><screen module="LogManager" screen="LogManager"/></item>
-				</menu>	
-					<item weight="9" level="2" text="Position setup" entryID="osdsetup" requires="OsdSetup"><screen module="UserInterfacePositioner" screen="UserInterfacePositioner"/></item>				
-					<item weight="10" level="2" text="3D setup" entryID="osd3dsetup" requires="CanChange3DOsd"><screen module="UserInterfacePositioner" screen="OSD3DSetupScreen"/></item>					
+				</menu>
+					<item weight="9" level="2" text="Position setup" entryID="osdsetup" requires="OsdSetup"><screen module="UserInterfacePositioner" screen="UserInterfacePositioner"/></item>
+					<item weight="10" level="2" text="3D setup" entryID="osd3dsetup" requires="CanChange3DOsd"><screen module="UserInterfacePositioner" screen="OSD3DSetupScreen"/></item>
 				</menu>
 			</menu>
 			<menu weight="3" text="Common Interface" entryID="cam_setup">
@@ -160,7 +160,7 @@ self.session.openWithCallback(msgClosed, FactoryReset)
 			</item>
 		<menu weight="6" level="0" text="Software update" entryID="software_update">
 			<id val="softwareupdatemenu"/>
-			<item weight="1" level="0" text="Software update" entryID="software_update"><screen module="SoftwareUpdate" screen="UpdatePlugin"/></item>			
+			<item weight="1" level="0" text="Software update" entryID="software_update"><screen module="SoftwareUpdate" screen="UpdatePlugin"/></item>
 			<item weight="1" level="0" entryID="onlineupdate_setup"><setup id="softwareupdate"/></item>
 		</menu>
 			<item weight="7" level="0" text="HDMI CEC" entryID="hdmicec" requires="HDMICEC">
@@ -168,13 +168,13 @@ self.session.openWithCallback(msgClosed, FactoryReset)
 from Plugins.SystemPlugins.HdmiCEC.plugin import HdmiCECSetupScreen
 self.session.open(HdmiCECSetupScreen)
 </code>
-			</item>				
+			</item>
 		</menu>
-		
+
 <!-- Menu / Timers -->
 		<menu weight="2" text="Timers" entryID="timer_menu">
 			<id val="timermenu"/>
-			<item weight="10" level="1" text="Timers" entryID="timer_edit"><screen module="TimerEdit" screen="TimerEditList"/></item>			
+			<item weight="10" level="1" text="Timers" entryID="timer_edit"><screen module="TimerEdit" screen="TimerEditList"/></item>
 			<item weight="100" level="0" text="CronTimers" entryID="crontimer_edit"><screen module="CronTimer" screen="CronTimers"/></item>
 			<item weight="100" level="0" text="PowerTimers" entryID="powertimer_edit"><screen module="PowerTimerEdit" screen="PowerTimerEditList"/></item>
 		</menu>
@@ -187,20 +187,20 @@ self.session.open(HdmiCECSetupScreen)
 from Plugins.SystemPlugins.SoftwareManager.ImageBackup import ImageBackup
 self.session.open(ImageBackup)
 </code>
-		</item>	
-	<item weight="4" text="Settings Backup" entryID="blackhole_extra"><screen module="BpSet" screen="BhBackupSettings"/></item>	
-	</menu>		
+		</item>
+	<item weight="4" text="Settings Backup" entryID="blackhole_extra"><screen module="BpSet" screen="BhBackupSettings"/></item>
+	</menu>
 
 <!-- Menu / BH Apps -->
 		<item weight="4" text="Black Hole Apps" entryID="blackhole_extra"><screen module="BpSet" screen="DeliteSettings"/></item>
 
-<!-- Menu / Plugins -->		
+<!-- Menu / Plugins -->
 		<item weight="5" text="Plugins" entryID="plugin_selection"><screen module="PluginBrowser" screen="PluginBrowser"/></item>
 
 <!-- Menu / VCR Scart -->
 		<item weight="6" text="VCR scart" entryID="scart_switch" configcondition="config.usage.show_vcr_scart" requires="ScartSwitch"><code>self.session.scart.VCRSbChanged(3)</code></item>
 
-<!-- Menu / Information -->		
+<!-- Menu / Information -->
 		<menu weight="6" text="Information" entryID="info_screen">
 			<id val="information"/>
 			<item weight="1" level="0" text="About" entryID="about_screen"><screen module="About" screen="About"/></item>
@@ -209,14 +209,14 @@ self.session.open(ImageBackup)
 			<item weight="4" level="0" text="Network" entryID="network_screen"><screen module="About" screen="SystemNetworkInfo"/></item>
 			<item weight="5" level="1" text="Service" entryID="service_info_screen"><screen module="ServiceInfo" screen="ServiceInfo"/></item>
 			<item weight="6" level="2" text="Streaming clients info" entryID="streaming_clients_info_screen"><screen module="StreamingClientsInfo"/></item>
-		</menu>		
+		</menu>
 
-<!-- Menu / Standby / Restart -->				
+<!-- Menu / Standby / Restart -->
 		<menu weight="9" text="Standby / Restart" entryID="standby_restart_list">
 			<id val="shutdown"/>
 			<item weight="1" text="Standby" entryID="standby"><screen module="Standby" screen="Standby"/></item>
 			<item weight="2" text="Deep standby" requires="DeepstandbySupport" entryID="deep_standby"><screen module="Standby" screen="TryQuitMainloop">1</screen></item>
-			<item weight="3" text="Shutdown" requires="!DeepstandbySupport" entryID="deep_standby"><screen module="Standby" screen="TryQuitMainloop">1</screen></item>	
+			<item weight="3" text="Shutdown" requires="!DeepstandbySupport" entryID="deep_standby"><screen module="Standby" screen="TryQuitMainloop">1</screen></item>
 			<item weight="4" text="Restart" entryID="restart"><screen module="Standby" screen="TryQuitMainloop">2</screen></item>
 			<item weight="5" text="Restart GUI" entryID="restart_enigma"><screen module="Standby" screen="TryQuitMainloop">3</screen></item>
 		</menu>
