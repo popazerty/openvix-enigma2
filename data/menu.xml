@@ -108,6 +108,7 @@ self.session.open(SABnzbdSetupScreen)
 					<item weight="9" level="2" text="Samba setup" entryID="netsmba_setup"><screen module="NetworkSetup" screen="NetworkSamba"/></item>
 					<item weight="10" level="2" text="Telnet setup" entryID="nettelnet_setup"><screen module="NetworkSetup" screen="NetworkTelnet"/></item>
 					<item weight="11" level="2" text="uShare setup" entryID="netushare_setup"><screen module="NetworkSetup" screen="NetworkuShare"/></item>
+					<item weight="12" level="2" text="Password setup" entryID="password_setup"><screen module="NetworkSetup" screen="NetworkPassword"/></item>
 				</menu>
 				<item weight="8" text="Recording and playback settings" entryID="recording_setup"><screen module="Recordings" screen="RecordingSettings"/></item>						
 				<item level="1" entryID="rfmod_setup" requires="RfModulator"><setup id="RFmod"/></item>
