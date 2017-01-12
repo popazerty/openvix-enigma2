@@ -1168,6 +1168,9 @@ msgstr "Формат звуковой дорожки (%s)"
 msgid "Audio track (%s) language"
 msgstr "Язык звуковой дорожки (%s)"
 
+msgid "Australia"
+msgstr "Австралия"
+
 msgid "Author: "
 msgstr "Автор: "
 
@@ -1179,6 +1182,9 @@ msgstr "Автоматически"
 
 msgid "AutoScan"
 msgstr "Автоскан"
+
+msgid "Auto Detect"
+msgstr "Автоопределение"
 
 msgid "Auto Deep Standby"
 msgstr "Автоматическое выключение"
@@ -1758,6 +1764,12 @@ msgstr "Чипсет:\tBCM%s\n"
 
 msgid "Chipset: BCM%s"
 msgstr "Чипсет: BCM%s"
+
+msgid "Choose a country scheme for decoding rating information in EPG events."
+msgstr "Выберите схему страны для декодирования информации рейтинга в событиях EPG."
+
+msgid "Choose a country scheme for decoding genre information in EPG events."
+msgstr "Выберите схему страны для декодирования информации жанра в событиях EPG."
 
 msgid "Choose Bouquet"
 msgstr "Выберите фаворит"
@@ -2398,6 +2410,12 @@ msgstr "Копирование файлов"
 msgid "Cores:\t%s\n"
 msgstr "Ядра:\t%s\n"
 
+msgid "Country for EPG event rating information"
+msgstr "Страна для EPG инф. событий (рейтинг)"
+
+msgid "Country for EPG event genre information"
+msgstr "Страна для EPG инф. событий (жанр)"
+
 msgid "Could not find installed channel list."
 msgstr "Не удалось найти установленный список каналов."
 
@@ -2987,6 +3005,9 @@ msgstr ""
 msgid "Do you want to burn this collection to DVD medium?"
 msgstr "Хотите записать эту коллекцию на DVD носитель?"
 
+msgid "Do you want to delete all other languages?"
+msgstr "Хотите удалить все другие языки?"
+
 msgid "Do you want to continue?"
 msgstr "Хотите продолжить?"
 
@@ -3249,6 +3270,9 @@ msgstr "Включить MHW EPG"
 
 msgid "Enable Netmed EPG"
 msgstr "Включить Netmed EPG"
+
+msgid "Enable to highlight events that are currently in progress."
+msgstr "Включить для выделения событий в настоящем времени."
 
 msgid "Enable ViaSat EPG"
 msgstr "Включить ViaSat EPG"
@@ -3845,6 +3869,9 @@ msgstr "Общая задержка PCM"
 msgid "General settings"
 msgstr "Общие настройки"
 
+msgid "Generic"
+msgstr "Общие"
+
 msgid "Genre"
 msgstr "Жанр"
 
@@ -4042,6 +4069,9 @@ msgstr "Инфо об иерархии"
 
 msgid "High bitrate support"
 msgstr "Поддержка высокого битрейта"
+
+msgid "Highlight current events"
+msgstr "Выделить текущие события"
 
 msgid "History back"
 msgstr "Назад по истории"
@@ -4538,6 +4568,9 @@ msgid "Keyboard map"
 msgstr "Раскладка клавиатуры"
 
 msgid "Keyboard setup"
+msgstr "Настройки клавиатуры"
+
+msgid "Keyboard settings"
 msgstr "Настройки клавиатуры"
 
 msgid "LAN adapter"
@@ -10197,6 +10230,9 @@ msgstr "Еженедельно"
 msgid "Weighted position"
 msgstr "Анализируем позицию"
 
+msgid "Welcome..."
+msgstr "Добро пожаловать"
+
 msgid ""
 "Welcome to the cutlist editor.\n"
 "\n"
@@ -10228,8 +10264,6 @@ msgid ""
 "\n"
 "Press OK to start configuring your network"
 msgstr ""
-"Welcome.\n"
-"\n"
 "Добро пожаловать\n"
 "\n"
 "Если Вы хотите подключить Ваш %s %s к сети Интернет, этот мастер проведёт Вас через "
@@ -10243,8 +10277,6 @@ msgid ""
 "This start wizard will guide you through the basic setup of your %s %s.\n"
 "Press the OK button on your remote control to move to the next step."
 msgstr ""
-"Welcome.\n"
-"\n"
 "Добро пожаловать. \n"
 "\n"
 "Мастер запуска проведет вас через основные настройки ресивера.\n"
