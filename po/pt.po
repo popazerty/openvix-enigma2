@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: enigma2 3.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-09-24 18:23+0100\n"
-"PO-Revision-Date: 2016-12-21 18:43+0000\n"
+"PO-Revision-Date: 2017-01-10 12:44+0000\n"
 "Last-Translator: nunigaia\n"
 "Language-Team: BH Team\n"
 "Language: pt_PT\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.8.11\n"
+"X-Generator: Poedit 1.8.8\n"
 
 msgid ""
 "\n"
@@ -2080,7 +2080,7 @@ msgid "Don't save"
 msgstr "Não guardar"
 
 msgid "Don't stop current event but disable coming events"
-msgstr "Não parar o evento atual mas inative os próximos eventos"
+msgstr "Não parar o evento atual mas inativar os próximos eventos"
 
 #, python-format
 msgid "Done - Installed, upgraded or removed %d package (%s)"
@@ -2424,7 +2424,7 @@ msgid "Fast Scan"
 msgstr "Procura Rápida"
 
 msgid "Fast epoch"
-msgstr "Epoch Rapido"
+msgstr "Epoch Rápido"
 
 msgid "Favourites"
 msgstr "Favoritos"
@@ -3046,7 +3046,7 @@ msgid "Label"
 msgstr "Etiqueta"
 
 msgid "Language selection"
-msgstr "Selecção do Idioma"
+msgstr "Seleção do Idioma"
 
 msgid "Last Req."
 msgstr "Último Ped."
@@ -4108,10 +4108,10 @@ msgid "Please press OK to continue."
 msgstr "Por favor prima OK ara continuar."
 
 msgid "Please select a default EPG type..."
-msgstr "Seleccione o tipo de EPG padrão..."
+msgstr "Selecione o tipo de EPG padrão..."
 
 msgid "Please select a playlist to delete..."
-msgstr "Seleccione uma lista para apagar..."
+msgstr "Selecione uma lista para apagar..."
 
 msgid "Please select a playlist..."
 msgstr "Por favor selecione uma lista de reprodução"
@@ -4138,7 +4138,7 @@ msgid "Please select tag to filter..."
 msgstr "Por favor teste o filtro de etiquetas..."
 
 msgid "Please select the movie path..."
-msgstr "Por favor seleccione a pasta da gravação..."
+msgstr "Por favor selecione a pasta da gravação..."
 
 msgid ""
 "Please use direction keys to move the PiP window.\n"
@@ -4620,7 +4620,7 @@ msgid "Repeat type"
 msgstr "Repetir tipo"
 
 msgid "Repeating event currently recording... What do you want to do?"
-msgstr "A repetir o programa que está a gravar atualmente... Continuar? "
+msgstr "A repetir o programa que está a gravar... O que pretende fazer? "
 
 msgid "Repeats"
 msgstr "Repetições"
@@ -4943,7 +4943,7 @@ msgid "Select action for timer %s:"
 msgstr "Selecione a ação do Timer %s:"
 
 msgid "Select an image to be downloaded"
-msgstr "Seleccione uma imagem para descarga"
+msgstr "Selecione uma imagem para descarga"
 
 msgid "Select audio track"
 msgstr "Selecção de audio"
@@ -4961,7 +4961,7 @@ msgid "Select copy destination for:"
 msgstr "Selecione o destino para copiar:"
 
 msgid "Select default EPG type..."
-msgstr "Seleccione o tipo de EPG padrão..."
+msgstr "Selecione o tipo de EPG padrão..."
 
 msgid "Select desired image from feed list"
 msgstr "Selecione a imagem desejada da lista"
@@ -5003,7 +5003,7 @@ msgid "Select target folder"
 msgstr "Selecione a pasta alvo"
 
 msgid "Select the movie path"
-msgstr "Seleccione a pasta da gravação..."
+msgstr "Selecione a pasta da gravação..."
 
 msgid "Select upgrade source"
 msgstr "Selecionar fonte de atualizações"
@@ -5284,7 +5284,7 @@ msgid "Show network mounts ..."
 msgstr "Mostra as montagens de rede ..."
 
 msgid "Show or hide the extended description, (skin dependent)."
-msgstr "Mostar ou ocultar a descrição estendida, (dependente da skin)."
+msgstr "Mostrar ou ocultar a descrição estendida, (dependente da skin)."
 
 msgid "Show services beginning with"
 msgstr "Mostrar canais que comecem por..."
@@ -5956,7 +5956,7 @@ msgid ""
 "There might not be enough space on the selected partition..\n"
 "Do you really want to continue?"
 msgstr ""
-"Não existe espaço suficiente na partiçaõ seleccionada.\n"
+"Não existe espaço suficiente na partiçaõ selecionada.\n"
 "Deseja continuar?"
 
 #, python-format
@@ -6234,7 +6234,7 @@ msgid "Timeshift save failed!"
 msgstr "Falha ao salvar TimeShift!"
 
 msgid "Timeshift save recording (Select event)"
-msgstr "TimeShift salvar gravação ( Seleccione evento )"
+msgstr "TimeShift salvar gravação ( Selecione evento )"
 
 msgid "Timeshift save recording (stop after current event)"
 msgstr "TimeShift salvar gravação ( parar no fim deste evento )"
@@ -8821,7 +8821,7 @@ msgid "Configure the contrast level of the front panel display."
 msgstr "Configurar o nível de contraste do visor do painel frontal."
 
 msgid "Configure the cursor behavior in the channel selection list. When opening the channel selection list you can remain on the current service or already select up/down and you are able to revert the B+/B- buttons."
-msgstr "Configurar o comportamento do cursor na lista de seleção de canais. Ao abrir a lista de seleção de canal que podem permanecer no serviço atual ou já seleccionar cima / baixo e é capaz de reverter os botões B+/B-."
+msgstr "Configurar o comportamento do cursor na lista de seleção de canais. Ao abrir a lista de seleção de canal que podem permanecer no serviço atual ou já selecionar cima / baixo e é capaz de reverter os botões B+/B-."
 
 msgid "Configure the duration (in minutes) for the screensaver."
 msgstr "Configurar a duração (em minutos) para o screensaver."
@@ -9112,7 +9112,7 @@ msgid "If set to 'yes' it will show the 'SRC' packages in browser."
 msgstr "Se definido para 'Sim' irá mostrar os pacotes 'SRC'' no navegador."
 
 msgid "If set to 'yes' shows a small TV-screen in the EPG."
-msgstr "Se definido para 'Sim' irá mostar uma pequena TV no EPG."
+msgstr "Se definido para 'Sim' irá mostrar uma pequena TV no EPG."
 
 msgid "If set to 'yes' the EPG will always open at the first channel of bouquet. If set to 'no' the EPG will open on the current channel."
 msgstr "Se definido para 'Sim' o EPG abrirá sempre no primeiro canal do bouquet. Se definido como 'não' o EPG vai abrir o canal atual."
@@ -9505,13 +9505,13 @@ msgid "Show event-progress in channel selection"
 msgstr "Mostrar progresso dos eventos na lista de canais"
 
 msgid "Show infobar on channel change"
-msgstr "Mostrar Info ao mudar de canal normal"
+msgstr "Mostrar Infobar ao mudar de canal normal"
 
 msgid "Show infobar on event change"
-msgstr "Mostrar infobar ao mudar de canal"
+msgstr "Mostrar infobar ao mudar de evento"
 
 msgid "Show infobar on skip forward/backward"
-msgstr "Mostrar Info ao mudar de canal rapido avanço/recuo"
+msgstr "Mostrar Infobar ao saltar avançar/recuar"
 
 msgid "Show job tasks in extensions"
 msgstr "Mostrar tarefas nas extensões"
@@ -10005,13 +10005,13 @@ msgid "Refresh rate selection."
 msgstr "Selecção da taxa de varrimento"
 
 msgid "Select refresh rate"
-msgstr "Seleccione a taxa de varrimento"
+msgstr "Selecione a taxa de varrimento"
 
 msgid "Select video input with up/down buttons"
 msgstr "Selecionar entrada de vídeo com os botões de cima/baixo"
 
 msgid "Select video mode"
-msgstr "Seleccione modo de Vídeo"
+msgstr "Selecione modo de Vídeo"
 
 msgid ""
 "Video input selection\n"
@@ -11534,3 +11534,18 @@ msgstr "Ativar Foco da Animação"
 
 msgid "Same behavior as current animation"
 msgstr "Mesmo comportamento de animação atual"
+
+msgid "Press '0' to toggle PiP mode"
+msgstr "Prima \"0\" para permutar no modo PiP"
+
+msgid "Current mode: %s \n"
+msgstr "Modo corrente: %s \n"
+
+msgid "Customise settings"
+msgstr "Personalização e Preferências"
+
+msgid "Show menu numbers"
+msgstr "Mostrar números nos Menus"
+
+msgid "This option allows you to show menu number quick links."
+msgstr "Esta opção permite usar teclas numéricas de atalhos nos menus."
