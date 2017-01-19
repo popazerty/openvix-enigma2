@@ -473,7 +473,7 @@ std::string convertDVBUTF8(const unsigned char *data, int len, int table, int ts
 	if ( tsidonid )
 		encodingHandler.getTransponderDefaultMapping(tsidonid, table);
 
-	if (!no_table_id)
+	if (!no_table_id))
 	    switch(data[0])
 	    {
 		case ISO8859_5 ... ISO8859_15::
