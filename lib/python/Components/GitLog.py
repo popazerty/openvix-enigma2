@@ -6,10 +6,11 @@ from boxbranding import getImageDistro, getImageType, getImageVersion
 def fetchlog(logtype):
 	releasenotes = ""
 	try:
+# TODO: fix url for obh
 		if getImageType() == 'release':
-			sourceurl = 'http://www.openvix.co.uk/feeds/%s/%s/%s/%s-git.log' % (getImageDistro(), getImageType(), getImageVersion(), logtype)
+			sourceurl = 'http://www.vuplus-community.net/feeds/%s/%s/%s/%s-git.log' % (getImageDistro(), getImageType(), getImageVersion(), logtype)
 		else:
-			sourceurl = 'http://openvixdev.dyndns.tv/feeds/%s/%s/%s/%s-git.log' % (getImageDistro(), getImageType(), getImageVersion(), logtype)
+			sourceurl = 'http://www.vuplus-community.net/feeds/%s/%s/%s/%s-git.log' % (getImageDistro(), getImageType(), getImageVersion(), logtype)
 		print "[GitLog]",sourceurl
 		sourcefile,headers = urllib.urlretrieve(sourceurl)
 		fd = open(sourcefile, 'r')

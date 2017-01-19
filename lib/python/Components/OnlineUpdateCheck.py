@@ -37,34 +37,45 @@ class FeedsStatusCheck:
 	def getFeedStatus(self):
 		status = '1'
 		trafficLight = 'unknown'
-		if about.getIfConfig('eth0').has_key('addr') or about.getIfConfig('eth1').has_key('addr') or about.getIfConfig('wlan0').has_key('addr') or about.getIfConfig('ra0').has_key('addr'):
-			try:
-				print '[OnlineVersionCheck] Checking feeds state'
-				req = urllib2.Request('http://openvix.co.uk/TrafficLightState.php')
-				d = urllib2.urlopen(req)
-				trafficLight = d.read()
-			except urllib2.HTTPError, err:
-				print '[OnlineVersionCheck] ERROR:',err
-				trafficLight = err.code
-			except urllib2.URLError, err:
-				print '[OnlineVersionCheck] ERROR:',err.reason[0]
-				trafficLight = err.reason[0]
-			except urllib2, err:
-				print '[OnlineVersionCheck] ERROR:',err
-				trafficLight = err
-			except:
-				print '[OnlineVersionCheck] ERROR:', sys.exc_info()[0]
-				trafficLight = -2
-			if not self.IsInt(trafficLight) and getImageType() != 'release':
-				trafficLight = 'unknown'
-			elif trafficLight == 'stable':
-				status = '0'
-			config.softwareupdate.updateisunstable.setValue(status)
-			print '[OnlineVersionCheck] PASSED:',trafficLight
-			return trafficLight
-		else:
-			print '[OnlineVersionCheck] ERROR: -2'
-			return -2
+
+# TODO: Enable traffic status for Obh
+
+#		if about.getIfConfig('eth0').has_key('addr') or about.getIfConfig('eth1').has_key('addr') or about.getIfConfig('wlan0').has_key('addr') or about.getIfConfig('ra0').has_key('addr'):
+#			try:
+#
+#				print '[OnlineVersionCheck] Checking feeds state'
+#				req = urllib2.Request('http://www.vuplus-community.net/TrafficLightState.php')
+#				d = urllib2.urlopen(req)
+#				trafficLight = d.read()
+#			except urllib2.HTTPError, err:
+#				print '[OnlineVersionCheck] ERROR:',err
+#				trafficLight = err.code
+#			except urllib2.URLError, err:
+#				print '[OnlineVersionCheck] ERROR:',err.reason[0]
+#				trafficLight = err.reason[0]
+#			except urllib2, err:
+#				print '[OnlineVersionCheck] ERROR:',err
+#				trafficLight = err
+#			except:
+#				print '[OnlineVersionCheck] ERROR:', sys.exc_info()[0]
+#				trafficLight = -2
+#			if not self.IsInt(trafficLight) and getImageType() != 'release':
+#				trafficLight = 'unknown'
+#			elif trafficLight == 'stable':
+#				status = '0'
+#			config.softwareupdate.updateisunstable.setValue(status)
+#			print '[OnlineVersionCheck] PASSED:',trafficLight
+#			return trafficLight
+#		else:
+#			print '[OnlineVersionCheck] ERROR: -2'
+#			return -2
+
+# HACK OBH
+		trafficLight = 'stable'
+		status = '0'
+		config.softwareupdate.updateisunstable.setValue(status)
+		return trafficLight
+# END
 
 	# We need a textual mapping for all possible return states for use by
 	# SoftwareUpdate::checkNetworkState() and ChoiceBox::onshow()
@@ -104,9 +115,9 @@ class FeedsStatusCheck:
 		elif feedstatus == 404:
 			return _("Your %s %s is not connected to the internet, please check your network settings and try again.") % (getMachineBrand(), getMachineName())
 		elif feedstatus in ('updating', 403):
-			return _("Sorry feeds are down for maintenance, please try again later. If this issue persists please check openvix.co.uk or world-of-satellite.com.")
+			return _("Sorry feeds are down for maintenance, please try again later. If this issue persists please check vuplus-community.net.")
 		elif error:
-			return _("There has been an error, please try again later. If this issue persists, please check openvix.co.uk or world-of-satellite.com")
+			return _("There has been an error, please try again later. If this issue persists, please check vuplus-community.net")
 
 	def startCheck(self):
 		global error

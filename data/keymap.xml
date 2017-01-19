@@ -42,7 +42,7 @@
 		<key id="KEY_OK" mapto="ok" flags="m"/>
 		<key id="KEY_EXIT" mapto="cancel" flags="m"/>
 		<key id="KEY_ESC" mapto="cancel" flags="m"/>
-		<key id="KEY_RED" mapto="cancel" flags="m"/>
+		<key id="KEY_RED" mapto="cancel" flags="b"/>
 		<key id="KEY_GREEN" mapto="save" flags="m"/>
 		<key id="KEY_LEFT" mapto="left" flags="mr"/>
 		<key id="KEY_RIGHT" mapto="right" flags="mr"/>
@@ -97,12 +97,8 @@
 	</map>
 
 	<map context="InfobarExtensions">
-		<key id="KEY_GREEN" mapto="openTimerList" flags="b"/>
-		<key id="KEY_GREEN" mapto="openAutoTimerList" flags="l"/>
-		<key id="KEY_YELLOW" mapto="openEPGSearch" flags="b"/>
-		<key id="KEY_YELLOW" mapto="openIMDB" flags="l"/>
-		<key id="KEY_BLUE" mapto="showPluginBrowser" flags="l"/>
-		<key id="KEY_BLUE" mapto="extensions" flags="b"/>
+		<key id="KEY_BLUE" mapto="showPluginBrowser" flags="b"/>
+		<key id="KEY_BLUE" mapto="extensions" flags="l"/>
 		<key id="KEY_BOOKMARKS" mapto="showPluginBrowser" flags="mr"/>
 		<key id="KEY_PROGRAM" mapto="openTimerList" flags="b"/>
 		<key id="KEY_PROGRAM" mapto="openAutoTimerList" flags="l"/>
@@ -237,20 +233,10 @@
 		<key id="KEY_TEXT" mapto="showText" flags="b"/>
 	</map>
 
-	<map context="2ndInfobarActions">
-		<key id="KEY_UP" mapto="prevPage" flags="mr"/>
-		<key id="KEY_DOWN" mapto="nextPage" flags="mr"/>
-		<key id="KEY_PREVIOUS" mapto="prevEvent" flags="m"/>
-		<key id="KEY_NEXT" mapto="nextEvent" flags="m"/>
-		<key id="KEY_BACK" mapto="prevEvent" flags="m"/>
-		<key id="KEY_FORWARD" mapto="nextEvent" flags="m"/>
-		<key id="KEY_RED" mapto="openSimilarList" flags="m"/>
-		<key id="KEY_GREEN" mapto="timerAdd" flags="m"/>
-	</map>
-
 	<map context="InfobarAudioSelectionActions">
 		<key id="KEY_AUDIO" mapto="audioSelection" flags="b"/>
 		<key id="KEY_AUDIO" mapto="audioSelectionLong" flags="l"/>
+		<key id="KEY_YELLOW" mapto="audioSelection" flags="b"/>
 	</map>
 
 	<map context="InfobarSubtitleSelectionActions">

@@ -133,7 +133,7 @@ void bsodFatal(const char *component)
 		strftime(tm_str, sizeof(tm_str), "%a %b %_d %T %Y", &tm);
 
 		fprintf(f,
-					"OpenViX Enigma2 Crashlog\n\n"
+					"OpenBh Enigma2 Crashlog\n\n"
 					"Crashdate = %s\n\n"
 					"%s\n"
 					"Compiled = %s\n"
@@ -180,7 +180,7 @@ void bsodFatal(const char *component)
 	os.clear();
 	os << "We are really sorry. Your receiver encountered "
 		"a software problem, and needs to be restarted.\n"
-		"Please upload the crash log " << crashlog_name << " to the OpenViX forum.\n"
+		"Please upload the crash log " << crashlog_name << " to www.vuplus-community.net\n"
 		"Your STB will restart in 10 seconds!\n"
 		"Component: " << component;
 

@@ -62,11 +62,11 @@ class About(Screen):
 									})
 
 	def populate(self):
-		self["lab1"] = StaticText(_("Virtuosso Image Xtreme"))
-		self["lab2"] = StaticText(_("By Team ViX"))
+		self["lab1"] = StaticText(_("Open Black Hole Image"))
+		self["lab2"] = StaticText(_("By Bh Team"))
 		model = None
 		AboutText = ""
-		self["lab3"] = StaticText(_("Support at") + " www.world-of-satellite.com")
+		self["lab3"] = StaticText(_("Support at") + " www.vuplus-community.net")
 
 		AboutText += _("Model:\t%s %s\n") % (getMachineBrand(), getMachineName())
 
@@ -335,9 +335,9 @@ class SystemMemoryInfo(Screen):
 			self["menu_path_compressed"] = StaticText("")
 		Screen.setTitle(self, title)
 		self.skinName = ["SystemMemoryInfo", "About"]
-		self["lab1"] = StaticText(_("Virtuosso Image Xtreme"))
-		self["lab2"] = StaticText(_("By Team ViX"))
-		self["lab3"] = StaticText(_("Support at") + " www.world-of-satellite.com")
+		self["lab1"] = StaticText(_("Open Black Hole Image"))
+		self["lab2"] = StaticText(_("By Bh Team"))
+		self["lab3"] = StaticText(_("Support at") + " www.vuplus-community.net")
 		self["AboutScrollLabel"] = ScrollLabel()
 
 		self["key_red"] = Button(_("Close"))
@@ -624,7 +624,7 @@ class SystemNetworkInfo(Screen):
 class AboutSummary(Screen):
 	def __init__(self, session, parent):
 		Screen.__init__(self, session, parent=parent)
-		self["selected"] = StaticText("ViX:" + getImageVersion())
+		self["selected"] = StaticText("OpenBh:" + getImageVersion())
 
 		AboutText = _("Model: %s %s\n") % (getMachineBrand(), getMachineName())
 

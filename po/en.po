@@ -5,17 +5,15 @@ msgstr ""
 "Project-Id-Version: enigma2 3.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-07-23 19:30+0200\n"
-"PO-Revision-Date: 2014-01-31 00:07+0100\n"
-"Last-Translator: Andy Blackburn <andyblac@icloud.com>\n"
+"PO-Revision-Date: 2016-08-21 14:24+0100\n"
+"Last-Translator: Ev0\n"
 "Language-Team: none\n"
 "Language: en\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.5.4\n"
-"X-Poedit-Language: English\n"
-"X-Poedit-Country: UNITED STATES\n"
+"X-Generator: Poedit 1.8.8\n"
 
 msgid ""
 "\n"
@@ -807,7 +805,7 @@ msgid "Add Timer"
 msgstr "Add Timer"
 
 msgid "Add a auto timer for current event"
-msgstr "Add a auto timer for current event"
+msgstr "Add an auto timer for current event"
 
 msgid "Add a mark"
 msgstr "Add a mark"
@@ -913,7 +911,7 @@ msgid "Address"
 msgstr "Address"
 
 msgid "Adjust the color settings so that all the color shades are distinguishable, but appear as saturated as possible. If you are happy with the result, press OK to close the video fine-tuning, or use the number keys to select other test screens."
-msgstr "Adjust the color settings so that all the color shades are distinguishable, but appear as saturated as possible. If you are happy with the result, press OK to close the video fine-tuning, or use the number keys to select other test screens."
+msgstr "Adjust the colour settings so that all the colour shades are distinguishable, but appear as saturated as possible. If you are happy with the result, press OK to close the video fine-tuning, or use the number keys to select other test screens."
 
 #, fuzzy
 msgid "Advanced"
@@ -1364,7 +1362,7 @@ msgid "Background check"
 msgstr "Background check"
 
 msgid "Background color"
-msgstr "Background color"
+msgstr "Background colour"
 
 msgid "Background delete option"
 msgstr "Background delete option"
@@ -1511,8 +1509,8 @@ msgstr "Button setup"
 msgid "ButtonSetup"
 msgstr "Button setup"
 
-msgid "By Team ViX"
-msgstr "By Team ViX"
+msgid "By BH Team"
+msgstr "By BH Team"
 
 msgid "Bypass HDMI EDID Check"
 msgstr "Bypass HDMI EDID Check"
@@ -1950,10 +1948,10 @@ msgid "Collection settings"
 msgstr "Collection settings"
 
 msgid "Color format"
-msgstr "Color format"
+msgstr "Colour format"
 
 msgid "Color space"
-msgstr "Color space"
+msgstr "Colour space"
 
 msgid "Command To Run"
 msgstr "Command To Run"
@@ -2082,10 +2080,10 @@ msgid "Configure the brightness level of the front panel display for standby."
 msgstr "Configure the brightness level of the front panel display for standby."
 
 msgid "Configure the color of the external subtitles, alternative (normal in white, italic in yellow, bold in cyan, underscore in green), white or yellow."
-msgstr "Configure the color of the external subtitles, alternative (normal in white, italic in yellow, bold in cyan, underscore in green), white or yellow."
+msgstr "Configure the colour of the external subtitles, alternative (normal in white, italic in yellow, bold in cyan, underscore in green), white or yellow."
 
 msgid "Configure the color of the teletext subtitles."
-msgstr "Configure the color of the teletext subtitles."
+msgstr "Configure the colour of the teletext subtitles."
 
 msgid "Configure the contrast level of the front panel display."
 msgstr "Configure the contrast level of the front panel display."
@@ -2242,7 +2240,7 @@ msgid "Configure whether or not an rotor position will be displayed on infobar"
 msgstr ""
 
 msgid "Configure which color format should be used on the SCART output."
-msgstr "Configure which color format should be used on the SCART output."
+msgstr "Configure which colour format should be used on the SCART output."
 
 #, fuzzy
 msgid "Configure which tuner for recordings will be preferred, when more than one tuner is available."
@@ -3507,15 +3505,15 @@ msgid "External Storage %s"
 msgstr ""
 
 msgid "External subtitle color"
-msgstr "External subtitle color"
+msgstr "External subtitle colour"
 
 #, fuzzy
 msgid "External subtitle dialog colorisation"
-msgstr "External subtitle color"
+msgstr "External subtitle colour"
 
 #, fuzzy
 msgid "External subtitle switch fonts"
-msgstr "External subtitle color"
+msgstr "External subtitle colour"
 
 msgid "Extra motor options"
 msgstr ""
@@ -3934,7 +3932,7 @@ msgstr "HDMI CEC Setup"
 
 #, fuzzy
 msgid "HDMI Colorspace"
-msgstr "Color space"
+msgstr "Colour space"
 
 #, fuzzy
 msgid "HDMIin"
@@ -6412,7 +6410,7 @@ msgid "Protect timer menu"
 msgstr "Preview menu"
 
 #, fuzzy
-msgid "Protect vix menu"
+msgid "Protect menu"
 msgstr "Preview menu"
 
 msgid "Protocol"
@@ -6607,7 +6605,7 @@ msgstr "Red button..."
 
 #, fuzzy
 msgid "Red colored"
-msgstr "Text color"
+msgstr "Text colour"
 
 msgid "Red long"
 msgstr ""
@@ -7711,8 +7709,8 @@ msgstr "Show Transponder Remaining/Elapsed as"
 msgid "Show VCR scart on main menu"
 msgstr "Show VCR scart on main menu"
 
-msgid "Show ViX spinning logo when the system is busy."
-msgstr "Show ViX spinning logo when the system is busy."
+msgid "Show BH spinning logo when the system is busy."
+msgstr "Show BH spinning logo when the system is busy."
 
 msgid "Show WLAN status"
 msgstr "Show WLAN status"
@@ -7851,7 +7849,7 @@ msgid "Show or hide the extended description, (skin dependant)."
 msgstr "Show or hide the extended description, (skin dependent)."
 
 msgid "Show picon background color"
-msgstr "Show picon background color"
+msgstr "Show picon background colour"
 
 #, fuzzy
 msgid "Show picons in service list"
@@ -8176,7 +8174,7 @@ msgid "Some plugins are not available:\n"
 msgstr "Some plugins are not available:\n"
 
 #, fuzzy
-msgid "Sorry feeds are down for maintenance, please try again later. If this issue persists please check openvix.co.uk or world-of-satellite.com."
+msgid "Sorry feeds are down for maintenance, please try again later."
 msgstr "Sorry feeds are down for maintenance, please try again later."
 
 #, fuzzy
@@ -8697,7 +8695,7 @@ msgid "Teletext"
 msgstr "Delete"
 
 msgid "Teletext subtitle color"
-msgstr "Teletext subtitle color"
+msgstr "Teletext subtitle colour"
 
 msgid "Telnet Interface"
 msgstr "Telnet Interface"
@@ -8749,7 +8747,7 @@ msgid "Text"
 msgstr "Text"
 
 msgid "Text color"
-msgstr "Text color"
+msgstr "Text colour"
 
 msgid "Thai"
 msgstr "Thai"
@@ -8784,7 +8782,7 @@ msgstr ""
 #, fuzzy
 msgid ""
 "The Cool TV Guide plugin is not installed!\n"
-"Dont bother with it and use the default ViX EPG guide instead."
+"Dont bother with it and use the default BH EPG guide instead."
 msgstr ""
 "The Cool TV Guide plugin is not installed!\n"
 "Please install it."
@@ -8945,7 +8943,7 @@ msgstr "There are currently no outstanding actions."
 msgid "There are no updates available."
 msgstr "There are no updates available."
 
-msgid "There has been an error, please try again later. If this issue persists, please check openvix.co.uk or world-of-satellite.com"
+msgid "There has been an error, please try again later."
 msgstr ""
 
 msgid "There is no [webif] section in oscam.conf"
@@ -8996,7 +8994,7 @@ msgid "This option allows you choose how to display the remaining/elapsed time f
 msgstr "This option allows you choose how to display the remaining/elapsed time for live TV."
 
 msgid "This option allows you choose the background color of transparent picons."
-msgstr "This option allows you choose the background color of transparent picons."
+msgstr "This option allows you choose the background colour of transparent picons."
 
 #, fuzzy
 msgid "This option allows you enable smoothing filter to control the dithering process."
@@ -9147,7 +9145,7 @@ msgid "This option sets the picture brightness."
 msgstr "This option sets the picture brightness."
 
 msgid "This option sets the picture color space."
-msgstr "This option sets the picture color space."
+msgstr "This option sets the picture colour space."
 
 msgid "This option sets the picture flesh tones."
 msgstr "This option sets the picture flesh tones."
@@ -9893,8 +9891,8 @@ msgstr "Vertical"
 msgid "Vertical turning speed"
 msgstr "Vertical turning speed"
 
-msgid "ViX EPG"
-msgstr "ViX EPG"
+msgid "BH EPG"
+msgstr "BH EPG"
 
 msgid "Video Enhancement Settings"
 msgstr "Video Enhancement Settings"
@@ -10031,8 +10029,8 @@ msgstr "Virtuosso Image Xtreme"
 msgid "Visual impaired commentary"
 msgstr ""
 
-msgid "Vix forum user name"
-msgstr "Vix forum user name"
+msgid "BH forum user name"
+msgstr "BH forum user name"
 
 msgid "Voltage mode"
 msgstr "Voltage mode"
@@ -10252,7 +10250,7 @@ msgid "When enabled, graphical DVB subtitles will be displayed at their original
 msgstr "When enabled, graphical DVB subtitles will be displayed at their original position."
 
 msgid "When enabled, graphical DVB subtitles will be displayed in yellow, instead of the original color."
-msgstr "When enabled, graphical DVB subtitles will be displayed in yellow, instead of the original color."
+msgstr "When enabled, graphical DVB subtitles will be displayed in yellow, instead of the original colour."
 
 msgid "When enabled, http streams are descrambled on the server side. The (remote) client receiver does not have to do descrambling. Default on."
 msgstr ""
@@ -11269,10 +11267,10 @@ msgstr "handled"
 
 #, fuzzy
 msgid ""
-"has been sent to the ViX team.\n"
+"has been sent to the BH team.\n"
 "please quote"
 msgstr ""
-"has been sent to the ViX beta team.\n"
+"has been sent to the BH beta team.\n"
 "please quote"
 
 msgid "height"
@@ -12249,8 +12247,8 @@ msgstr "zapped"
 #~ msgid "Select if you want the Subservice mode to be activated."
 #~ msgstr "Select if you want the Subservice mode to be activated."
 
-#~ msgid "Select if you want to use the ViX colored buttons (set to 'no' if you want to use (Multi Quick Button)."
-#~ msgstr "Select if you want to use the ViX colored buttons (set to 'no' if you want to use (Multi Quick Button)."
+#~ msgid "Select if you want to use the OBH colored buttons (set to 'no' if you want to use (Multi Quick Button)."
+#~ msgstr "Select if you want to use the OBH coloured buttons (set to 'no' if you want to use (Multi Quick Button)."
 
 #~ msgid "Select what you want the Channel +/- buttons to activate."
 #~ msgstr "Select what you want the Channel +/- buttons to activate."
@@ -12336,8 +12334,8 @@ msgstr "zapped"
 #~ msgid "Uncommitted DiSEqC command"
 #~ msgstr "Uncommitted DiSEqC command"
 
-#~ msgid "Use ViX colored Buttons*"
-#~ msgstr "Use ViX colored Buttons*"
+#~ msgid "Use OBH colored Buttons*"
+#~ msgstr "Use OBH coloured Buttons*"
 
 #~ msgid "Use WOL"
 #~ msgstr "Use WOL"

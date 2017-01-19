@@ -97,18 +97,18 @@ class InfoBar(InfoBarBase, InfoBarShowHide,
 
 	def doButtonsCheck(self):
 		if config.vixsettings.ColouredButtons.value:
-			self["key_yellow"].setText(_("Search"))
+			self["key_yellow"].setText(_("Audio Panel"))
 
 			if config.usage.defaultEPGType.value == "Graphical EPG..." or config.usage.defaultEPGType.value == "None":
-				self["key_red"].setText(_("Single EPG"))
+				self["key_red"].setText(_(" "))
 			else:
-				self["key_red"].setText(_("ViX EPG"))
+				self["key_red"].setText(_("EPG"))
 
 			if not config.vixsettings.Subservice.value:
-				self["key_green"].setText(_("Timers"))
+				self["key_green"].setText(_("Green Panel"))
 			else:
 				self["key_green"].setText(_("Subservices"))
-		self["key_blue"].setText(_("Extensions"))
+		self["key_blue"].setText(_("Blue Panel"))
 
 	def __onClose(self):
 		InfoBar.instance = None
@@ -223,7 +223,6 @@ class MoviePlayer(InfoBarBase, InfoBarShowHide, InfoBarLongKeyDetection, InfoBar
 
 	def __init__(self, session, service, slist = None, lastservice = None):
 		Screen.__init__(self, session)
-
 		self["key_yellow"] = Label()
 		self["key_blue"] = Label()
 		self["key_green"] = Label()
@@ -265,9 +264,9 @@ class MoviePlayer(InfoBarBase, InfoBarShowHide, InfoBarLongKeyDetection, InfoBar
 
 	def doButtonsCheck(self):
 		if config.vixsettings.ColouredButtons.value:
-			self["key_yellow"].setText(_("Search"))
-			self["key_green"].setText(_("Timers"))
-		self["key_blue"].setText(_("Extensions"))
+			self["key_yellow"].setText(_("Audio Panel"))
+#			self["key_green"].setText(_("Green Panel"))
+		self["key_blue"].setText(_("Blue Panel"))
 
 	def __onClose(self):
 		config.misc.standbyCounter.removeNotifier(self.standbyCountChanged)
